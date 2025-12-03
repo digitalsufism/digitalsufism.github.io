@@ -1,33 +1,74 @@
 {
+  "metadata": {
+    "totalAuthors": 31,
+    "totalWorks": 147,
+    "lastUpdated": "2025-12-03T21:40:46.413800",
+    "version": "1.0",
+    "extractedFrom": "primary_recent.html",
+    "generalFootnotes": [
+      {
+        "id": "one",
+        "text": "For further information about sources that are attributed to early Sufis figures, but which are no longer extant, see the Future Directions page. ",
+        "backlinkTarget": "p-one"
+      },
+      {
+        "id": "two",
+        "text": "Julian Baldick, Mystical Islam: An Introduction to Sufism ,  2 nd ed. (London: I.B. Tauris, 2008 [1989]), p. 50. ",
+        "backlinkTarget": "p-two"
+      },
+      {
+        "id": "three",
+        "text": "For a description of some of the most important of these figures, see the comments in Jeremy Farrell, \"Early Traditionist Sufis: A Network Analysis,\" in Belal Abu-Alabbas, Michael Dann, and Christopher Melchert (eds.), Modern Hadith Studies: Continued Debates and New Approaches .  Edinburgh: Edinburgh University Press (2020), 70–96. (link) ",
+        "backlinkTarget": "https://www.academia.edu/44224506/Early_Traditionist_Sufis_A_Network_Analysis_UNCORRECTED_PROOF_"
+      },
+      {
+        "id": "four",
+        "text": "Sara Sviri, \"The early mystical schools of Baghdad and Nīshāpūr, or: In search of Ibn Munāzil,\" Jerusalem Studies in Arabic and Islam 30 (2005): pp. 450-82, at p. 455. (link) ",
+        "backlinkTarget": "https://www.academia.edu/419950/THE_EARLY_MYSTICAL_SCHOOLS_OF_BAGHDAD_AND_NISHAPUR_IN_SEARCH_OF_IBN_MUNAZIL"
+      },
+      {
+        "id": "five",
+        "text": "I borrow the term \"neo-skeptic\" from Herbert Berg, \"Competing paradigms in the study of Islamic origins: Qurʾān 15:89-91 and the value of isnāds ,\" pp. 259-90, at p. 285. In Herbert Berg (ed). Method and Theory in the Study of Islamic Origins , Islamic History and Civilization Studies and Texts Vol. 49 (Leiden: Brill, 2003). For the specific comments about Sufi historiography, see: Jawid Mojaddedi, The Biographical Tradition in Sufism: The ṭabaqāt genre from al-Sulamī to Jāmī (Richmond, Surrey: RoutledgeCurzon, 2001), p. 2, pp. 171f; Kenneth Avery, Shiblī: His Life and Thought in the Sufi Tradition (Albany, NY: SUNY Press, 2014), p. 2. ",
+        "backlinkTarget": "p-four"
+      }
+    ]
+  },
   "authors": [
     {
-      "id": "burjulani",
+      "id": "al-usayn-al-burjuln",
       "name": "Abū al-Shaykh Muḥammad b. al-Ḥusayn al-Burjulānī",
+      "nameArabic": "",
       "deathDate": "238/852-3",
       "deathLocation": "Baghdad",
       "century": "3rd/9th",
       "hasMultipleWorks": false,
+      "authorNote": "",
       "works": [
         {
-          "id": "burjulani-1",
+          "id": "Burjulani_",
           "title": "Kitāb al-Karam wa-l-Jūd wa-Sakhāʾ al-Nufūs",
+          "titleVariants": [],
           "titleTranslation": "",
           "type": "isnad",
+          "scholarlyCommentary": "",
           "editions": [
             {
               "citation": "ʿĀmir Ḥasan Ṣabrī (ed.). Kitāb al-Karam wa-l-Jūd wa-Sakhāʾ al-Nufūs. Beirut: Dār Ibn Ḥazm, 1412/1991.",
-              "link": "https://drive.google.com/open?id=1I5ZkBit4dDwfASXCTJtJUHbCCG1dKgH-"
+              "link": "https://drive.google.com/open?id=1I5ZkBit4dDwfASXCTJtJUHbCCG1dKgH-",
+              "type": "complete"
             },
             {
-              "citation": "Bernd Radtke (ed.). 'Kitāb al-Karam wa-l-Jūd wa-Sakhāʾ al-Nufūs,' pp. 3-43 (Part A). In Radtke (ed.). Materialien zur alten islamische Frömmigkeit, Basic Texts in Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
-              "link": ""
+              "citation": "Bernd Radtke (ed.). \"Kitāb al-Karam wa-l-Jūd wa-Sakhāʾ al-Nufūs,\" pp. 3-43 (Part A). In Radtke (ed.).  Materialien zur alten islamische Frömmigkeit, Basic Texts in Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
+              "link": "",
+              "type": "complete"
             }
           ],
           "translations": [
             {
-              "citation": "Bernd Radtke (trans.). 'Kitāb al-Karam wa-l-Jūd wa-Sakhāʾ al-Nufūs,' pp. 3-43 (Part A). In Radtke (ed.). Materialien zur alten islamische Frömmigkeit, Basic Texts in Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
+              "citation": "Bernd Radtke (trans.).  \"Kitāb al-Karam wa-l-Jūd wa-Sakhāʾ al-Nufūs,\"  pp. 3-43 (Part A). In Radtke (ed.). Materialien zur alten islamische Frömmigkeit, Basic Texts in Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
               "link": "https://brill.com/view/title/15451",
-              "language": "German"
+              "type": "complete",
+              "language": ""
             }
           ],
           "manuscripts": [],
@@ -36,97 +77,754 @@
       ]
     },
     {
-      "id": "muhasibi",
+      "id": "asad-al-musib",
       "name": "Abū ʿAbd Allāh al-Ḥārith b. Asad al-Muḥāsibī",
+      "nameArabic": "",
       "deathDate": "243/857",
       "deathLocation": "Baghdad",
       "century": "3rd/9th",
       "hasMultipleWorks": true,
-      "note": "This bibliography is taken - with modifications from Sezgin, GAS, I:640-642 - from Gavin Picken, Spiritual Purification in Islam. The Life and Works of al-Muḥāsibī, Routledge Sufi Series (London: Routledge, 2011), pp. 67-122.",
+      "authorNote": "This bibliography is taken - with modifications from Sezgin,GAS, I:640-642 - from Gavin Picken,Spiritual Purification in Islam. The Life and Works of al-Muḥāsibī, Routledge Sufi Series (London: Routledge, 2011), pp. 67-122.",
       "works": [
         {
-          "id": "muhasibi-1",
+          "id": "Muḥāsibī-1",
           "title": "Kitāb al-Riʿāyah li-Ḥuqūq Allāh [wa-l-Qiyām bihā]",
+          "titleVariants": [],
           "titleTranslation": "",
           "type": "discursive",
+          "scholarlyCommentary": "",
           "editions": [
             {
               "citation": "Margaret Smith (ed.). Kitāb al-Riʿāyah li-Ḥuqūq Allāh, E.J.W. Gibb Memorial Series Vol. 15. London: Luzac, 1940.",
-              "link": ""
+              "link": "",
+              "type": "complete"
             },
             {
               "citation": "ʿAbd al-Ḥalīm Maḥmūd (ed.). al-Riʿāyah li-Ḥuqūq Allāh. Cairo: Dār al-Kutub al-Ḥadīthah, 1390/1970; reprint Cairo: Dār al-Maʿārif, 1410/1990.",
-              "link": "https://ia601703.us.archive.org/12/items/abdelhalimmahmoud/ri3aya.pdf"
+              "link": "https://ia601703.us.archive.org/12/items/abdelhalimmahmoud/ri3aya.pdf",
+              "type": "complete"
             },
             {
               "citation": "ʿAbd al-Qādir Aḥmad ʿAṭā (ed.). al-Riʿāyah li-Ḥuqūq Allāh. Beirut: Dār al-Kutub al-ʿIlmyah, 1410/1990.",
-              "link": "https://ia601705.us.archive.org/17/items/elmohasebi/ri3aya.pdf"
+              "link": "https://ia601705.us.archive.org/17/items/elmohasebi/ri3aya.pdf",
+              "type": "complete"
             },
             {
               "citation": "ʿIṣām Ḥarastānī and Muḥammad Ibrāhīm Zaghlī (eds.). al-Riʿāyah li-Ḥuqūq Allāh. Beirut: Dār al-Jīl, 1422/2001.",
-              "link": ""
+              "link": "",
+              "type": "complete"
             }
           ],
           "translations": [
             {
               "citation": "Abdallah Sâbir (trans.). L'Observance des Droits de Dieu: l'Expression de la Gratitude du Croyant. Paris Iqra - Éditions de La Ruche, 2001.",
               "link": "",
-              "language": "French"
+              "type": "complete",
+              "language": ""
             },
             {
-              "citation": "Tholib Anis (trans.). Memelihara hak-hak Allah: Sebuah Karya Klasik Tasawuf (= ed. Maḥmūd). Bandung: Pustaka Hidayah, 2002.",
+              "citation": "Tholib Anis (trans.). Memelihara hak-hak Allah: Sebuah Karya Klasik Tasawuf  (= ed. Maḥmūd). Bandung: Pustaka Hidayah, 2002.",
               "link": "",
-              "language": "Indonesian"
+              "type": "complete",
+              "language": ""
             },
             {
               "citation": "Şahin Filiz and Hülya Kücük (trans.). Er-Riâye. Istanbul: Insan Yayınları, 2011.",
               "link": "",
-              "language": "Turkish"
+              "type": "complete",
+              "language": ""
             }
           ],
           "manuscripts": [],
           "reproductions": []
         },
         {
-          "id": "muhasibi-2",
+          "id": "Muḥāsibī-2",
           "title": "Kitāb al-Waṣāyā / al-Naṣāʾiḥ al-Dīnīyah",
+          "titleVariants": [],
           "titleTranslation": "",
           "type": "discursive",
-          "editions": [
-            {
-              "citation": "ʿAbd al-Qādir Aḥmad ʿAṭā (ed.). al-Waṣāyā aw al-Naṣʾīḥ al-Dīnīyah [wa-l-Nafaḥāt al-Qudsīyah li-Nafʿ Jamīʿ al-Birrīyah]. Cairo: Maktabat Muḥammad ʿAlī Ṣabīḥ, 1965; reprint N.P.: Maktabat Khālid b. al-Walīd, 1400/1980; reprinted in ʿAbd al-Qādir Aḥmad ʿAṭā (ed.). al-Waṣāyā / al-Naṣāʾiḥ — al-Qaṣd wa-l-Rujūʿ ilā Allāh — Badʾ man Anāba ilā Allāh — Fahm al-Ṣalāt — Kitāb al-Tawahhum. Beirut: Dār al-Kutub al-ʿIlmīyah, 1406/1986.",
-              "link": "https://archive.org/details/20220127_20220127_0526"
-            },
-            {
-              "citation": "Muḥammad ʿAbd al-ʿAzīz Aḥmad (ed.). Kitāb al-Naṣāʾiḥ. Cairo: Maktabat al-Qurʾān, 1412/1992.",
-              "link": ""
-            }
-          ],
+          "scholarlyCommentary": "",
+          "editions": [],
           "translations": [],
           "manuscripts": [],
           "reproductions": []
         },
         {
-          "id": "muhasibi-3",
+          "id": "Muḥāsibī-3",
           "title": "Kitāb al-Tawahhum [fī Waṣf Aḥwāl al-Ākhirah]",
+          "titleVariants": [],
           "titleTranslation": "",
           "type": "discursive",
+          "scholarlyCommentary": "",
           "editions": [
             {
-              "citation": "A.J. Arberry (ed.). Kitāb al-Tawahhum. Cairo: Lanjnat al-Taʾlīf wa-l-Tarjamah wa-l-Nashr, 1937; reprint (with indices) Cairo: Maktabat al-Nahḍah al-Islāmīyah and Aleppo: Dār al-Waʿī, 1979 = Zaqāzīq (Egypt): Dār al-Arqām, 1989 = Baghdad and London: Bayt al-Warrāq, 2010.",
-              "link": "https://ia800504.us.archive.org/31/items/sdakahh_gmail/الحارث%20بن%20أسد%20المحاسبي%20-%20كتاب%20التوهم.pdf"
+              "citation": "A.J. Arberry (ed.). Kitāb al-Tawahhum. Cairo: Lanjnat al-Taʾlīf wa-l-Tarjamah wa-l-Nashr, 1937 ; reprint (with indices) Cairo: Maktabat al-Nahḍah al-Islāmīyah and Aleppo: Dār al-Waʿī, 1979 = Zaqāzīq (Egypt): Dār al-Arqām, 1989 = Baghdad and London: Bayt al-Warrāq, 2010.",
+              "link": "https://ia800504.us.archive.org/31/items/sdakahh_gmail/الحارث%20بن%20أسد%20المحاسبي%20-%20كتاب%20التوهم.pdf",
+              "type": "complete"
             },
             {
               "citation": "Khālid ʿAbd al-Raḥmān al-ʿAkk (ed.). al-Tawahhum fī Waṣf Aḥwāl al-Ākhirah. Beirut: Dār al-Bashāʾir al-Islāmīyah, 1411/1991.",
-              "link": ""
+              "link": "",
+              "type": "complete"
             },
             {
-              "citation": "ʿAbd al-Qādr Aḥmad ʿAṭāʾ (ed.). 'Kitāb al-Tawahhum', pp. 387-443. InʿAbd al-Qādir Aḥmad ʿAṭā (ed.). al-Waṣāyā / al-Naṣāʾiḥ — al-Qaṣd wa-l-Rujūʿ ilā Allāh — Badʾ man Anāba ilā Allāh — Fahm al-Ṣalāt — Kitāb al-Tawahhum. Beirut: Dār al-Kutub al-ʿIlmīyah, 1406/1986. Reprint, pp. 153-201. In ʿAbd al-Qādir Aḥmad ʿAṭā (ed.). Ādāb al-Nufūs wa-yalīhi Kitāb al-Tawahhum. Beirut: Muʾassasat al-Kutub al-Thaqāfīyah, 1411/1991",
-              "link": "https://ia802609.us.archive.org/21/items/31705/31705.pdf"
+              "citation": "ʿAbd al-Qādr Aḥmad ʿAṭāʾ (ed.). \"Kitāb al-Tawahhum\", pp. 387-443. InʿAbd al-Qādir Aḥmad ʿAṭā (ed.). al-Waṣāyā / al-Naṣāʾiḥ — al-Qaṣd wa-l-Rujūʿ ilā Allāh — Badʾ man Anāba ilā Allāh — Fahm al-Ṣalāt — Kitāb al-Tawahhum. Beirut: Dār al-Kutub al-ʿIlmīyah, 1406/1986. . Reprint, pp. 153-201. In ʿAbd al-Qādir Aḥmad ʿAṭā (ed.). Ādāb al-Nufūs wa-yalīhi Kitāb al-Tawahhum. Beirut: Muʾassasat al-Kutub al-Thaqāfīyah, 1411/1991",
+              "link": "https://archive.org/details/20220127_20220127_0526",
+              "type": "complete"
             },
             {
               "citation": "al-Mustʿaṣim bi-Allāh Abī Hurayrah (ed.). al-Tawahhum fī Waṣf Aḥwāl al-Ākhirah, with comments of Muṣṭafā b. ʿAlī b. Jaʿfar al-Ṭayyār. Aleppo: Maktabat al-Turāth al-Islāmī, N.D.",
-              "link": "https://al-maktaba.org/book/21799"
+              "link": "https://al-maktaba.org/book/21799",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "André Roman (trans.) Kitāb al-Tawahhum d'l-Muḥāsibī, Traduit de l'arabe et annoté. Paris: Librarie Klincksieck, 1978.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-4",
+          "title": "Risālat / Kitāb al-Makāsib",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-5",
+          "title": "Ādāb al-Nufūs",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-6",
+          "title": "Sharḥ al-Maʿrifah wa-Badhl al-Naṣīḥah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-7",
+          "title": "Kitāb Badʾ man Anāba ilā Allāh",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-8",
+          "title": "Kitāb al-Masāʾil fī Aʿmāl al-Qulūb wa-l-Jawāriḥ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-9",
+          "title": "[Mukhtaṣar] Kitāb Fahm al-Ṣalāt",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-10",
+          "title": "Kitāb al-ʿAql or Maʾīyāt / Māhīyāt al-ʿAql",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-11",
+          "title": "Kitāb al-Tawbah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-12",
+          "title": "Risālat al-Mustarshidīn",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Aḥmad Rifāʿī Sharafī (ed.). Risālat al-Mustarshid [sic]. Kasantina (Constantine, Algeria): Dār al-Baʿth, 1981.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "ʿAbd al-Fattāḥ Abū Ghuddah (ed.) Risālat al-Mustarshidīn. Dār al-Bashāʾir al-Islāmīyah, 1402/1982.",
+              "link": "https://ia802703.us.archive.org/32/items/waq50205/50205.pdf",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Lucienne Petit (trans.).  Risâlat al-mustarshîdin [sic]: petit traité de direction spirituelle, Etudes Arabes Vol. 95. Rome: Pontifico Instituto di Studi Arabi d'Islamistica, 1999.",
+              "link": "",
+              "type": "complete",
+              "language": "sic"
+            },
+            {
+              "citation": "Younès Dassili (trans.). L’Épître des Postulants – suivi de deux autre épîtres. Lyon: Alif Éditions and Éditions du Faucon, 1999.",
+              "link": "",
+              "type": "partial",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-13",
+          "title": "Kitāb Fahm al-Qurʾān [wa-Maʿānīhi]",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Ḥusayn al-Quwwatlī (ed.). \"Kitāb Fahm al-Qurʾān\", pp. 261-502. In Ḥusayn Quwwatlī (ed.). al-ʿAql - Fahm al-Qurʾān.  Beirut: Dār al-Fikr, 1391/1971.",
+              "link": "https://ia801705.us.archive.org/17/items/elmohasebi/3ql.pdf",
+              "type": "complete"
+            },
+            {
+              "citation": "Khālid Ramaḍān ʿUthmān Aḥmad (ed.). Fahm al-Qurʾān wa-Maʿnīhi, Kursī al-Qurʾān wa-ʿUlūmihi Vol. 31. Riyad: Jāmiʿat al-Malik Saʿūd, 1437/2017.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "The materials in this work have been translated and commented upon by Berenike Metzler. Den Koran verstehen. Das Kitāb Fahm al-Qurʾān des Ḥārit b. Asad al-Muḥāsibī (781-857), Diskurse der Arabistik Bd. 22. Wiesbaden: Harrassowitz, 2016.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-14",
+          "title": "Kitāb al-ʿIlm",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-15",
+          "title": "Muʿātabat al-Nafs",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-16",
+          "title": "al-Qaṣd wa-l-Rujūʿ ilā Allāh",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "uncertain",
+          "scholarlyCommentary": "For the view that this work should instead be attributed to Abū Jaʿfar Muḥammad b. Yaʿqūb al-Farajī (d. 271/884-5), see John J. Wainwright, Treading the Path of Salvation: The Religious Devotion of Shaqīq al-Balkhī, al-Ḥārith al-Muḥāsibī, and Abū Saʿīd al-Kharrāz (Ph.D. Dissertation: Oxford University, 2015), pp. 198-205. ↵ Josef van Ess has insisted that this work should be attributed to Abū ʿAbd Allāh (or: ʿAlī) Aḥmad b. ʿĀṣim al-Anṭākī (d. 239/853-4): van Ess, \"Review: Spiritual Purification in Islam: The Life and Works of al-Muḥāsibī , by Gavin Picken,\" Ilâhiyât Studies: A Journal on Islamic and Religious Studies 2/1 (2011): pp. 126-132, at p. 131. ↵ van Ess (ibid, p. 130) avers that the Laleli MS is a transcription from al-Ghazālī's (d. 505/1111) Iḥyāʾ ʿUlūm al-Dīn . ↵ apud . Christopher Melchert, \"The Transition from Asceticism to Mysticism at the Middle of the 9th Century C.E.,\" Studia Islamica 83 (1996): pp. 51-70, at p. 70 n. 108. However, Melchert does he offer any dated evidence to esatablish that this MS can be persuasively attributed to al-Junayd; Sezgin (GAS 1:649 №19) dates the manuscript to the twelfth century hijrī (after 1785 C.E.). Compare with the evidence in Waṣīyah (Preserved), below. ↵ Cf. Khizānat al-Turāth: Fihrist Makhṭūṭāt (Cairo: Markaz al-Malik Fayṣal, N.D.), vol. 63, p. 77 №63403. (link) ↵ Sezgin ( GAS I, p. 661 №30(+) ) following the BNRM Catalogue, incorrectly gives the title as \" Risāla fī t-taṣawwuf \" . ↵ The attribution has never been satisfactorily established. See the discussion in Radtke (ed.). Adab al-Mulūk , pp. 3-21. (link) ↵ An edition has been promised in Hassan Ansari and Sabine Schmidtke, \"Abū Saʿd al-Ḫargūšī and his Kitāb al-Lawāmiʿ : A Ṣūfī guidebook for preachers in 4th/10th century Nīšāpūr,\" Arabica 58 (2011): pp. 503-518. (link) ↵ Edited by a team of unknown scholars from al-Azhar University. Identifying these individuals is an academic desideratum. ",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-17",
+          "title": "Kitāb al-Khalwah wa-l-Tanaqqul fī al-ʿIbādah wa-Darajāt al-ʿĀbidīn",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "uncertain",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-18",
+          "title": "[Kitāb] al-Masāʾil fī al-Zuhd",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-19",
+          "title": "al-Baʿth wa-l-Nushūr",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Muḥāsibī-ms",
+          "title": "Manuscripts / Fragments",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "uncertain",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [
+            {
+              "citation": "MS: Carullah (Istanbul), 1101 fols. 25a-28a (copied in 522/1128) = Dār al-Kutub al-Miṣrīyah (Cairo), raqm al-ḥifẓ 66/3.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "al-junayd-al-khuttal",
+      "name": "Abū Isḥāq Ibrāhīm b. ʿAbd Allāh Ibn al-Junayd al-Khuttalī",
+      "nameArabic": "",
+      "deathDate": "ca. 260-270/873-883",
+      "deathLocation": "Baghdad",
+      "century": "3rd/9th",
+      "hasMultipleWorks": true,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Khuttali_",
+          "title": "Kitāb al-Maḥabbah li-llāh",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "ʿAbd al-Karīm Zuhūr ʿAdī and Aḥmad Rātib al-Naffākh. “Kitāb al-Maḥabbah li-llāh,\" Majallat Majmaʿ al-Lughah al-ʿArabīyah bi-Dimashq 58/4 (1983): pp. 658-729 ; 59/1 (1984): pp. 3-44 ; 59/2 (1984): pp. 245-284 ; 59/3 (1984): pp. 463-504",
+              "link": "http://www.arabacademy.gov.sy/uploads/magazine/mag58/mag58-4-1.pdf",
+              "type": "complete"
+            },
+            {
+              "citation": "ʿAbd Allāh Badrān (ed.). Kitāb al-Maḥabbah li-llāh. Damascus: Dār al-Makatabī, 1423/2002.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Bernd Radtke (ed.). \"Kitab al-Maḥabbah li-llāh,\" pp. 47-194 (Part B) In Bernd Radtke (ed.) Materialien zur alten islamische Frömmigkeit, Basic Texts of Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
+              "link": "https://brill.com/view/title/15451",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Bernd Radtke (trans.). \"Kitāb al-Maḥabbah li-llāh,\" pp. 47-194 (Part B). In Bernd Radtke (ed.). \n                                                                    zur alten islamische Frömmigkeit, Basic Texts of Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Khuttali-1",
+          "title": "Suʾālāt Ibn al-Junayd li-Yaḥyā b. Maʿīn",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "allh-al-tustar",
+      "name": "Abū Muḥammad Sahl b. ʿAbd Allāh al-Tustarī",
+      "nameArabic": "",
+      "deathDate": "283/896",
+      "deathLocation": "Baṣra",
+      "century": "3rd/9th",
+      "hasMultipleWorks": true,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Tustarī-1",
+          "title": "Tafsīr al-Tustarī",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Tafsīr al-Qurʾān al-Karīm. Cairo: Dār al-Saʿādah, 1325/1908.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Muḥammad Bāsil ʿUyūn al-Sūd (ed.). Tafsīr al-Tustarī. Beirut: Dār al-Kutub al-ʿIlmīyah, 1423/2002 ; reprint 1428/2007.",
+              "link": "https://al-maktaba.org/book/23600",
+              "type": "complete"
+            },
+            {
+              "citation": "Maḥmūd Jīrat Allāh (ed.). Tafsīr al-Qurʾān al-ʿAẓīm: Shaykh al-ʿĀrifīn al-Imām al-Tustarīi>. Cairo: al-Dār al-Thaqāfīyah, 2002.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Ṭāhā ʿAbd al-Raʾūf Saʿ and Saʿd Ḥasan Muḥammad ʿAlī (eds.). Tafsīr al-Qurʾān al-ʿAẓīm li-Abī Muḥammad Sahl b. ʿAbd Allāh b. Yūnus b. ʿĪsā al-Tustarī. Medina: Dār al-Ḥaram li-l-Turāth, 1425/2004.",
+              "link": "https://archive.org/details/tafsir-tstritafsir-tstri",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Annabel Keeler and Ali Keeler (trans.). Tafsīr al-Tustarī, Great Commentaries on the Holy Qurʾān Vol. 4. Louisville, KY: Fons Vitae and Amman: Royal Āl al-Bayt Institute for Islamic Thought, 2011.",
+              "link": "",
+              "type": "partial",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Tustarī-2",
+          "title": "Laṭāʾif Qiṣaṣ al-Anbiyāʾ (attr.)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "uncertain",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Tustarī-3",
+          "title": "al-Muʿāraḍah wa-l-Radd ʿAlā Ahl al-Farq\n                                            wa-Ahl al-Daʿāwā fī al-Aḥwāl (attr.)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "uncertain",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "s-al-kharrz",
+      "name": "Abū Saʿīd Aḥmad b. ʿĪsā al-Kharrāz",
+      "nameArabic": "",
+      "deathDate": "ca. 286/899",
+      "deathLocation": "Egypt",
+      "century": "3rd/9th",
+      "hasMultipleWorks": true,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Kharrāz_",
+          "title": "Rasāʾil",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "al-Qāsim al-Samarrāʾī. \"Rasāʾil al-Kharrāz, Abū Saʿīd al-Kharrāz m. 286,\" Majallat al-Majmaʿ al-ʿIlmī al-ʿIraqī 15 (1967): pp. 158-212 ; reprinted in idem. Min Aʿlām Madrasat Baghdād fī al-Taṣawwuf: Rasāʾil al-Kharrāz. Baghdad: Maṭbaʿat al-Majmaʿ al-ʿIlmī al-ʿIrāqī, 1967; Cairo: Maktabat al-Kulliyāt al-Azharīyah, 1410/1990.",
+              "link": "https://drive.google.com/open?id=1RVQC_9GKQIqYcYqFPXGnseq7pNrPiJ2P",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Richard Gramlich (trans.). \"Kitāb al-Ḥaqāʾiq,\" pp. 13-15. In Richard Gramlich (ed.). Islamiche Mystik. Sufische Texte aus zehn Jahrhunderten. Stuttgart: W. Kohlhammer, 1992.",
+              "link": "",
+              "type": "partial",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Kharrāz-1",
+          "title": "Risālah fī al-Ṣifāt wa-ʿIlm al-Tawḥīd",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Kharrāz-2",
+          "title": "Kitāb al-Ṣidq",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "A.J. Arberry (ed.). Kitāb al-Ṣidq, pp. ١-٨٣. Islamic Research Association Vol. 6. London: Oxford University Press, 1937.",
+              "link": "https://drive.google.com/open?id=1gGEdCYj3vZDJirmbYiw4r760sILYBwLF",
+              "type": "complete"
+            },
+            {
+              "citation": "ʿAbd al-Ḥalīm Maḥmūd (ed.). Kitāb al-Ṭarīq ilā llāh: Kitāb al-Ṣidq, Fifth printing. Cairo: Dār al-Maʿārif, 1988.",
+              "link": "https://drive.google.com/open?id=1IJt7vrSA1hTTTu2OSGNZulmK_LDVsz_K",
+              "type": "complete"
+            },
+            {
+              "citation": "Ḥasan al-Samāḥī and ʿAbd al-Wahhāb ʿAzzām (eds.).  Kitāb al-Ṣidq. Damascus: Dār al-Qādirī, 1997.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "ʿAbd al-Munʿim Khalīl Ibrāhīm (ed.). Kitāb al-Ṭarīq ilā Allāh: Kitāb al-Ṣidq. Beirut: Dār al-Kutub al-ʿIlmīyah, 2001.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Arberry (trans.). \"The Book of Truthfulness\", pp. 1-67. In A.J. Arberry (ed.). Kitāb al-Ṣidq, Islamic Research Association Vol. 6. London: Oxford University Press, 1937.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "al-baghaw-al-nr",
+      "name": "Abū al-Ḥusayn Muḥammad b. Aḥmad al-Baghawī al-Nūrī",
+      "nameArabic": "",
+      "deathDate": "ca. 295/907",
+      "deathLocation": "Iraq?",
+      "century": "4th/10th",
+      "hasMultipleWorks": true,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Baghawī_",
+          "title": "Maqāmāt al-Qulūb",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Paul Nwyia (ed.). \"Maqāmāt al-Qulūb,\" pp. 130-54. In Paul Nwyia. \"Textes mystiques inédits d'Abū-l-Ḥasan [sic] al-Nūrī (m. 295/907) avec introduction et notes,\" Mélanges de l'Université Saint-Joseph 44/9 (Beirut: Impremerie Catholique, 1968): pp. 117-54 ; reprinted with introduction in Persian by ʿAlīriḍā Dhakāwatī Qarāguzlū (Alireza Zakavati Gharagzlou). Maʿārif-i Islāmī 16-17 (1368^/2000): pp. 81-119.",
+              "link": "https://drive.google.com/open?id=1k6G-PpPd2iY_Llzh5eC6zAHMQ0N8aHWG",
+              "type": "complete"
+            },
+            {
+              "citation": "al-Qāsim al-Sāmarrāʾī (ed.). \"Maqāmāt al-Qulūb,\" pp. 1-24. In al-Taṣawwuf al-Baghdādī wa-l-Taṣawwuf al-Khurāsānī: Thalāth Rasāʾil.  Baghdad: Dār al-Warrāq li-l-Nashr, 2013.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Richard Gramlich, \"Maqāmāt al-Qulūb,\" pp. 15-17. In Richard Gramlich (ed.). Islamische Mystik. Sufische Texte aus zehn Jahrhunderten. Stuttgart: W. Kohlhammer, 1992.",
+              "link": "",
+              "type": "partial",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Baghawī-1",
+          "title": "Tafsīr al-Nūrī(al-Sulamī [d. 412/1021],Ḥaqāʾiq al-Tafsīr)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "reconstruction",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "muammad-al-qawwr",
+      "name": "Abū al-Qāsim al-Junayd b. Muḥammad al-Qawāwīrī",
+      "nameArabic": "",
+      "deathDate": "298/910-11",
+      "deathLocation": "Baghdad",
+      "century": "4th/10th",
+      "hasMultipleWorks": true,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Junayd-1",
+          "title": "Rasāʾil",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Ali Hassan Abdel-Kader (ʿAlī Ḥasan ʿAbd al-Qādir). The Life, Personality, and Writings of al-Junayd: A Study of the Third/Ninth Century with an Edition and Translation of His Writings, pp. ١-٦٣. London: Luzac & Co. with the E.J.W. Gibb Memorial Series, 1962. ; reprint Cairo: Baraʿī wa-Jiddāy 1988; 2nd ed. 2001.",
+              "link": "https://archive.org/details/TheLifePersonalityAndWritingsOfAlJunayd/page/n3",
+              "type": "complete"
+            },
+            {
+              "citation": "Süleyman Ateş (trans.). \"Rasāʾil,\" pp. pp. 108ff. In Ateş. Cüneyd-i Baǧdâdî: Hayatı, Eserlerı ve Mektupları. Istanbul: Sönmez Neşriyat, 1969; 2nd ed. 1970; 3rd ed. 1990.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Suʿād al-Ḥakīm (Souad Hakim) (ed.). “Rasāʾil,\" pp. 220-311. In al-Ḥakīm (ed.). Tāj al-ʿĀrifīn al-Junayd al-Baghdādī: al-Aʿmāl al-Kāmilah. Cairo: Dār al-Shurūq, 1424/2004.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Jamāl Rajab Sīdbī (ed.). Rasāʾil al-Junayd: Awwal ʿAmal yajmaʿ kull Rasāʾil al-Imām al-Junayd wa-Aqwālahu al-Maʾthūrah. Damascus: Dār al-Iqrāʾ 2005.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Jamāl Rajab Sīdbī (ed.). al-Junayd: al-Aʿmāl al-Kāmilah. Cairo: al-Hayʾah al-Miṣrīyah al-ʿĀmmah li-l-Kitāb, 2014.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Ali Hasan Abdel-Kader (ʿAlī Ḥasan ʿAbd al-Qādir) (trans.). \"Rasāʾil,\" pp. 122-183. In The Life, Personality, and Writings of al-Junayd: A Study of the Third/Ninth Century with an Edition and Translation of His Writings, pp. ١-٦٣. London: Luzac & Co. with the E.J.W. Gibb Memorial Series, 1962. ; reprint Cairo: Baraʿī wa-Jiddāy 1988; 2nd ed. 2001.",
+              "link": "https://archive.org/details/TheLifePersonalityAndWritingsOfAlJunayd/page/n3",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Süleyman Ateş (trans.). \"Rasāʾil,\" pp. pp. 108ff. In Ateş. Cüneyd-i Baǧdâdî: Hayatı, Eserlerı ve Mektupları. Istanbul: Sönmez Neşriyat, 1969; 2nd ed. 1970; 3rd ed. 1990.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Roger Deladrière (trans.). Enseignement Spirituel: Traités, Lettres, Oraisons et Sentences. Paris: Sindbad, 1983.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Benedikt Reinert (trans.). \"Das Buch der Entwerdung (Kitāb al-Fanāʾ),\" pp. 17-22; \"Der Brief an Yaḥyā b. Muʿādh (Risālah ilā Yaḥyā b. Muʿādh),\" pp. 22-23. In Richard Gramlich (ed.). Islamische Mystik. Sufische Texte aux zehn Jahrhunderten. Stuttgart: W. Kohlhammer, 1992.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Michael A. Sells (trans.). \"Chapter 8. Junayd: 'On the Affirmation of Unity' (Tawḥīd) and 'On Annihilation' (Fanāʾ),\" pp. 251-265. In Michael Sells, Early Islamic Mysticism: Sufi, Qurʾan, Miʿraj, Poetic and Theological Writings, Classics of Western Spirituality. New York: Paulist Press, 1996.",
+              "link": "https://books.google.com/books?id=BrU54SYQSyoC&printsec=frontcover&dq=intitle:early+islamic+mysticism&hl=en&sa=X&ved=0ahUKEwiQ2ueGoKTfAhXjShUIHezIBTEQ6AEIKjAA#v=onepage&q=intitle%3Aearly%20islamic%20mysticism&f=false",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Junayd-2",
+          "title": "Waṣīyah (MS)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "uncertain",
+          "scholarlyCommentary": "apud . Christopher Melchert, \"The Transition from Asceticism to Mysticism at the Middle of the 9th Century C.E.,\" Studia Islamica 83 (1996): pp. 51-70, at p. 70 n. 108. However, Melchert does he offer any dated evidence to esatablish that this MS can be persuasively attributed to al-Junayd; Sezgin (GAS 1:649 №19) dates the manuscript to the twelfth century hijrī (after 1785 C.E.). Compare with the evidence in Waṣīyah (Preserved), below. ",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Junayd-3",
+          "title": "Waṣīyah (Reproduced)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "al-Muʾayyid bi-llāh Aḥmad b. al-Ḥusayn al-Hārūnī al-Ḥasanī. Siyāsat al-Murīdīn, pp. 57–60. Ed. ʿAbd Allāh Ismāʿīl Hāshim al-Sharīf and al-Murtaḍā b. Zayd al-Maḥatwarī al-Ḥasanī. Ṣanʿāʾ: Maktabat Markaz Badr, 1422/2001.",
+              "link": "https://ia600209.us.archive.org/3/items/hani_307/سياسة%20المريدين_المؤيد%20بالله%20الهاروني%20الحسني_تحقيق%20عبدالله%20الشريف_مراجعة%20المحطوري.pdf",
+              "type": "complete"
             }
           ],
           "translations": [],
@@ -134,12 +832,2768 @@
           "reproductions": []
         }
       ]
+    },
+    {
+      "id": "manr-al-allj",
+      "name": "Abū al-Mughīth al-Ḥusayn b. Manṣūr al-Ḥallāj",
+      "nameArabic": "",
+      "deathDate": "309/922",
+      "deathLocation": "Baghdad",
+      "century": "4th/10th",
+      "hasMultipleWorks": true,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Ḥallāj-1",
+          "title": "Kitāb al-Ṭawāsīn(Rūzbihān Baqlī al-Shīrāzī [d. 606/1209],Kashf al-Asrār)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "reconstruction",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Louis Massignon (ed.). Kitâb al-Ṭawâsîn par Abou al-Moghith al-Hosayn ibn Mansour al-Hallaj al-Baydhawi al-Baghdadi. Texte arabe publié pour la première fois d'aprés les manuscripts de Stamboul et de Londres, avec la version persane d'al-Baqlî.  Paris: Librairie Paul Geuthner, 1913 ; reprint Baghdad: Dār al-Muthannā, 1969.",
+              "link": "https://archive.org/details/kitbalawsn00usaiuoft",
+              "type": "complete"
+            },
+            {
+              "citation": "Paul Nwyia (ed.). \"Kitāb al-Ṭawāsīn,\" Mélanges de l'Université Saint Joseph Tome XL, pp. 186-237. Beirut: Imprimerie Catholique, 1972; reprinted with additions by Kamāl Muṣṭafā Shaybī. Baghdad: Maktabat al-Nahḍah, 1977 = Cologne: Manshūrāt al-Jamal, 1997.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Qāsim Muḥammad ʿAbbās (ed.). “Kitāb al-Ṭawāsīn,\" pp. 161-209. In ʿAbbās. al-Ḥallāj: al-Aʿmāl al-Kāmilah.Beirut: Riyāḍ al-Rayyis, 2002.",
+              "link": "https://archive.org/details/sufi-works_201905",
+              "type": "complete"
+            },
+            {
+              "citation": "Stéphane Ruspoli (ed.). “Le Livre Ṭawāsīn,\" pp. 315-373. In Ruspoli (ed.). Le Livre Ṭâwasîn [sic] suivi du ‘Jardin de la Connaisance’ (Bustān al-Maʿrifah) avec le Commentaire de Rûzbehân, Series Héritage Spirituel. Beirut: Dar Albouraq and Paris: Librarie de l’Orient, 2006.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Aisha Abd ar-Rahman at-Tarjumani (trans.). The Tawasin of Mansur Al-Hallaj. Berkeley and London: Diwan Press, 1974.",
+              "link": "https://archive.org/details/TheTawasinOfMansurAlHallajAishaAbdArrahmanAttarjumana_201809",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Richard Gramlich (trans.). \"Das Buch der Ṭs [sic] - Chs. 1, 3, 6,\" pp. 38-44. In Richard Gramlich, Islamische Mystik. Sufische Texte aux zehn Jahrhunderten. Stuttgart. W. Kohlhammer, 1992.",
+              "link": "",
+              "type": "partial",
+              "language": "sic"
+            },
+            {
+              "citation": "Michael A. Sells (trans.). \"Chapter 9. Hallaj: Iblis as Tragic Lover (The ṬāSīn of Before-Time and Ambiguity),\" pp. 266-280. In Michael Sells. Early Islamic Mysticism: Sufi, Qurʾan, Miʿraj, Poetic and Theological Writings, Classics of Western Spirituality. New York: Paulist Press, 1996.",
+              "link": "https://books.google.ae/books?id=BrU54SYQSyoC&printsec=frontcover&dq=intitle:early+islamic+mysticism&hl=en&sa=X&ved=0ahUKEwiQ2ueGoKTfAhXjShUIHezIBTEQ6AEIKjAA#v=onepage&q=intitle%3Aearly%20islamic%20mysticism&f=false",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Stéphane Ruspoli (trans.). “Le Livre Ṭawāsīn,\" pp. ####. In Ruspoli (ed.). Le Livre Ṭâwasîn [sic] suivi du ‘Jardin de la Connaisance’ (Bustān al-Maʿrifah) avec le Commentaire de Rûzbehân, Series Héritage Spirituel. Beirut: Dar Albouraq and Paris: Librarie de l’Orient, 2006.",
+              "link": "",
+              "type": "complete",
+              "language": "sic"
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Ḥallāj-2",
+          "title": "Tafsīr(al-Sulamī [d. 412/1021],Ḥaqāʾiq al-Tafsīr, and Rūzbihān Baqlī [d. 606/1209]Sharḥ al-ShaṭḥiyyātandʿArāʾis al-Bayān",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "reconstruction",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Ḥallāj-3",
+          "title": "Dīwān al-Ḥallāj(Various Sources)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "reconstruction",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Louis Massignon. \"Le Dîwân d'al-Ḥallâj. Essai de Reconstitution, Édition, et Traduction,\" Journal Asiatique Vol. CCXVIII (1931): pp. 1-158.",
+              "link": "https://archive.org/details/in.ernet.dli.2015.323552/page/n157",
+              "type": "complete"
+            },
+            {
+              "citation": "Louis Massignon (ed.). Dîwân (Hoceïn Mansûr Hallâj), Documents Spirituels Vol. 10. Paris: Cahiers du Sud, 1955.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Riḍwān Ṣaḥḥ and ʿAbd al-Qādir Ḥiṣnī (eds.). Dīwān al-Ḥallāj. Damascus: Dār al-Yanābiʿ, 1414/1994; reprint Damascus: Dār al-Farqad, 1431/2010.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Qāsim Muḥammad ʿAbbās (ed.). “Dīwān,\" pp. 287–338. In ʿAbbās. al-Ḥallāj: al-Aʿmāl al-Kāmilah. Bierut: Riyāḍ al-Rayyis, 2002.",
+              "link": "https://archive.org/details/sufi-works_201905",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Louis Massignon. \"Le Dîwân d'al-Ḥallâj. Essai de Reconstitution, Édition, et Traduction,\" Journal Asiatique Vol. CCXVIII (1931): pp. 1-158.",
+              "link": "https://archive.org/details/in.ernet.dli.2015.323552/page/n157",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Richard Gramlich (trans.). \"Kurze Gedichte,\" pp. 48-50. In Richard Gramlich, Islamische Mystik. Sufische Texte aus zehn Jahrhunderten. Stuttgart. W. Kohlhammer, 1992.",
+              "link": "",
+              "type": "partial",
+              "language": ""
+            },
+            {
+              "citation": "Carl Ernst (trans.).  Hallaj. Poems of a Sufi Martyr. Evansville, IL: Northwestern University Press, 2018.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Ḥallāj-4",
+          "title": "Bustān al-Maʿrifah(Various Sources)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "reconstruction",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Qāsim Muḥammad ʿAbbās (ed.). “Bustān al-Maʿrifah,\" pp. 213-217. In ʿAbbās. al-Ḥallāj: al-Aʿmāl al-Kāmilah. Beirut: Riyāḍ al-Rayyis, 2002.",
+              "link": "https://archive.org/details/sufi-works_201905",
+              "type": "complete"
+            },
+            {
+              "citation": "Stéphane Ruspoli (ed.) “Bustān al-Maʿrifah,\" pp. 375-385. In Ruspoli (ed.). Le Livre Ṭâwasîn [sic] suivi du ‘Jardin de la Connaisance’ (Bustān al-Maʿrifah) avec le Commentaire de Rûzbehân, Series Héritage Spirituel. Beirut: Dar Albouraq and Paris: Librarie de l’Orient, 2006.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Stéphane Ruspoli (trans.) “Le Jardin de la Connaissance,\" pp. ####. In Ruspoli (ed.). Le Livre Ṭâwasîn [sic] suivi du ‘Jardin de la Connaisance’ (Bustān al-Maʿrifah) avec le Commentaire de Rûzbehân, Series Héritage Spirituel. Beirut: Dar Albouraq and Paris: Librarie de l’Orient, 2006.",
+              "link": "",
+              "type": "complete",
+              "language": "sic"
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "a-al-adam",
+      "name": "Abū al-ʿAbbās Aḥmad b. ʿAṭāʾ al-Adamī",
+      "nameArabic": "",
+      "deathDate": "310/922",
+      "deathLocation": "Baghdad",
+      "century": "4th/10th",
+      "hasMultipleWorks": false,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Adamī_",
+          "title": "Tafsīr / Kitāb Fahm al-Qurʾān(attr.)(al-Sulamī [d. 412/1021],Ḥaqāʾiq al-Tafsīr - Ziyādāt Ḥaqāʾiq al-Tafsīr)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "reconstruction",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Paul Nwyia (ed.). \"Tafsīr Ibn ʿAṭāʾ,\" pp. 23-183. In Trois œuvres inédites de mystiques musulmanes / Nuṣūṣ ṣūfīyah ghayru manshūrah, Recherchés A. Nouvelle série, Langue arabe et pensée islamique Tome VII. Beirut: Dar El-Machreq, 1973.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "The material from al-Sulamī's Ḥaqāʾiq al-Tafsīr attributed to Ibn ʿAṭāʾ is translated in Richard Gramlich. Abu ʾl-ʿAbbās b. ʿAṭāʾ: Sufi und Koranausleger, Abhandlungen für die Kunde des Morgenlandes Bd. 51,2. Stuttgart: Franz Steiner, 1995.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "-al-shibl",
+      "name": "Abū Bakr – Dulaf b. Jaḥdar (?) / Jaʿfar b. Yūnus (?) – al-Shiblī",
+      "nameArabic": "",
+      "deathDate": "334/945",
+      "deathLocation": "Baghdad",
+      "century": "4th/10th",
+      "hasMultipleWorks": false,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Shiblī_",
+          "title": "Dīwān(Various Sources)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "reconstruction",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "ibn-al-arb",
+      "name": "Abū Saʿīd Aḥmad b. Muḥammad b. Ziyād Ibn al-Aʿrābī",
+      "nameArabic": "",
+      "deathDate": "340/951",
+      "deathLocation": "Mecca",
+      "century": "4th/10th",
+      "hasMultipleWorks": true,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Aʿrābī-1",
+          "title": "al-Qubal wa-l-Muʿānaqah wa-l-Muṣāfaḥah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Aʿrābī-2",
+          "title": "Kitāb al-Muʿjam or Muʿjam Ibn al-Aʿrābī",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Aʿrābī-3",
+          "title": "Kitāb [...] al-Zuhd wa-Ṣifat al-Zāhidīn",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Aʿrābī-4",
+          "title": "Risālah fī al-Mawāʿiẓ wa-l-Fawāʾid wa-ghayri dhālika",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "nuayr-al-khuld",
+      "name": "Abū Muḥammad Jaʿfar b. Muḥammad b. Nuṣayr al-Khuldī",
+      "nameArabic": "",
+      "deathDate": "348/959",
+      "deathLocation": "Baghdad",
+      "century": "4th/10th",
+      "hasMultipleWorks": true,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Khuldī-1",
+          "title": "al-Fawāʾid wa-l-Zuhd wa-l-Raqāʾiq wa-l-Marāthī",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Khuldī-2",
+          "title": "\"Majālis al-ḥadīth\"",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Khuldī-3",
+          "title": "Fawāʾid al-Khuldī intiqāʾu Abī Ḥafṣ ʿUmar b. al-Sarī al-Baṣrī",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Khuldī-4",
+          "title": "Miḥnat al-imām Abī ʿAbd Allāh Muḥammad b. Idrīs al-Shāfiʿī",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Khuldī-5",
+          "title": "Waṣīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "uncertain",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "nujayd-al-sulam",
+      "name": "Abū ʿAmr Ismāʿī b. Nujayd al-Sulamī",
+      "nameArabic": "",
+      "deathDate": "365/975",
+      "deathLocation": "Nishapur",
+      "century": "4th/10th",
+      "hasMultipleWorks": false,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "ibnnujayd-1",
+          "title": "Juzʾ Aḥādīth",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "a-al-rdhbr",
+      "name": "Abū ʿAbd Allāh Aḥmad b. ʿAṭāʾ al-Rūdhbārī",
+      "nameArabic": "",
+      "deathDate": "369/979",
+      "deathLocation": "Tyre",
+      "century": "4th/10th",
+      "hasMultipleWorks": true,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Rūdhbārī-1",
+          "title": "Thalāth Majālis min Amālī Abī ʿAbd Allāh al-Rūdhbārī",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bernd Radtke (ed.). \"Thalāth Majālis min Amālī Abī ʿAbd Allāh al-Rūdhbārī,\" pp. 217-249. In Bernd Radtke (ed.) \n                                                        zur alten islamischen Frömmigkeit, Basic Works of Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
+              "link": "https://al-maktaba.org/book/29871",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Bernd Radtke (trans.). \"Thalāth Majālis min Amālī Abī ʿAbd Allāh al-Rūdhbārī,\" pp. 217-249. In Bernd Radtke (ed.) Materialien zur alten islamischen Frömmigkeit, Basic Works of Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Rūdhbārī-2",
+          "title": "Kitāb al-Khilaʿ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bernd Radtke (ed.). \"Kitāb al-Khilaʿ,\" pp. 250-259. In Radtke (ed.). \n                                                        \n                                                        zur alten islamischen Frömmigkeit, Basic Books of Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Bernd Radtke (trans.). \"Kitāb al-Khilaʿ,\" pp. 250-259. In Radtke (ed.). Materialien zur alten islamischen Frömmigkeit, Basic Books of Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
+              "link": "https://brill.com/view/title/15451",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Rūdhbārī-3",
+          "title": "Kitāb Adab al-Faqīr",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bernd Radtke (ed.). \"Kitāb Adab al-Faqīr,\" pp. 260-66. In Bernd Radtke (ed.). Materialien zur alten islamischen Frömmigkeit, Basic Books in Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
+              "link": "https://brill.com/view/title/15451",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Bernd Radtke (trans.). \"Kitāb Adab al-Faqīr,\" pp. 260-66. In Bernd Radtke (ed.). Materialien zur alten islamischen Frömmigkeit, Basic Books in Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
+              "link": "https://brill.com/view/title/15451",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Rūdhbārī-4",
+          "title": "Waṣīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "al-sarrj-al-s",
+      "name": "Abū Naṣr ʿAbd Allāh b. ʿAlī al-Sarrāj al-Ṭūsī",
+      "nameArabic": "",
+      "deathDate": "370/980",
+      "deathLocation": "Ṭūs",
+      "century": "4th/10th",
+      "hasMultipleWorks": false,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Sarrāj-1",
+          "title": "Kitāb al-Lumaʿ fī al-Taṣawwuf",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "R.A. Nicholson (ed. and trans.). The Kitāb al-Lumaʿ fī ʾl-Taṣawwuf, E.J.W. Gibb Memorial Series Vol. 22. Leiden: Brill and London: Luzac & Co, 1914.",
+              "link": "https://drive.google.com/open?id=10IhO7jgOfeUKkbkwll2akx_i6RH_OlVp",
+              "type": "complete"
+            },
+            {
+              "citation": "A.J. Arberry (ed.). Pages from the Kitāb al-Lumaʿ of Abū Naṣr al-Sarrāj. London: Luzac & Company with the assistance of the E.J.W. Gibb Memorial Trust, 1947.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "ʿAbd al-Ḥalīm Maḥmūd and ʿAbd al-Bāqī Surūr (eds.). Kitāb al-Lumaʿ fī al-Taṣawwuf. Cairo: Dār al-Kutub al-Ḥadīthah and Baghdad: Maktabah al-Muthannā, 1380/1960.  )",
+              "link": "https://drive.google.com/open?id=1Cf-PcBU0rXKE7Al0yREC9gUVmbGNKgKy",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Richard Gramlich (ed. and trans.). Schlaglichter über das Sufituum. Abū Naṣr as-Sarrāǧs Kitāb al-lumaʿ, Freiburger Islamstudien Bd. 13. Stuttgart: Franz Steiner, 1990.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Richard Gramlich, \"Über die Standplätze und ihre Wirklichkeite,\" pp. 50-65. In Richard Gramlich, Islamische Mystik. Sufische Texte aus zehn Jahrhunderten. Stuttgart: W. Kohlhammer, 1992.",
+              "link": "",
+              "type": "partial",
+              "language": ""
+            },
+            {
+              "citation": "Michael A. Sells (trans.). \"Chapter 6. Sarraj: The Seven Stations from the Book of Flashes (Kitāb al-Lumaʿ),\" pp. 196-211. In Early Islamic Mysticism: Sufi, Qurʾan, Miʿraj, Poetic and Theological Writings, Classics of Western Spirituality. New York: Paulist Press, 1995.",
+              "link": "https://books.google.com/books?id=BrU54SYQSyoC&printsec=frontcover&dq=intitle:early+islamic+mysticism&hl=en&sa=X&ved=0ahUKEwiQ2ueGoKTfAhXjShUIHezIBTEQ6AEIKjAA#v=onepage&q=intitle%3Aearly%20islamic%20mysticism&f=false",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "isfkshdh-al-shrz",
+      "name": "Abū ʿAbd Allāh Muḥammad b. Khafīf b. Ifsākshādh / Isfākshādh al-Shīrāzī",
+      "nameArabic": "",
+      "deathDate": "372/982",
+      "deathLocation": "",
+      "century": "4th/10th",
+      "hasMultipleWorks": true,
+      "authorNote": "This bibliography is taken from Florian Sobieroj, \"Ibn Khafīf al-Shīrāzī,\" inEncyclopedia of Islam, THREE(Brill Online).",
+      "works": [
+        {
+          "id": "Shīrāzī-1",
+          "title": "al-Muʿtaqad al-Ṣaghīr",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Shīrāzī-2",
+          "title": "Waṣīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Shīrāzī-3",
+          "title": "Kitāb Faḍl al-Taṣawwuf (ʿalā al-Madhāhib)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Shīrāzī-4",
+          "title": "Kitāb al-Iqtiṣād",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Florian Sobieroj, Ibn Ḫafīf aš-Šīrāzī und seine Schrift Novizen erziehung (Kitāb al-Iqtiṣad). Biographische Studien, Edition und Übersetzung, pp. 443-486. Beiruter Texte und Studien Bd. 57. Beirut: Franz Steiner, 1998.",
+              "link": "http://menadoc.bibliothek.uni-halle.de/inhouse/content/titleinfo/2052628?query=sobieroj",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Florian Sobieroj, Ibn Ḫafīf aš-Šīrāzī und seine Schrift Novizen erziehung (Kitāb al-Iqtiṣad). Biographische Studien, Edition und Übersetzung, pp. 317-384. Beiruter Texte und Studien Bd. 57. Beirut: Franz Steiner, 1998.",
+              "link": "http://menadoc.bibliothek.uni-halle.de/inhouse/content/titleinfo/2052628?query=sobieroj",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Shīrāzī-5",
+          "title": "Risālat Sharaf al-Faqr / al-Fuqarāʾ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Shīrāzī-6",
+          "title": "Khawwāṣ al-āyātorKitāb Sharḥ Khāṣṣiyyatal-Āyāt al-Bayyināt wa-Jawāmiʿ al-Daʿawāt",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "isq-al-kalbdh",
+      "name": "Abū Bakr Muḥammad b. Isḥāq al-Kalābādhī",
+      "nameArabic": "",
+      "deathDate": "380/990",
+      "deathLocation": "",
+      "century": "4th/10th",
+      "hasMultipleWorks": true,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Kalabadhi-1",
+          "title": "al-Taʿarruf li-Madhhab Ahl al-Taṣawwuf",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "A.J. Arberry (ed.) al-Taʿarruf li-Madhhab Ahl al-Taṣawwuf. Cairo: Maktabat al-Khānjī, 1936.",
+              "link": "https://archive.org/details/123boukrika44_maktoob_20140203_2202",
+              "type": "complete"
+            },
+            {
+              "citation": "Maḥmūd Amīn Nawāwī (ed.). al-Taʿarruf li-Madhhab Ahl al-Taṣawwuf. Cairo: Maktabat al-Kullīyāt al-Azharīyah, 1992.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Aḥmad Shams al-Dīn (ed.). al-Taʿarruf li-Madhhab Ahl al-Taṣawwuf. Beirut: Dār al-Kutub al-ʿIlmīyah, 1422/2001.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "A.J. Arberry (trans.). The Doctrine of the Sufis. Cambridge: Cambridge University Press, 1935.",
+              "link": "https://archive.org/details/in.gov.ignca.2143",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Roger Deladrière (trans.). Traité de soufisme: les maîtres et les étapes. Paris: Sindbad, 1981.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Muḥammad Jawād Sharīʿat (ed. and trans.) Matn u tarjameh: Kitāb-i Taʿarruf. Tehran: Imārat-i Asāṭīr, 1992.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Richard Gramlich (trans.). \"Die Erschließung der Lehrrichtung des Sufitums,\" pp. 66-69. In Richard Gramlich, Islamische Mystik. Sufische Texte aus zehn Jahrhunderten. Stuttgart: W. Kohlhammer, 1992.",
+              "link": "",
+              "type": "partial",
+              "language": ""
+            },
+            {
+              "citation": "Paolo Urizzi and Denis Grill (trans.). Il Sufismo: Nelle parole degli antichi [Sufism: In the Words of the Ancients], Machina Philosophorum: Testi e studi culture euromediterranee Vol. 3. Palermo: Officina di Studi Medievali, 2002.",
+              "link": "",
+              "type": "complete",
+              "language": "Sufism: In the Words of the Ancients"
+            },
+            {
+              "citation": "Süleyman Uludaǧ (trans.) Doǧuş Devrinde Tasavvuf. Istanbul: Dergäh Yayınları, 2013.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Kalabadhi-2",
+          "title": "Baḥr al-Fawaʾid al-mashhūr bi-Maʿānī al-Akhbār",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "al-aqal-al-mlik",
+      "name": "Abū al-Qāsim ʿAbd al-Raḥmān b. Muḥammad al-Bakrī al-Ṣaqalī al-Mālikī",
+      "nameArabic": "",
+      "deathDate": "380/990",
+      "deathLocation": "",
+      "century": "4th/10th",
+      "hasMultipleWorks": false,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Mālikī-1",
+          "title": "al-Anwār fī ʿIlm al-Asrār wa-Maqāmāt al-Abrār",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "al-rith-al-makk",
+      "name": "Abū Ṭālib Muḥammad b. ʿAlī b. ʿAṭīyah al-Ḥārithī al-Makkī",
+      "nameArabic": "",
+      "deathDate": "386/996",
+      "deathLocation": "Baghdad",
+      "century": "4th/10th",
+      "hasMultipleWorks": false,
+      "authorNote": "This list of editions and translations is taken - with amendments and additions - from Saeko Yazaki,Islamic Mysticism and Abū Ṭālib al-Makkī: The Role of the Heart, Routledge Sufi Series (London: Routledge, 2012), pp. 7-9.",
+      "works": [
+        {
+          "id": "Makkī-1",
+          "title": "Qūt al-Qulūb fī Muʿāmalāt al-Maḥbūbwa-Waṣf Ṭarīq al-Murīd ilā Maqām al-Tawḥīd",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Muḥammad al-Zuhrā (ed.). Qūt al-Qulūb fī Muʿāmalāt al-Maḥbūb, 2 vols. Cairo: al-Maṭbaʿah al-Maymanīyah, 1310/1892-3; reprint 2 vols. in 1. Damascus: Dār al-Fikr, N.D.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Qūt al-Qulūb fī Muʿāmalāt al-Maḥbūb, 4 vols. in 2. Cairo: al-Maṭbaʿah al-Miṣrīyah and Beirut: al-Maktabah al-Ḥusaynīyah, 1351/1932.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Muḥammad Bāsil ʿUyūn al-Sūd (ed.). Qūt al-Qulūb fī Muʿāmalāt al-Maḥbūb, 2 vols. Cairo: Maṭbaʿat Muṣṭfā al-Bābī a-Ḥalabī, 1381/1961; reprint Baghdad: Maktabat al-Mutanabbī, 1390/1970;",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "ʿAbd al-Munʿim Ḥifnī (ed.). Qūt al-Qulūb fī Muʿāmalāt al-Maḥbūb, al-Mawsūʿah al-Islāmīyah al-Kubrā. 2 vols. Cairo: Dār al-Rashād, 1411/1991.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Saʿīd Nasīb Makārim (ed.). Qūt al-Qulūb fī Muʿāmalāt al-Maḥbūb, 2 vols. Beirut: Dār Ṣādir, 1415/1995.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Muḥammad b. Ibrāhīm b. Muḥammad al-Raḍwānī (ed.). Qūt al-Qulūb fī Muʿāmalāt al-Maḥbūb, 3 vols. Cairo: Maktabat al-Turāth, 1422/2001.",
+              "link": "https://drive.google.com/open?id=1NHoYmo1RqBfxeiykHE8ZMQ3SKwNEX4M0",
+              "type": "complete"
+            },
+            {
+              "citation": "ʿĀsim Ibrāhīm al-Kayyālī (ed.). Qūt al-Qulūb fī Muʿāmalāt al-Maḥbūb, 2 vols. Beirut: Dār al-Kutub al-Ilmīyah, 1418/1997; 2nd ed. 1426/2005.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "E.H. Douglass, \"The Beard [Qūt al-Qulūb §36],\" The Muslim World 68/2 (1978): pp. 100-10.",
+              "link": "",
+              "type": "partial",
+              "language": "Qūt al-Qulūb §36"
+            },
+            {
+              "citation": "Muḥammad Manẓūr al-Wajīdī (trans.). Qūt al-Qulūb. Lahore: Shaykh Ghulam ʿAlī Sanz, 1988 [1984].",
+              "link": "",
+              "type": "complete",
+              "language": "1984"
+            },
+            {
+              "citation": "W. Mohd. Azam b. Mohd Amin (trans.). An Evaluation of the Qūt al-Qulūb with an annotated translation of his Kitāb al-Tawba [§32], pp. 53-154. Ph.D. Dissertation: University of Edinburgh, 1991.",
+              "link": "",
+              "type": "partial",
+              "language": "§32"
+            },
+            {
+              "citation": "Richard Gramlich (trans.). Die Nachrung der Herzen: Abū Ṭālib al-Makkī's 'Qūt al-Qulūb', Freiburger Islamstudied Bds. 16,1-4. Stuttgart: Franz Steiner, 1992-1995.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Muharrem Tan (trans.). Kûtüʾl-Kulûb: Kalplerın Azıǧı. Istanbul: Iz Yayınları, 1999.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Xiǎo Pèi Mǎ (trans.). Xīn Líng de Líang Dan. Beijing: Chinese Social Science Press, 2008.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Saeko Yazaki (trans.). pp. 47-84 [§30] in Saeko Yazaki. Islamic Mysticism and Abū Ṭālib al-Makkī: The Role of the Heart, Routledge Sufi Series. London: Routledge, 2012.",
+              "link": "",
+              "type": "partial",
+              "language": "§30"
+            },
+            {
+              "citation": "Mahdī Iftikhār (trans.). Tarjamah-yi 'Qūt al-Qulūb fī Muʿāmalāt al-Maḥbūb wa-Waṣf al-Murīd ilā Maqām al-Tawḥīd'. Qum: Intishārāt-i Āyat-i Ishrāq, 1396^/2017.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "b-samn",
+      "name": "Abū al-Ḥusayn Muḥammad b. Aḥmad b. Ismāʿīl b. Samʿūn",
+      "nameArabic": "",
+      "deathDate": "389/997",
+      "deathLocation": "Baghdad",
+      "century": "4th/10th",
+      "hasMultipleWorks": false,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Ibn-Samʿūn-1",
+          "title": "Amālī Ibn Samʿūn al-Wāʿiẓ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "ʿĀmir Ḥasan Ṣabrī (ed.). Amālī Ibn Samʿūn al-Wāʿiẓ. Beirut: Dār al-Bashāʾir al-Islāmīyah, 1423/2002.",
+              "link": "https://ia902708.us.archive.org/6/items/SAMOON/SAMOON.pdf",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "adab-al-mulk",
+      "name": "Anonymous,Kitāb Adab al-Mulūk",
+      "nameArabic": "",
+      "deathDate": "",
+      "deathLocation": "",
+      "century": "4th/10th",
+      "hasMultipleWorks": false,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Anonymous-1",
+          "title": "Kitāb Adab al-Mulūk",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bernd Radtke (ed.). Adab al-Mulūk: Ein Handbuch zur islamischen Mystik aus dem 4./10. Jahrhundert, Beiruter Texte und Studien Bd. 37. Beirut: Franz Steiner, 1991.12",
+              "link": "#twelve",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Richard Gramlich (trans.). Lebensweise der Könige: Adab al-Mulūk, ein Handbuch zur islamischen Mystik, Abhandlungen für die Kunde des Morgenlandes, Bd. L,3. Marburg: Deutsche Morgenländische Gesellschaft and Stuttgart: Franz Steiner, 1993.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "amakn-al-shfi",
+      "name": "Abū ʿAlī al-Ḥasan b. al-Ḥusayn, Ibn Ḥamakān al-Shāfiʿī",
+      "nameArabic": "",
+      "deathDate": "405/1014-15",
+      "deathLocation": "Baghdad",
+      "century": "5th/11th",
+      "hasMultipleWorks": false,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Shāfi-1",
+          "title": "Kitāb al-Fawāʾid wa-l-Akhbār wa-l-Ḥikāyāt",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "ibrhm-al-kharkgsh",
+      "name": "Abū Abū Saʿd ʿAbd al-Mālik b. Muḥammad b. Ibrāhīm al-Khar(k/g)ūshī",
+      "nameArabic": "",
+      "deathDate": "406/1015-16",
+      "deathLocation": "Nishapur",
+      "century": "5th/11th",
+      "hasMultipleWorks": true,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Khargushi-1",
+          "title": "Tahdhīb al-Asrār",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Khargushi-2",
+          "title": "Kitāb Sharaf al-Muṣṭafā",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Khargushi-3",
+          "title": "Kitāb al-Lawāmiʿ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Khargushi-4",
+          "title": "al-Nidhārah wa-l-Bishrārah fī Taʿbīr al-Ruʾyah wa-l-Murāqabah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "al-usayn-al-sulam",
+      "name": "Abū ʿAbd al-Raḥmān Muḥammad b. al-Ḥusayn al-Sulamī",
+      "nameArabic": "",
+      "deathDate": "412/1021",
+      "deathLocation": "Nishapur",
+      "century": "5th/11th",
+      "hasMultipleWorks": true,
+      "authorNote": "This bibliography is taken - with additions and ammendments - from Gerhard Böwering and Bilal Orfali (eds.).Rasāʾil Ṣūfīyah li-l-Sulamī / Sufi Treatises of Abū ʿAbd al-Raḥmān al-Sulamī, La Collection Recherche, Nouvelle Série: Vol. 22 (Beirut: Dar El-Machreq, 2009), pp. 9-17; and S.Z. Chowdhury,A Ṣūfī Apologist of Nīshāpūr: The Life and Thought of Abū ʿAbd al-Raḥmān al-Sulamī(London: Equinox, 2019), 109–43.",
+      "works": [
+        {
+          "id": "Sulamī-1",
+          "title": "Ṭabaqāt al-Ṣūfīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Johannes Pedersen (ed.). Ṭabaqat al-Ṣūfīyah: texte arabe, Collection de Textes Inédits Relatifs à la Mystique Musulmane Vol. 3. Paris: Paul Geuthner, 1938.",
+              "link": "",
+              "type": "partial"
+            },
+            {
+              "citation": "Nūr al-Dīn Shuraybah (ed.). Ṭabaqāt al-ṣūfīyah. Cairo: Dār al-Kitāb al-ʿArabī and Jāmiʿat al-Azhar li-l-Nashr wa-l-Taʾlīf, 1953 ; 2nd ed., Cairo: Jāmiʿat al-Azhar li-l-Nashr wa-l-Taʾlīf, 1963; 3rd ed., Cairo: Maktabat al-Khānjī, 1389/1969; 4th ed., Cairo: Maktabat al-Khānjī and Aleppo: Dār al-Kitāb al-Nafīs, 1407/1986. . Reprint: Cairo: Maṭābiʿ al-Shaʿb, 1380/1960.",
+              "link": "http://mc.dlib.nyu.edu/files/books/columbia_aco000030/columbia_aco000030_lo.pdf",
+              "type": "complete"
+            },
+            {
+              "citation": "Johannes Pedersen (ed.). Kitāb Ṭabaqāt al-ṣūfiyyah. Texte arabe avec une introduction et un index. Leiden: Brill, 1960.",
+              "link": "https://books.google.ae/books?id=wM0UAAAAIAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
+              "type": "complete"
+            },
+            {
+              "citation": "Muṣṭafā ʿAbd al-Qādir ʿĀtā (ed.) Ṭabaqāt al-Ṣūfīyah wa-yalīhi Dhikr al-Niswah al-Mutaʿabbidāt al-Ṣūfīyāt. Beirut: Dār al-Kutub al-ʿIlmīyah, 1418/1998.",
+              "link": "https://archive.org/details/Tabaqatesoufia",
+              "type": "complete"
+            },
+            {
+              "citation": "Aḥmad ʿAbduh Shirbāṣī (ed.). Ṭabaqāt al-Ṣūfīyah. Cairo: Dār al-Shaʿb. 1419/1998.",
+              "link": "https://drive.google.com/open?id=1LdvtM9SvyzOjqoibGh-jPrrGSXuDvfvU",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Richard Gramlich, \"Dhū n-Nūn al-Miṣrī - Abū Sulaymān al-Dārānī - Abū l-Ḥusayn an-Nūrī - Sahl at-Tustarī - al-Ḥallāǧ - Abū Bakr aš-Šiblī - Abū Yaʿqūb an-Nahraǧūrī - Abū ʿUthmān al-Maġribī - Abū l-Qāsim an-Naṣrābādhī,\" pp. 69-74. In Richard Gramlich. Islamische Mystik. Sufische Texte aus zehn Jahrhunderten. Stuttgart: W. Kohlhammer, 1992.",
+              "link": "",
+              "type": "partial",
+              "language": ""
+            },
+            {
+              "citation": "Jean-Jacques Thibon. Les générations des Soufis-Ṭabaqāt al-ṣūfiyya de Abū ʿAbd al-Raḥmān, Muḥammad b. Ḥusayn al-Sulamī (325/937-412/1021, Studies on Sufism Vol. 3 (Leiden: Brill, 2019).",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-2",
+          "title": "Dhikr al-Niswah al-Mutaʿabbidāt al-Ṣūfīyāt",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Maḥmūd Muḥammad al-Ṭanāḥī (ed.). Dhikr al-Niswah al-Mutaʿabbidāt al-Ṣūfīyāt. Cairo: 1413/1993 ; reprint Cairo: Al-Hayʾah al-Miṣrīyah al-ʿĀmmah li-l-Kitāb, 1420/1999.",
+              "link": "https://archive.org/details/zknsmtsuzknsmtsu",
+              "type": "complete"
+            },
+            {
+              "citation": "Rkia L. Cornell (ed. and trans.). Early Sufi Women. Dhikr al-Niswah al-Mutaʿabbidāt al-Ṣūfiyyāt. Louisville, KY: Fons Vitae, 1999; reprinted III, pp. 483-532. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Muṣṭafā ʿAbd al-Qādir ʿĀtā (ed.) Ṭabaqāt al-Ṣūfīyah wa-yalīhi Dhikr al-Niswah al-Mutaʿabbidāt al-Ṣūfīyāt. Beirut: Dār al-Kutub al-ʿIlmīyah, 1418/1998.",
+              "link": "https://archive.org/details/Tabaqatesoufia",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Rkia L. Cornell (ed. and trans.). Early Sufi Women. Dhikr al-Niswah al-Mutaʿabbidāt al-Ṣūfiyyāt. Louisville, KY: Fons Vitae, 1999.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Maryam Ḥusaynī (trans.). Nakhastīn-i Zanān-i Ṣūfī. Hamrāh bā Matn-i Kāmil 'Dhikr al-Niswah al-Mutaʿabbidāt al-Ṣūfīyāt' az Abū ʿAbd al-Raḥmān Muḥammad b. al-Ḥusayn al-Sulamī. Tehran: Nashr-i ʿIlm, 1385^/2006.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Abd al-Rahmân Andreucci (trans.). Sulamî: Femmes Soufies, suivi de La Sainteté Féminine dans l'Hagiographie Islamique par Michel Chodkiewicz. Paris: Entrelacs, 2011.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-3",
+          "title": "Ḥaqāʾiq al-Tafsīr",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Sayyid ʿImrān (ed.). Tafsīr al-Sulamī wa-huwa Ḥaqāʾiq al-Tafsīr, 2 vols. Beirut: Dār al-Kutub al-ʿIlmīyah.",
+              "link": "https://drive.google.com/open?id=14-6DP0qtqTaGsg2b8yQGqsXhnBabpT2O",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Richard Gramlich, \"Die Wirklichkeiten der Koranauslegung,\" pp. 77-80. In Richard Gramlich, Islamische Mystik. Sufische Texte aus zehn Jahrhunderten. Stuttgart: W. Kohlhammer, 1992.",
+              "link": "",
+              "type": "partial",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-4",
+          "title": "Ziyādāt Ḥaqāʾiq al-Tafsīr",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-5",
+          "title": "Adab Mujālāsat al-Mashāyikh wa-Ḥifẓ Ḥurumātihim",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-6",
+          "title": "Bayān Aḥwāl al-Ṣūfīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Süleyman Ateş (ed.). \"Bayān Aḥwāl al-Ṣūfīyah,\"  pp. ١٤١-١٥٠. In Süleyman Ateş (ed.). Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "https://archive.org/details/tisat_kutub_fi_usul_al-tasawuf_waz_zuhd/page/n139/mode/2up?view=theater",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Süleyman Ateş (trans.) \"Mutasavvilflarin Halleri,\" pp. 109-114. In Süleyman Ateş (ed.). Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-7",
+          "title": "Bayān Zalal[or,tadhallul]al-Fuqarāʾ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Süleyman Ateş (ed.). \"Bayān al-Zalal,\" pp. ٤٢٩-٤٥٦. Süleyman Ateş (ed.). Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri, ١٨٥-٢٠٧. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint Beirut: Al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete"
+            },
+            {
+              "citation": "Kenneth Honerkamp (ed.). \"Kitāb Bayān Tadhallul al-Fuqarāʾ,\" III, pp. 17-62. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Süleyman Ateş (trans.). \"Fakirlerin Hatâlari ve Gerekli Davranişlari,\" pp. 142-56. In Süleyman Ateş (ed.). Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Kenneth Honerkamp (trans.). \"The Stumblings of Those Aspiring,\" pp. 129-53. In Kenneth Honerkamp and Nicolas Heer (ed.). Three Early Sufi Texts. Louisville, KY: Fons Vitae, 2003.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-8",
+          "title": "Darajāt al-Muʿāmalāt",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Süleyman Ateş (ed.). \"Darajāt al-Muʿāmalāt,\" pp. ٢١-٢٦. In Süleyman Ateş (ed.). Tisʿat Kutub li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint. Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete"
+            },
+            {
+              "citation": "Aḥmad Ṭāhirī ʿIrāqī (ed.). \"Darajāt al-Muʿāmalāt\", I, pp. 465-495. In Naṣr Allāh Pūrjavādī and Muḥammad Sūrī), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Workd of Abū ʿAbd al-Raḥmān al-Sulamī, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Süleyman Ateş (trans.). \"Işlemlerin Dereceleri,\" pp. 23-33. In Süleyman Ateş (ed.). Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint. Beirut: al-Nāshir, 1414/1993.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-9",
+          "title": "Darajāt al-Ṣādiqīn fī al-Taṣawwuf",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Süleyman Ateş (ed.). \"Masʿalat Darajāt al-Ṣādiqīn,\" pp. ١٤١-١٥٢. In Süleyman Ateş (ed.). Tisʿat Kutub li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Kuliyyat Ilahiyat, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete"
+            },
+            {
+              "citation": "Kenneth Honerkamp (ed.). \"Masʾalat Darajāt al-Ṣādiqīn fī al-Taṣawwuf,\" III, pp. 63-78, In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Süleyman Ateş (trans.). \"Tasavvufta Sadiklarin Dereveleri,\" pp. 115-121. In Süleyman Ateş (ed.). Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Kenneth Honerkamp (trans.). \"Stations of the Righteous,\" pp. 119-28. In Kenneth Honerkamp and Nicolas Heer (eds.). Three Early Sufi Texts. Louisville, KY: Fons Vitae, 2003.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-10",
+          "title": "al-Farq bayna ʿIlm al-Sharīʿah wa-l-Ḥaqīqah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-11",
+          "title": "Jawāmiʿ Ādāb al-Ṣūfīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Etan Kohlberg (ed.). Jawāmiʿ Ādāb al-Ṣūfīyah of Abū ʿAbd al-Raḥmān al-Sulamī (d. 412/1021). Jerusalem: Jerusalem Academic Press, 1976; repr. Cairo: Dār Jawāmiʿ al-Kalam, 1420/1999; repr. I, 311-408. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Süleyman Ateş (ed.). \"Jawāmiʿ Ādāb al-Ṣūfīyah,\" pp. ٣٧-٩٢. In Süleyman Ateş (ed.). Tisʿat Kutub li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Kuliyyat Ilahiyat, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Süleyman Ateş (trans.). \"Sûfilerîn Âdâbini Ihtiva Eden Kitap,\" pp. 34-75. In Süleyman Ateş (ed.). Tisʿat Kutub li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Kuliyyat Ilahiyat, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Elena Biagi (trans.). A Collection of Sufi Rules of Conduct: Jawāmiʿ Ādāb al-Ṣūfiyya. Cambridge: The Islamic Texts Society, 2013.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-12",
+          "title": "Kalām al-Shāfiʿī fī al-Taṣawwuf",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-13",
+          "title": "Kitāb Ādāb al-Ṣuḥbah wa-Ḥusn al-ʿIshrah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "M.J. Kister (ed.). Kitāb Ādāb al-Ṣuḥbah wa-Ḥusn al-ʿIshrah. Jerusalem: Israel Oriental Society, 1954; reprint II, pp. 31-132. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Yūsuf ʿAlī Bayḍāwī (ed.). Kitāb Ādāb al-Ṣuḥbah wa-Ḥusn al-ʿIshrah. Beirut: Dār al-Kitāb al-ʿArabī, 1410/1990.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Majdī Fatḥī al-Sayyid Ibrāhīm (ed.). Kitāb Ādāb al-Ṣuḥbah wa-Ḥusn al-ʿIshrah. Ṭanṭā: Dār al-Ṣaḥābah li-l-Turāth, 1410.1990.",
+              "link": "https://drive.google.com/open?id=1J10oqq1BvOjrAyehFKSK67XTs1Xdxa5M",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Richard Gramlich, \"Die Regeln der Gefägrtenschaft und der schönen Geselligkeit,\" pp. 75-76. In Richard Gramlich Islamische Mystik. Sufische Texte aus zehn Jahrhunderten. Stuttgart: W. Kohlhammer, 1992.",
+              "link": "",
+              "type": "partial",
+              "language": ""
+            },
+            {
+              "citation": "Tahar Gaïd (trans.). La Courtoise en Islam (= Âdâbu al-suhba ). Paris: Iqra - Éditions du Ruche, 2001.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-14",
+          "title": "Kitāb al-Arbaʿīn fī al-Taṣawwuf / li-l-Ṣūfīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-15",
+          "title": "Kitāb al-Futuwwah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Süleyman Ateş (ed.). \"Kitāb al-Futuwwah,\" pp. ١-١١٥. In Süleyman Ateş (ed.). Tasavvufta Fütüvet. Ankara: Ankara Üniversitesi, 1977 ; reprint II, pp. 207-334. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "http://kitaplar.ankara.edu.tr/dosyalar/pdf/743.pdf",
+              "type": "complete"
+            },
+            {
+              "citation": "Ḥassān Dhunnūn al-Thārimī and Muḥammad ʿAbd Allāh al-Qadaḥāt (eds.). Kitāb al-Futuwwah. Amman: Dār al-Rāzī, 1422/2002.",
+              "link": "https://ia801407.us.archive.org/19/items/abuyaala_ajzaa17122010/futuwa_solami.pdf",
+              "type": "complete"
+            },
+            {
+              "citation": "Aḥmad Farīd Mizyadī (ed.). \"Kitāb al-Futuwwah,\" pp. 11-70. In Kitāb al-Futuwwah wa-yalīhi Manāhij al-ʿĀrifīn - Nasīm al-Arwāḥ - Kitāb al-Samāʿ - Ṣifāt al-Dhākirīn wa-l-Mutafakkirīn - Kalām al-Shāfiʿī fī al-Taṣawwuf. Beirut: Dār al-Kutub al-ʿIlmīyah, 1430/2009.",
+              "link": "https://books.google.com/books?id=pCtNDwAAQBAJ&pg=PT31&lpg=PT31&dq=كتاب+الفتوة+ويليها+منهاج+العارفين+pdf&source=bl&ots=40JMWnlA2t&sig=xcgpO1SwsELfKg7tDfzaf5ePSd8&hl=en&sa=X&ved=2ahUKEwiShajOyb3fAhWGT98KHZEXD5AQ6AEwCnoECAcQAQ#v=onepage&q=كتاب%20الفتوة%20ويليها%20منهاج%20العارفين%20pdf&f=false",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Süleyman Ateş (ed.). \"Tasavvufta Fütüvet,\" pp. 1-94. In Süleyman Ateş (ed.) Tasavvufta Fütüvet. Ankara: Ankara Üniversitesi, 1977.",
+              "link": "http://kitaplar.ankara.edu.tr/dosyalar/pdf/743.pdf",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Sheikh Tosun Bayrak al-Jerrahi al-Halveti (trans.). The Book of Sufi Chivalry. Lessons to a Son of the Moment. New York: Inner Traditions International, 1983.",
+              "link": "https://ia902509.us.archive.org/12/items/chivalry/chivalry.pdf",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Franz Langmayr and Roland Pawlowski (trans.). Der Sufi-Weg zur Vollkommenheit, Esotera Taschenbücherei. Freiburg im Breisgau: Bauer, 1985.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Faouzi Skali (trans.). Futūwa: Traité de Chevalerie Soufie, Spiritualités Vivantes Vol. 74. Paris: A. Michel, 1989.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-16",
+          "title": "Kitāb al-Samāʿ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-17",
+          "title": "Manāhij al-ʿĀrifīn",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Etan Kohlberg (ed.).  \"Manāhij al-ʿĀrifīn: A Treatise on Ṣūfism by Abū ʿAbd al-Raḥmān al-Sulamī,\" Jerusalem Studies in Arabic and Islam 1 (1979): pp. 19-39; reprint II, pp. 133-158. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Süleyman Ateş (ed.).  \"Manāhij al-ʿĀrifīn,\" pp. ٣-١٩. In Süleyman Ateş (ed.). Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprintBeirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete"
+            },
+            {
+              "citation": "Aḥmad Farīd Mizyadī (ed.). \"Manāhij al-ʿĀrifīn,\" pp. 71-100. In Aḥmad Farīd Mizyadī (ed.). Kitāb al-Futuwwah wa-yalīhi Manāhij al-ʿĀrifīn - Nasīm al-Arwāḥ - Kitāb al-Samāʿ - Ṣifāt al-Dhākirīn wa-l-Mutafakkirīn - Kalām al-Shāfiʿī fī al-Taṣawwuf. Beirut: Dār al-Kutub al-ʿIlmīyah, 1430/2009.",
+              "link": "https://books.google.com/books?id=pCtNDwAAQBAJ&pg=PT31&lpg=PT31&dq=كتاب+الفتوة+ويليها+منهاج+العارفين+pdf&source=bl&ots=40JMWnlA2t&sig=xcgpO1SwsELfKg7tDfzaf5ePSd8&hl=en&sa=X&ved=2ahUKEwiShajOyb3fAhWGT98KHZEXD5AQ6AEwCnoECAcQAQ#v=onepage&q=كتاب%20الفتوة%20ويليها%20منهاج%20العارفين%20pdf&f=false",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Süleyman Ateş (trans.). \"Âriflerin Yollari,\" pp. 7-22. In Süleyman Ateş (ed.). Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-18",
+          "title": "Masāʾil waradat min Makkah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Gerhard Böwering, \"Pāsukh-i Abū ʿAbd al-Raḥmān al-Sulamī bah yak Istifsār-i Makkī,\" Maʿārif-i Islāmī  (1374^/1996): pp. 30-44; reprint III, pp. 441-460. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "file:///Users/Apple/Desktop/ensani.ir/fa/article/journal-number/13623/معارف-1374-شماره-36-",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-19",
+          "title": "al-Muqaddimah fī al-Taṣawwuf wa-Ḥaqīqatuhu",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Süleyman Ateş (ed.). \"al-Muqaddimah fī al-Taṣawwuf,\" pp. ٩٣-١٣٠. In Süleyman Ateş (ed.). Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete"
+            },
+            {
+              "citation": "Ḥusayn Amīn (ed.). al-Muqaddimah fī al-Taṣawwuf wa-Ḥaqīqatuhu. Baghdad: Dār al-Qādisīyah, 1404/1984; reprint II, pp. 457-532. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.). Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Yūsuf Muḥammad Ṭāhā Zaydān (ed.). al-Muqaddimah fī al-Taṣawwuf wa-Ḥaqīqatuhu. Cairo: Maktabat al-Kulliyāt al-Azharīyah, 1407/1987; repr. Beirut: Dār al-Jīl, 1419/1999.",
+              "link": "https://drive.google.com/open?id=1usifjL0alUoeoLys6Gsm1Al6N6BZlGbA",
+              "type": "complete"
+            },
+            {
+              "citation": "ʿĀṣim Ibrāhīm al-Kayyālī (ed.) \"al-Muqaddimah fī al-Taṣawwuf wa-Ḥaqīqatuhu,\" pp. 9–62. In al-Muqaddimah fī al-Taṣawwuf li-Abī ʿAbd al-Raḥmān Muḥammad b. al-Ḥusayn al-Sulamī wa-yalīhi Karāmāt al-Awliyāʾ fī al-Ḥayāt wa-baʿda al-Intiqāl – Fayḍ al-ʿAlī al-Wurūd fī Taḥqīq Masʾalat al-Wuhūd – al-Farq bayna ak-Kalām al-Māturīdī wa-l-Ashʿarī li-l-Shaykh al-ʿAllāmah kullu-hā li-Aḥmad b. al-Ḥawan al-Jawharī al-Khālidī wa-yalīhi al-Majmūʿah al-Kāmilah fī al-Aḥzāb al-Shādhilīyah li-ʿUmar b. Jaʿfar al-Shubrāwī. Beirut: Dār al-Kutub al-ʿIlmīyah, 1426/2005.(link)",
+              "link": "https://archive.org/details/20210603_20210603_2243/mode/2up",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Süleyman Ateş (trans.). \"Tasavvufa Giriş,\" pp. 77-108. In Süleyman Ateş (ed.). Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-20",
+          "title": "[Kitāb] Nasīm al-Arwāḥ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Süleyman Ateş (ed.). \"Nasīm al-Arwāḥ,\" pp. ٩٣-١٣٠. In Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete"
+            },
+            {
+              "citation": "Aḥmad Ṭāhir ʿIrāqī (ed.). \"Nasīm al-Arwāḥ,\" II, pp. 159-170. In Naṣr Allāh Pūrjavādī and Muḥammad Sūrī (eds.). Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va-Rasāʾil-i Dīgar / Collected Works of Abū ʿAbd al-Raḥmān al-Sulamī, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universtät Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Aḥmad Farīd Mizyadī (ed.). \"Nasīm al-Arwāḥ,\" pp. 101-18. In Aḥmad Farīd Mizyadī (ed.). Kitāb al-Futuwwah wa-yalīhi Manāhij al-ʿĀrifīn - Nasīm al-Arwāḥ - Kitāb al-Samāʿ - Ṣifāt al-Dhākirīn wa-l-Mutafakkirīn - Kalām al-Shāfiʿī fī al-Taṣawwuf. Beirut: Dār al-Kutub al-ʿIlmīyah, 1430/2009.",
+              "link": "https://books.google.com/books?id=pCtNDwAAQBAJ&pg=PT31&lpg=PT31&dq=كتاب+الفتوة+ويليها+منهاج+العارفين+pdf&source=bl&ots=40JMWnlA2t&sig=xcgpO1SwsELfKg7tDfzaf5ePSd8&hl=en&sa=X&ved=2ahUKEwiShajOyb3fAhWGT98KHZEXD5AQ6AEwCnoECAcQAQ#v=onepage&q=كتاب%20الفتوة%20ويليها%20منهاج%20العارفين%20pdf&f=false",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Süleyman Ateş (trans.) \"Ruhlarin Nesîmi,\" pp. 135-141. In Süleyman Ateş (ed.). Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-21",
+          "title": "Risālat al-Malāmatiyyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Abū al-ʿAlāʾ al-ʿAfīfī (ed.). al-Malāmatīyah wa-l-Ṣūfīyah wa-Ahl al-Futuwwah. Cairo: Dār Iḥyāʾ al-Kutub al-ʿArabīyah, 1364/1945 ; reprint Cairo: Dār ʿĪsā Bābī al-Ḥalabī, 1975; Beirut and Cologne: Manshūrāt al-Jamal, 2015 ; reprinted in II, pp. 335-440. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "http://mc.dlib.nyu.edu/files/books/nyu_aco001777/nyu_aco001777_lo.pdf",
+              "type": "complete"
+            },
+            {
+              "citation": "ʿAbd al-Fattāḥ Aḥmad al-Fāwī (ed.). Uṣūl al-Malāmatīyah wa-Ghalaṭāt al-Ṣūfīyah. Cairo: Maktabat al-Zahrāʾ, 1985/1405; reprinted in idem.  al-Taṣawwuf: al-Wajh wa-l-Wajh al-Ākhir wa-maʿahu taḥqīq \"Kitāb al-Malāmatīytah wa-Ghalaṭāt al-Ṣūfīyah\" li-l-imām Abī ʿAbd al-Raḥmān al-Sulamī, pp. 285-322. Cairo: Maktabat al-Zahrāʾ, 1415/1995.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Richard Hartmann, \"As-Sulamī's Risālat al-Malāmatīja, \" Der Islam  8 (1918): pp. 157-204.",
+              "link": "https://drive.google.com/open?id=1uvAtB_ylwVN9se4TDsNMb_ChW1i5_ujv",
+              "type": "partial",
+              "language": ""
+            },
+            {
+              "citation": "Roger Deladrière (trans.). La Lucidité Implaccable: Épitres des hommes du blâme. Paris: Arléa, 1991.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-22",
+          "title": "[Masʾalat] Ṣifat al-Dhākirīn wa-l-Mutafakkirīn",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Abū Maḥfūẓ al-Karīm al-Maʿṣūmī. \"Masʾilat Ṣifāt al-Dhākirīn wa-l-Mutafakkirīn li-l-Sulamī,\" Majallat al-Majmaʿ al-ʿIlmī al-Hindī 9/1-2 (1404/1984): pp. 197-216 ; repr. II, pp. 441-56. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "https://archive.alsharekh.org/Articles/215/17129/387617",
+              "type": "complete"
+            },
+            {
+              "citation": "Aḥmad Farīd Mizyadī (ed.). \"Ṣifat al-Dhākirīn wa-l-Mutafakkirīn,\" pp. 173-52. In Aḥmad Farīd Mizyadī (ed.). Kitāb al-Futuwwah wa-yalīhi Manāhij al-ʿĀrifīn - Nasīm al-Arwāḥ - Kitāb al-Samāʿ - Ṣifāt al-Dhākirīn wa-l-Mutafakkirīn - Kalām al-Shāfiʿī fī al-Taṣawwuf. Beirut: Dār al-Kutub al-ʿIlmīyah, 1430/2009.",
+              "link": "https://books.google.com/books?id=pCtNDwAAQBAJ&pg=PT31&lpg=PT31&dq=كتاب+الفتوة+ويليها+منهاج+العارفين+pdf&source=bl&ots=40JMWnlA2t&sig=xcgpO1SwsELfKg7tDfzaf5ePSd8&hl=en&sa=X&ved=2ahUKEwiShajOyb3fAhWGT98KHZEXD5AQ6AEwCnoECAcQAQ#v=onepage&q=كتاب%20الفتوة%20ويليها%20منهاج%20العارفين%20pdf&f=false",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-23",
+          "title": "Suʾālāt Abī ʿAbd al-Raḥmān al-Sulamī li-l-Dāraquṭnī fī al-Jarḥ wa-l-Taʿdīl",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Süleyman Ateş (ed.). Suʾālāt Abī ʿAbd al-Raḥmān al-Sulamī li-l-Dāraquṭnī fī al-Jarḥ wa-l-Taʿdīl. Riyad: Dār al-ʿUlūm, 1408/1988.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Majdī Fatḥī al-Sayyid Ibrāhīm (ed.) Suʾālāt Abī ʿAbd al-Raḥmān al-Sulamī li-l-Dāraquṭnī fī al-Jarḥ wa-l-Taʿdīl. Ṭanṭā: Dār al-Ṣaḥābah li-l-Turāth, 1413/1992.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Saʿd b. ʿAbd Allāh al-Ḥamīd et al (eds.). Suʾālāt al-Sulamī li-l-Dāraquṭnī. Riyad: Maktabat al-Juraysīyah, 1427/2006.",
+              "link": "https://ia800503.us.archive.org/32/items/SualatSulamiOther/Sualat_Sulami_other.pdf",
+              "type": "complete"
+            },
+            {
+              "citation": "Abū ʿAmr Muḥammad b. ʿAlī al-Azharī (ed.). Suʾālāt Abī ʿAbd al-Raḥmān al-Sulamī li-l-imām al-Dāraquṭnī fī al-Jarḥ wa-l-Taʿdīl wa-ʿIlal al-Ḥadīth, Silsilat al-Suʾālāt al-Ḥadīthīyah Vol. 3. Cairo: Al-Fārūq al-Ḥadīthīyah, 1427/2006.",
+              "link": "https://ia800200.us.archive.org/16/items/SualatSulami/Sualat_Sulami.pdf",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-24",
+          "title": "Sulūk al-ʿĀrifīn",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Süleyman Ateş (ed.). \"Sulūk al-ʿĀrifīn,\"pp. ١٥٣-١٧٠. In Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993 ; reprint III, pp. 557-580. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Süleyman Ateş (trans.). \"Âriflerin Sülûkü Meselesi,\" pp. 122-33. In Süleyman Ateş (ed.). Tisʿat Kutub fī Uṣūl al-Taṣawwuf wa-l-Zuhd li-Abī ʿAbd al-Raḥmān al-Sulamī / Tasavvufun Ana Ilkeleri Sülemî'nin Risaleleri. Ankara: Ankara Üniversitesi Basimevi, 1401/1981; reprint Beirut: al-Nāshir, 1414/1993.",
+              "link": "http://abdelmagidzarrouki.com/2013-05-06-14-45-36/finish/682-/64652-/0",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-25",
+          "title": "ʿUyūb al-Nafs wa-Mudāwātuhā",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Kitāb ʿUyūb al-nafs. Beirut: Dār al-Ahliyah, N.D.",
+              "link": "http://mc.dlib.nyu.edu/files/books/princeton_aco004748/princeton_aco004748_lo.pdf",
+              "type": "complete"
+            },
+            {
+              "citation": "Etan Kohlberg (ed.).  Jawāmiʿ Ādāb al-Ṣūfīyah wa-ʿUyūb al-Nafs wa-Mudāwātuhā. Jerusalem: Jerusalem Academic Press, 1976; reprinted in I, pp. 409-65. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Muḥammad ʿAbd al-Munʿim al-Khaffājī and ʿAbd al-ʿAzīz Sharaf (eds.). ʿUyūb al-Nafs wa-Mudāwātuhā. Cairo: Dār al-Shurūq, 1401/1981.",
+              "link": "https://ia600307.us.archive.org/18/items/3oyoubAnnafs/3oyoub-annafs.pdf",
+              "type": "complete"
+            },
+            {
+              "citation": "Muḥammad ʿAbd al-Munʿim Khafājī and ʿAbd al-ʿAzīz Sharaf (eds.). ʿUyūb al-Nafs wa-Mudāwātuhā. Min Turāthinā al-Ṣūfī. Beirut: Dar El-Chorouq, 1401/1981. \nMajdī Fatḥī al-Sayyid Ibrāhīm (ed.). ʿUyūb al-Nafs wa-Mudāwātuhā. Ṭanṭā: Dār al-Ṣaḥābah li-l-Turāth, 1410/1990. (link)\nMuḥammad al-Sayyid al-Jalaynad (ed.). \"ʿUyūb al-Nafs wa-Mudāwātuhā, pp. ####. In Muḥammad al-Sayyid al-Jalaynad (ed.). Silsilat al-Turāth al-Salafī - Nawādir al-Makhṭūṭāt. Cairo: N.P., 1414/1993.",
+              "link": "http://www.kutubpdfcafee.com/booksat/kano/Booksstream.com_B1RE9H.pdf",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Abdul Karim Zein (trans.). Les Maladies de l'âme et leurs Remèdes. Traité de Psychologie Soufie. Milan: Archè, 1990.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-26",
+          "title": "Kitāb al-Aghāliṭ(=Ghalaṭāt al-Ṣūfīyah)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "ʿAbd al-Fattāḥ Aḥmad al-Fāwī (ed.). Uṣūl al-Malāmatīyah wa-Ghalaṭāt al-Ṣūfīyah. Cairo: Maktabat al-Zahrāʾ, 1985/1405; repr. pp. 285-322 in idem. al-Taṣawwuf: al-Wajh wa-l-Wajh al-Ākhir wa-maʿahu taḥqīq \"Kitāb al-Malāmatīytah wa-Ghalaṭāt al-Ṣūfīyah \" li-l-imām Abī ʿAbd al-Raḥmān al-Sulamī. Cairo: Maktabat al-Zahrāʾ, 1415/1995; reprinted in III, 461-482. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Jawad Anwar Qureshi (ed). \"Kitāb al-Aghāliṭ,\" pp. 49-68. In Jawad Anwar Qureshi. The Book of Errors: A Critical Edition and Study of Kitāb al-Aghālit [sic] by Abū ʿAbd al-Raḥmān al-Sulami (d. 412/1021). Master's Thesis: University of Georgia, 2002.",
+              "link": "https://getd.libs.uga.edu/pdfs/qureshi_jawad_a_200208_ma.pdf",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-27",
+          "title": "Sharḥ Maʿānī al-Ḥurūf",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Gerhard Böwering and Bilal Orfali (eds.). \"Sharḥ Maʿānī al-Ḥurūf,\" pp. ١-١٩. In Gerhard Böwering and Bilal Orfali (eds.). Rasāʾil Ṣūfīyah li-l-Sulamī / Sufi Treatises of Abū ʿAbd al-Raḥmān al-Sulamī, La Collection Recherches Nouvelle Série Vol. 22. Beirut: Dar El-Machreq, 2009. (",
+              "link": "https://www.academia.edu/441093/Sufi_Treatises_of_Ab%C5%AB_%CA%BFAbd_al_Ra%E1%B8%A5m%C4%81n_al_Sulam%C4%AB_Critical_edition_with_introduction_and_study_Gerhard_B%C3%B6wering_and_Bilal_Orfali_Beirut_Dar_al_Machreq_Recherches_2009%20Ab%C4%AB%20%CA%BFAbd%20al-Ra%E1%B8%A5m%C4%81n%20al-Sulam%C4%AB%20(t.%20412/1021)%20(=%20Sufi%20Treatises%20of%20Ab%C5%AB%C2%A0%CA%BFAbd%20al-Ra%E1%B8%A5m%C4%81n%20al-Sulam%C4%AB%20d.%20412/1021),%20ed.%20Gerhard%20B%C3%B6wering%20and%20Bilal%20Orfali,%20Recherches%20n.s.%20A%20Langue%20Arabe%20et%20Pens%C3%A9e%20Islamique%2022%20(Beirut:%20Dar%20El-Machreq,%202009),%20##",
+              "type": "complete"
+            },
+            {
+              "citation": "Jean-Jacques Thibon (ed.). \"Sharḥ Maʿānī al-Ḥurūf,\" III, pp. 223-274. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.). Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Gerhard Böwering. \"Sulamī's Treatise on the Science of the Letters (ʿilm al-ḥurūf),\" pp. 339–397, at 370–397. In In the Shadow of Arabic: The Centrality of Language to Arabic Culture. Studies Presented to Ramzi Baalbaki on His 60th Birthday, ed. Bilal Orfali, Studies in Semitic Languages and Linguistics 63. Leiden: Brill, 2011.",
+              "link": "https://brill.com/view/book/edcoll/9789004216136/B9789004216136_016.xml",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-28",
+          "title": "Bayān Laṭāʾif al-Miʿrāj",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Gerhard Böwering and Bilal Orfali (eds.). \"Bayān Laṭāʾif al-Miʿrāj,\" pp. ٢١-٣٠. In Gerhard Böwering and Bilal Orfali (eds.). Rasāʾil Ṣūfīyah li-l-Sulamī / Sufi Treatises of Abū ʿAbd al-Raḥmān al-Sulamī, La Collection Recherches Nouvelle Série Vol. 22. Beirut: Dar El-Machreq, 2009. (",
+              "link": "https://www.academia.edu/441093/Sufi_Treatises_of_Ab%C5%AB_%CA%BFAbd_al_Ra%E1%B8%A5m%C4%81n_al_Sulam%C4%AB_Critical_edition_with_introduction_and_study_Gerhard_B%C3%B6wering_and_Bilal_Orfali_Beirut_Dar_al_Machreq_Recherches_2009%20Ab%C4%AB%20%CA%BFAbd%20al-Ra%E1%B8%A5m%C4%81n%20al-Sulam%C4%AB%20(t.%20412/1021)%20(=%20Sufi%20Treatises%20of%20Ab%C5%AB%C2%A0%CA%BFAbd%20al-Ra%E1%B8%A5m%C4%81n%20al-Sulam%C4%AB%20d.%20412/1021),%20ed.%20Gerhard%20B%C3%B6wering%20and%20Bilal%20Orfali,%20Recherches%20n.s.%20A%20Langue%20Arabe%20et%20Pens%C3%A9e%20Islamique%2022%20(Beirut:%20Dar%20El-Machreq,%202009),%20##",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-29",
+          "title": "Tafsīr Alfāẓ al-Ṣūfīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Gerhard Böwering and Bilal Orfali (eds.). \"Tafsīr Alfāẓ al-Ṣūfīyah,\" pp. ٣١-٣٥. In Gerhard Böwering and Bilal Orfali (eds.). Rasāʾil Ṣūfīyah li-l-Sulamī / Sufi Treatises of Abū ʿAbd al-Raḥmān al-Sulamī, La Collection Recherches Nouvelle Série Vol. 22. Beirut: Dar El-Machreq, 2009. (",
+              "link": "https://www.academia.edu/441093/Sufi_Treatises_of_Ab%C5%AB_%CA%BFAbd_al_Ra%E1%B8%A5m%C4%81n_al_Sulam%C4%AB_Critical_edition_with_introduction_and_study_Gerhard_B%C3%B6wering_and_Bilal_Orfali_Beirut_Dar_al_Machreq_Recherches_2009%20Ab%C4%AB%20%CA%BFAbd%20al-Ra%E1%B8%A5m%C4%81n%20al-Sulam%C4%AB%20(t.%20412/1021)%20(=%20Sufi%20Treatises%20of%20Ab%C5%AB%C2%A0%CA%BFAbd%20al-Ra%E1%B8%A5m%C4%81n%20al-Sulam%C4%AB%20d.%20412/1021),%20ed.%20Gerhard%20B%C3%B6wering%20and%20Bilal%20Orfali,%20Recherches%20n.s.%20A%20Langue%20Arabe%20et%20Pens%C3%A9e%20Islamique%2022%20(Beirut:%20Dar%20El-Machreq,%202009),%20##",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-30",
+          "title": "al-Muntakhab min Ḥikāyāt al-Ṣūfīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Gerhard Böwering and Bilal Orfali (eds.). \"al-Muntakhab min Ḥikāyāt al-Ṣūfīyah,\" pp. ٣٧-٨٦. In Gerhard Böwering and Bilal Orfali (eds.). Rasāʾil Ṣūfīyah li-l-Sulamī / Sufi Treatises of Abū ʿAbd al-Raḥmān al-Sulamī, La Collection Recherches Nouvelle Série Vol. 22. Beirut: Dar El-Machreq, 2009. (",
+              "link": "https://www.academia.edu/441093/Sufi_Treatises_of_Ab%C5%AB_%CA%BFAbd_al_Ra%E1%B8%A5m%C4%81n_al_Sulam%C4%AB_Critical_edition_with_introduction_and_study_Gerhard_B%C3%B6wering_and_Bilal_Orfali_Beirut_Dar_al_Machreq_Recherches_2009%20Ab%C4%AB%20%CA%BFAbd%20al-Ra%E1%B8%A5m%C4%81n%20al-Sulam%C4%AB%20(t.%20412/1021)%20(=%20Sufi%20Treatises%20of%20Ab%C5%AB%C2%A0%CA%BFAbd%20al-Ra%E1%B8%A5m%C4%81n%20al-Sulam%C4%AB%20d.%20412/1021),%20ed.%20Gerhard%20B%C3%B6wering%20and%20Bilal%20Orfali,%20Recherches%20n.s.%20A%20Langue%20Arabe%20et%20Pens%C3%A9e%20Islamique%2022%20(Beirut:%20Dar%20El-Machreq,%202009),%20##",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-31",
+          "title": "Kitāb al-Amthāl wa-l-Istishhādāt",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Gerhard Böwering and Bilal Orfali (eds.). \"Kitāb al-Amthāl wa-l-Istishhādāt,\" pp. ٨٧-١١٦. In Gerhard Böwering and Bilal Orfali (eds.). Rasāʾil Ṣūfīyah li-l-Sulamī / Sufi Treatises of Abū ʿAbd al-Raḥmān al-Sulamī, La Collection Recherches Nouvelle Série Vol. 22. Beirut: Dar El-Machreq, 2009. (",
+              "link": "https://www.academia.edu/441093/Sufi_Treatises_of_Ab%C5%AB_%CA%BFAbd_al_Ra%E1%B8%A5m%C4%81n_al_Sulam%C4%AB_Critical_edition_with_introduction_and_study_Gerhard_B%C3%B6wering_and_Bilal_Orfali_Beirut_Dar_al_Machreq_Recherches_2009%20Ab%C4%AB%20%CA%BFAbd%20al-Ra%E1%B8%A5m%C4%81n%20al-Sulam%C4%AB%20(t.%20412/1021)%20(=%20Sufi%20Treatises%20of%20Ab%C5%AB%C2%A0%CA%BFAbd%20al-Ra%E1%B8%A5m%C4%81n%20al-Sulam%C4%AB%20d.%20412/1021),%20ed.%20Gerhard%20B%C3%B6wering%20and%20Bilal%20Orfali,%20Recherches%20n.s.%20A%20Langue%20Arabe%20et%20Pens%C3%A9e%20Islamique%2022%20(Beirut:%20Dar%20El-Machreq,%202009),%20##",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-32",
+          "title": "Masʾalah fī Qawāʿid al-Taṣawwuf wa-Mabānīhā",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bilal Orfali and Gerhard Böwering (eds.).  \"Masʾalah fī Qawāʿid al-Taṣawwuf wa-Mabānīhā,\" pp. ١-٩. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-33",
+          "title": "Masʾalat Māʾīyat al-Faqr wa-Ādābuhu",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bilal Orfali and Gerhard Böwering (eds.). \"Masʾalat Māʾīyat al-Faqr wa-Ādābuhu min Kalāmuhu raḥimahu Allāhu ʿalayhi,\" pp. ١١-١٦. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-34",
+          "title": "Masʿalat al-Ḥayāʾ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bilal Orfali and Gerhard Böwering (eds.). \"Masʾalat al-Ḥayāʾ,\" pp. ١٧-٢٣. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-35",
+          "title": "Masʾalat al-Firāsah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bilal Orfali and Gerhard Böwering (eds.). \"Masʾalat al-Firāsah min jamʿihi raḥimahu Allāh,\" pp. ٢٥-٣٦. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-36",
+          "title": "Dhamm Takabbur al-ʿUlamāʾ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bilal Orfali and Gerhard Böwering (eds.). \"Dhamm Takabbur al-ʿUlamāʾ,\" pp. ٣٧-٤٧. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-37",
+          "title": "Fuṣūl fī Naṣīḥat al-Umarāʾ wa-l-Wuzarāʾ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bilal Orfali and Gerhard Böweing (eds.). \"Fuṣūl fī Naṣīḥat al-Umarāʾ wa-l-Wuzarāʾ min jamʿihi raḥimahu Allāh,\" pp. ٤٩-٥٤. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-38",
+          "title": "Dhikr Miḥan[al-]Mashāyikh al-Ṣūfīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Jawad Anwar Qureshi (ed). \"Dhikr Miḥan Mashāyikh al-Ṣūfīyah,\" pp. 74-78. In Qureshi. he Book of Errors: A Critical Edition and Study of T Kitāb al-Aghālit [sic] by Abū ʿAbd al-Raḥmān al-Sulami (d. 412/1021). Master's Thesis: University of Georgia, 2002.",
+              "link": "https://getd.libs.uga.edu/pdfs/qureshi_jawad_a_200208_ma.pdf",
+              "type": "complete"
+            },
+            {
+              "citation": "Bilal Orfali and Gerhard Böwering (eds.). \"Dhikr Miḥan al-Mashāyikh al-Ṣūfīyah,\" pp. ٥٥-٥٩. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Reconstruction: Muḥammad Adīb Jādir (ed.). \"Miḥan al-Ṣūfīyah,\" pp. ١٩-٣٤ (Part B). In Muḥammad Adīb Jādir. Tārīkh al-Ṣūfīyah wa-bi-dhaylihi Miḥan al-Ṣūfīyah. Damascus: Dār Nīnawā, 1436/2015.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-39",
+          "title": "Fī Taʾwīl Qawlihi taʿālā'Fa-la-nuḥyiynnahu ḥayāwatanṭayyibatan'(Q 16:97)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bilal Orfali and Gerhard Böwering (eds.). \"ʿAn al-Shaykh ʿAbd al-Raḥmān al-Sulamī - raḥmatu Allāhi ʿalayhi - fī Taʾwīl Qawlihi taʿālā: Fa-la-nuḥyiynnahu ḥayāwatan ṭayyibatan',\" pp. ٦١-٦٣. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-40",
+          "title": "Fī Qawlihi subḥānahu wa-taʿālā'la-yahlika man halaka ʿan bayyinatinwa-yaḥyā man ḥayya ʿan bayyinatin'(Q 8:42)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bilal Orfali and Gerhard Böwering (eds.). \"ʿAn al-Shaykh Abī ʿAbd al-Raḥmān al-Sulamī - raḥmatu Allāhi ʿalayhi - fī Qawlihi subḥānahu wa-taʿālā: 'la-yahlika man halaka ʿan bayyinatin wa-yaḥyā man ḥayya ʿan bayyinatin ' (Q 8:42),\" pp. ٦٥-٦٧. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-41",
+          "title": "Qawl al-Nabī: 'Yaqūlu Allāhu - ʿazza wa-jalla - al-Ṣawmu lī wa-anā ajzī bihi'",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bilal Orfali and Gerhard Böwering (eds.). \"Qawl al-Nabī: 'Yaqūlu Allāhu - ʿazza wa-jalla - al-Ṣawmu lī wa-anā ajzī bihi',\" pp. ٦٩-٧١. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-42",
+          "title": "Qawl a-Nabī: 'Hādhān Sayyidā Kuhūl Ahl al-Jannah'",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bilal Orfali and Gerhard Böwering (eds.). \"Qawl al-Nabī: 'Hādhān Sayyidā Kuhūl Ahl al-Jannah',\" pp. ٧٣-٧٤. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-43",
+          "title": "Masʾalat al-Ḥabīb wa-l-Khalīl",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bilal Orfali and Gerhard Böwering (eds.). \"Masʿalat al-Ḥabīb wa-l-Khalīl ʿan Abī ʿAbd al-Raḥmān al-Sulamī - raḥmatu Allāhi ʿalayhi,\" pp. ٧٥-٧٨. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-44",
+          "title": "Masʾalat Dhawq Ṭaʿm al-Ḥayāh al-Aṣlīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Bilal Orfali and Gerhard Böwering (eds.). \"Masʾalat Dhawq Taʿm al-Ḥayāh al-Aṣlīyah - min Jihatihi raḥmatu Allāhi ʿalayhi,\" pp. ٧٩-٨١. In Bilal Orfali and Gerhard Böwering (eds.). Masāʾil wa-Taʾwīlāt Ṣūfīyah li-Abī ʿAbd al-Raḥmān al-Sulamī wa-yalīhi Juzʾ min Aḥādīth Ismāʿīl b. Nujayd / Sufi Inquiries and Interpretations of Abū ʿAbd al-Raḥmān al-Sulamī and a Treatise of Traditions by Ismāʿīl b. Nujayd, Nuṣūs wa-Durūs Islāmīyah. Beirut: Dar El-Machreq, 2012.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-45",
+          "title": "Kitāb Maḥāsin al-Taṣawwuf",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Kenneth Honerkamp (ed.). \"Kitāb Maḥāsin al-Taṣawwuf,\" III, 121-146. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-46",
+          "title": "Ḥikam Munthakhabah min Aqwāl al-ʿUlamāʾ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Kenneth Honerkamp (ed.).  \"Ḥikam Muntakhabah min Aqwāl al-ʿUlamāʾ,\" III, pp. 147-166. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-47",
+          "title": "Kitāb Fuṣūl fī al-Taṣawwuf",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Kenneth Honerkamp (ed.). \"Kitāb Fuṣūl fī al-Taṣawwuf,\" III, pp. 167-221. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-48",
+          "title": "Mā al-Taṣawwuf wa-man al-Ṣūfī",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Muḥammad Sūrī (ed.). \"Mā al-Taṣawwuf wa-man al-Ṣūfī,\" III, pp. 317-330. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-49",
+          "title": "Mustakhraj min Ḥikāyāt Ḥamdūn al-Qaṣṣār",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Muḥammad Sūrī (ed.). \"Mustakhraj min Ḥikāyāt Ḥamdūn al-Qaṣṣār,\" III, pp. 331-346. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-50",
+          "title": "Risālah fī Maʿrifat Allāh",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Muḥammad Sūrī (ed.). \"Risālah fī Maʿrifat Allāh,\" III, 347-62. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-51",
+          "title": "Risālat Rawḍ al-Murīdīn",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Muḥammad Sūrī (ed.). \"Risālat Rawḍ al-Murīdīn,\" III, pp. 363-82. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-52",
+          "title": "Kitāb Bayān al-Sharīʿah wa-l-Ḥaqīqah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Muḥammad Sūrī (ed.). \"Kitāb Bayān al-Sharīʿah wa-l-Ḥaqīqah,\" III, 383-406. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-53",
+          "title": "Ādāb al-Ṣūfīyah fī Ityānihim al-Rukhaṣ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Nadyā Zaydān (Nadia Zeydan) (ed.). \"Ādāb al-Ṣūfīyah fī Ityānihim al-Rukhaṣ,\" III, pp. 533-56. In Naṣr Allāh Pūrjavādī (I-III) and Muḥammad Sūrī (III) (eds.), Majmūʿah-yi Āthār-i Abū ʿAbd al-Raḥmān al-Sulamī. Bakhshhā-yi az Ḥaqāʾiq al-Tafsīr va Rasāʾil-i Dīgar / Collected Works on Early Sufism, 3 vols. Tehran: Markaz-i Nashr-i Dānishgāhī and Muʾassasah-yi Pazhvahash-i Ḥikmat va Falsafah-yi Īrān and Berlin: Muʾassasah-yi Muṭālaʿāt-i Islāmī and Dānishgāh-i Āzād-i Berlin (Freie Universität Berlin), 1991-2010.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-54",
+          "title": "Waṣīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Majdī Fatḥī al-Sayyid Ibrāhīm (ed.). Waṣīyat al-Shaykh al-Sulamī. Ṭanṭā: Dār al-Ṣaḥābah li-l-Turāth, N.D.",
+              "link": "https://al-maktaba.org/book/6890",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-55",
+          "title": "Tārīkh al-Ṣūfīyah(Various Sources)",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "reconstruction",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Louis Massignon and Paul Krause (eds.). Quatre Textes Inédits Rélatifs a la Biographie d'al-Ḥosayn-ibn Mansour al-Ḥallāj, pp. 15°-25°. Paris: Paul Geuthner, 1914.",
+              "link": "https://drive.google.com/open?id=17N-ab0Nk2MJ7MUZeME7FljEc9dKlCWYa",
+              "type": "partial"
+            },
+            {
+              "citation": "Ghazāl Muhājirī Zādeh (ed.). Tārīkh al-Ṣūfīyah. Tehran: Tuhūrī, 1389^ / 2011.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Muḥammad Adīb Jādir (ed.). \"Tārīkh al-Ṣūfīyah,\" pp. ١-٤٢٨ (Part A). In Muḥammad Adīb Jādir. Tārīkh al-Ṣūfīyah wa-bi-dhaylihi Miḥan al-Ṣūfīyah. Damascus: Dār Nīnawā, 1436/2015.",
+              "link": "",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Sulamī-ms",
+          "title": "Manuscripts",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "uncertain",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "amad-al-mln",
+      "name": "Abū Saʿd Aḥmad b. Muḥammad b. Aḥmad al-Mālīnī",
+      "nameArabic": "",
+      "deathDate": "412/1021-22",
+      "deathLocation": "Miṣr",
+      "century": "5th/11th",
+      "hasMultipleWorks": false,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Mālīnī-1",
+          "title": "Kitāb al-Arbaʿūn fī Shuyūkh al-Taṣawwuf",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "ʿĀmir Ḥasan Ṣabrī (ed.). Kitāb al-Arbaʿūn fī Shuyūkh al-Taṣawwuf, al-Ajzāʾ wa-l-Kutub al-Ḥadīthīyah Vol. 4. Beirut: Dār al-Bashāʾir al-Islāmīyah, 1417/1997.",
+              "link": "https://drive.google.com/open?id=1xpQGhd_bHA2PUleYWIAT1DNYaqc5LxCp",
+              "type": "complete"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "al-naqqsh-al-anbal",
+      "name": "Abū Saʿīd Muḥammad b. ʿAlī b. ʿAmr al-Naqqāsh al-Ḥanbalī",
+      "nameArabic": "",
+      "deathDate": "414/1023",
+      "deathLocation": "Isfahan",
+      "century": "5th/11th",
+      "hasMultipleWorks": true,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Naqqāsh-1",
+          "title": "Fawāʾid al-ʿIrāqīyīn",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Naqqāsh-2",
+          "title": "Al-Amālī - Thalāthah Majālis minhā",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Naqqāsh-3",
+          "title": "Funūn al-ʿAjāʾib (fī Akhbār al-Māḍīn min Banī Isrāʾīl wa-ghayrihim [...])",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "ziyd-al-ifahn",
+      "name": "Abū Manṣūr Maʿmar b. Aḥmad b. Muḥammad b. Ziyād al-Iṣfahānī",
+      "nameArabic": "",
+      "deathDate": "418/1027",
+      "deathLocation": "",
+      "century": "5th/11th",
+      "hasMultipleWorks": true,
+      "authorNote": "This bibliography is taken from Nasrollah Pourjavavdy, \"Abū Manṣūr al-Iṣfahānī,\" inEncyclopedia of Islam, THREE(Brill Online).",
+      "works": [
+        {
+          "id": "Mansur-1",
+          "title": "Ādāb al-Mutaṣawwifah wa-Ḥaqāʾiquhā wa-Ishārātuhā",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Mansur-2",
+          "title": "Kitāb al-Aḥādīth al-Arbaʿīn",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Mansur-3",
+          "title": "Kitāb al-Manāhij",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Mansur-4",
+          "title": "Kitāb al-Minhāj",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Mansur-5",
+          "title": "Waṣīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Mansur-6",
+          "title": "Dhikr Maʿānī al-Taṣawwuf",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Mansur-7",
+          "title": "Nahj al-Khāṣṣ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Mansur-8",
+          "title": "Sharḥ Abyāt li-Abī ʿAbd Allāh al-Murshidīfī Maʿnā Tajrīd al-Tawḥīd min Khafī Shirk al-Nafs",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Mansur-9",
+          "title": "Sharḥ al-Adhkār",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "allh-al-ifahn",
+      "name": "Abū Nuʿaym Aḥmad b. ʿAbd Allāh al-Iṣfahānī",
+      "nameArabic": "",
+      "deathDate": "430/1038",
+      "deathLocation": "Isfahan",
+      "century": "5th/11th",
+      "hasMultipleWorks": true,
+      "authorNote": "Abū Nuʿaym's scholarly interests extended well beyond the bounds of Sufism, as detailed in the bibliography of ʿAlīriḍā Dhakāwatī Qarāguzlū (Alireza Zakavati Gharagzlou) (trans. Hassan Ansari and Farzin Negahban), \"Abū Nuʿaym al-Iṣfahānī: Published Works; Manuscripts,\" in Wilferd Madelung and Farhad Daftary (eds.).Encyclopædia Islamica(Brill Online). Only those works with a discernible relation to Sufism are given here.",
+      "works": [
+        {
+          "id": "Abunuaym-1",
+          "title": "Ḥilyat al-Awliyāʾ wa-Ṭabaqāt al-Aṣfiyāʾ",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Abunuaym-2",
+          "title": "Juzʾ min Kitāb Riyāḍat al-Abdān",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "Abunuaym-3",
+          "title": "Kitāb al-Arbaʿīn ʿalā Madhhab al-Mutaḥaqqiqīn min al-Ṣūfīyah",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "isnad",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "muammad-al-daylam",
+      "name": "Abū al-Ḥasan ʿAlī b. Muḥammad al-Daylamī",
+      "nameArabic": "",
+      "deathDate": "fl. ca. 390/1000",
+      "deathLocation": "",
+      "century": "5th/11th",
+      "hasMultipleWorks": false,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Daylami-1",
+          "title": "ʿAṭf al-Alif al-Maʾlūf ʿalā al-Lām al-Maʿṭūf",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "Jean-Claude Vadet (ed.) Kitāb ʿAṭf al-Alif al-Maʾlūf ʿalā al-Lām al-Maʿṭūf: Livre de l'Inclinaison de l'Alif uni sur le Lam Incliné, Textes et Traductions d'Auteurs Orientaux Vol. 20. Cairo: Al-Maʿhad al-ʿIlmī al-Faransī li-l-Āthār al-Sharqīyah, 1962; reprint Paris: Diffusion Champion, 1980.",
+              "link": "",
+              "type": "complete"
+            },
+            {
+              "citation": "Joseph Norment Bell and Ḥasan Maḥmūd ʿAbd al-Laṭīf al-Shāfiʿī (eds.). ʿAṭf al-Alif al-Maʾlūf ʿalā al-Lām al-Maʿṭūf. Beirut: Dār al-Kitāb al-Lubnānī and Cairo: Dār al-Kitāb al-Miṣrī, 1428/2007.",
+              "link": "https://ia800104.us.archive.org/3/items/DaylamyT/عطف%20الألف%20المألوف%20على%20اللام%20المعطوف%20للديلمي%20Daylamy_P.pdf",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Jean-Claude Vadet (trans.) Le Traité d'Amour Mystique d'al-Daylami, Hautes Études Orientales Vol. 13. Geneva: Librairie Droz and Paris: Diffusion Champion, 1980.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            },
+            {
+              "citation": "Joseph Norment Bell (trans.). A Treatise on Mystical Love: Kitāb ʿAṭf al-Alif al-Maʾlūf alā al-Lām al-Malṭūf. Edinburgh: Edinburgh University, 2005.",
+              "link": "",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "b-yazdnyr",
+      "name": "Abū Jaʿfar Muḥammad b. al-Ḥusayn b. Aḥmad b. Yazdānyār",
+      "nameArabic": "",
+      "deathDate": "first third of 5th/11th c.?",
+      "deathLocation": "",
+      "century": "5th/11th",
+      "hasMultipleWorks": false,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "Yazdānyār-1",
+          "title": "Rawḍat al-Murīdīn",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [
+            {
+              "citation": "John Alden Williams Rawḍat al-Murīdīn of Shaykh Abū Jaʿfar Ibn Yazdānyār, pp. ١-١١٦. PhD Dissertation: Princeton University, 1960.",
+              "link": "https://drive.google.com/open?id=1DbgmntM_zM5sv7mqcb7IXzhpyi1B5-bi",
+              "type": "complete"
+            }
+          ],
+          "translations": [
+            {
+              "citation": "John Alden Williams Rawḍat al-Murīdīn of Shaykh Abū Jaʿfar Ibn Yazdānyār, pp. 1-186. PhD Dissertation: Princeton University, 1960.",
+              "link": "https://drive.google.com/open?id=1DbgmntM_zM5sv7mqcb7IXzhpyi1B5-bi",
+              "type": "complete",
+              "language": ""
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "al-asan-al-srjkgn",
+      "name": "Abū al-Ḥasan ʿAlī b. al-Ḥasan al-Sīr(j/k/g)ānī",
+      "nameArabic": "",
+      "deathDate": "ca. 470/1077",
+      "deathLocation": "",
+      "century": "5th/11th",
+      "hasMultipleWorks": false,
+      "authorNote": "",
+      "works": [
+        {
+          "id": "sirgani-1",
+          "title": "[Kitāb]al-Bayāḍ wa-l-Sawād",
+          "titleVariants": [],
+          "titleTranslation": "",
+          "type": "discursive",
+          "scholarlyCommentary": "",
+          "editions": [],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
     }
   ],
-  "metadata": {
-    "totalAuthors": 32,
-    "totalWorks": 149,
-    "lastUpdated": "2025-12-03",
-    "note": "This is a starter dataset. The complete bibliography from the original HTML contains 32 authors and 149 works spanning the 3rd/9th through 5th/11th centuries."
-  }
+  "workSpecificFootnotes": [
+    {
+      "id": "six",
+      "text": "For the view that this work should instead be attributed to Abū Jaʿfar Muḥammad b. Yaʿqūb al-Farajī (d. 271/884-5), see John J. Wainwright, Treading the Path of Salvation: The Religious Devotion of Shaqīq al-Balkhī, al-Ḥārith al-Muḥāsibī, and Abū Saʿīd al-Kharrāz (Ph.D. Dissertation: Oxford University, 2015), pp. 198-205. ↵ Josef van Ess has insisted that this work should be attributed to Abū ʿAbd Allāh (or: ʿAlī) Aḥmad b. ʿĀṣim al-Anṭākī (d. 239/853-4): van Ess, \"Review: Spiritual Purification in Islam: The Life and Works of al-Muḥāsibī , by Gavin Picken,\" Ilâhiyât Studies: A Journal on Islamic and Religious Studies 2/1 (2011): pp. 126-132, at p. 131. ↵ van Ess (ibid, p. 130) avers that the Laleli MS is a transcription from al-Ghazālī's (d. 505/1111) Iḥyāʾ ʿUlūm al-Dīn . ↵ apud . Christopher Melchert, \"The Transition from Asceticism to Mysticism at the Middle of the 9th Century C.E.,\" Studia Islamica 83 (1996): pp. 51-70, at p. 70 n. 108. However, Melchert does he offer any dated evidence to esatablish that this MS can be persuasively attributed to al-Junayd; Sezgin (GAS 1:649 №19) dates the manuscript to the twelfth century hijrī (after 1785 C.E.). Compare with the evidence in Waṣīyah (Preserved), below. ↵ Cf. Khizānat al-Turāth: Fihrist Makhṭūṭāt (Cairo: Markaz al-Malik Fayṣal, N.D.), vol. 63, p. 77 №63403. (link) ↵ Sezgin ( GAS I, p. 661 №30(+) ) following the BNRM Catalogue, incorrectly gives the title as \" Risāla fī t-taṣawwuf \" . ↵ The attribution has never been satisfactorily established. See the discussion in Radtke (ed.). Adab al-Mulūk , pp. 3-21. (link) ↵ An edition has been promised in Hassan Ansari and Sabine Schmidtke, \"Abū Saʿd al-Ḫargūšī and his Kitāb al-Lawāmiʿ : A Ṣūfī guidebook for preachers in 4th/10th century Nīšāpūr,\" Arabica 58 (2011): pp. 503-518. (link) ↵ Edited by a team of unknown scholars from al-Azhar University. Identifying these individuals is an academic desideratum. ",
+      "backlinkTarget": "Muḥāsibī-16",
+      "relatedWorkIds": [
+        "Muḥāsibī-16"
+      ]
+    },
+    {
+      "id": "seven",
+      "text": "Josef van Ess has insisted that this work should be attributed to Abū ʿAbd Allāh (or: ʿAlī) Aḥmad b. ʿĀṣim al-Anṭākī (d. 239/853-4): van Ess, \"Review: Spiritual Purification in Islam: The Life and Works of al-Muḥāsibī , by Gavin Picken,\" Ilâhiyât Studies: A Journal on Islamic and Religious Studies 2/1 (2011): pp. 126-132, at p. 131. ",
+      "backlinkTarget": "Muḥāsibī-ed-17",
+      "relatedWorkIds": []
+    },
+    {
+      "id": "eight",
+      "text": "van Ess (ibid, p. 130) avers that the Laleli MS is a transcription from al-Ghazālī's (d. 505/1111) Iḥyāʾ ʿUlūm al-Dīn . ",
+      "backlinkTarget": "Muḥāsibī-ms-5",
+      "relatedWorkIds": []
+    },
+    {
+      "id": "nine",
+      "text": "apud . Christopher Melchert, \"The Transition from Asceticism to Mysticism at the Middle of the 9th Century C.E.,\" Studia Islamica 83 (1996): pp. 51-70, at p. 70 n. 108. However, Melchert does he offer any dated evidence to esatablish that this MS can be persuasively attributed to al-Junayd; Sezgin (GAS 1:649 №19) dates the manuscript to the twelfth century hijrī (after 1785 C.E.). Compare with the evidence in Waṣīyah (Preserved), below. ",
+      "backlinkTarget": "Junayd-2",
+      "relatedWorkIds": [
+        "Junayd-2"
+      ]
+    },
+    {
+      "id": "ten",
+      "text": "Cf. Khizānat al-Turāth: Fihrist Makhṭūṭāt (Cairo: Markaz al-Malik Fayṣal, N.D.), vol. 63, p. 77 №63403. (link) ",
+      "backlinkTarget": "https://al-maktaba.org/book/5678/62077",
+      "relatedWorkIds": []
+    },
+    {
+      "id": "eleven",
+      "text": "Sezgin ( GAS I, p. 661 №30(+) ) following the BNRM Catalogue, incorrectly gives the title as \" Risāla fī t-taṣawwuf \" . ",
+      "backlinkTarget": "Khuldī-ms-5",
+      "relatedWorkIds": []
+    },
+    {
+      "id": "twelve",
+      "text": "The attribution has never been satisfactorily established. See the discussion in Radtke (ed.). Adab al-Mulūk , pp. 3-21. (link) ",
+      "backlinkTarget": "https://menadoc.bibliothek.uni-halle.de/inhouse/content/pageview/1473527",
+      "relatedWorkIds": []
+    },
+    {
+      "id": "thirteen",
+      "text": "An edition has been promised in Hassan Ansari and Sabine Schmidtke, \"Abū Saʿd al-Ḫargūšī and his Kitāb al-Lawāmiʿ : A Ṣūfī guidebook for preachers in 4th/10th century Nīšāpūr,\" Arabica 58 (2011): pp. 503-518. (link) ",
+      "backlinkTarget": "https://brill.com/view/journals/arab/58/6/article-p503_2.xml",
+      "relatedWorkIds": []
+    },
+    {
+      "id": "fourteen",
+      "text": "Edited by a team of unknown scholars from al-Azhar University. Identifying these individuals is an academic desideratum. ",
+      "backlinkTarget": "Abunuaym-ed-1",
+      "relatedWorkIds": []
+    }
+  ]
 }
