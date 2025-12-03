@@ -1,0 +1,145 @@
+{
+  "authors": [
+    {
+      "id": "burjulani",
+      "name": "Abū al-Shaykh Muḥammad b. al-Ḥusayn al-Burjulānī",
+      "deathDate": "238/852-3",
+      "deathLocation": "Baghdad",
+      "century": "3rd/9th",
+      "hasMultipleWorks": false,
+      "works": [
+        {
+          "id": "burjulani-1",
+          "title": "Kitāb al-Karam wa-l-Jūd wa-Sakhāʾ al-Nufūs",
+          "titleTranslation": "",
+          "type": "isnad",
+          "editions": [
+            {
+              "citation": "ʿĀmir Ḥasan Ṣabrī (ed.). Kitāb al-Karam wa-l-Jūd wa-Sakhāʾ al-Nufūs. Beirut: Dār Ibn Ḥazm, 1412/1991.",
+              "link": "https://drive.google.com/open?id=1I5ZkBit4dDwfASXCTJtJUHbCCG1dKgH-"
+            },
+            {
+              "citation": "Bernd Radtke (ed.). 'Kitāb al-Karam wa-l-Jūd wa-Sakhāʾ al-Nufūs,' pp. 3-43 (Part A). In Radtke (ed.). Materialien zur alten islamische Frömmigkeit, Basic Texts in Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
+              "link": ""
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Bernd Radtke (trans.). 'Kitāb al-Karam wa-l-Jūd wa-Sakhāʾ al-Nufūs,' pp. 3-43 (Part A). In Radtke (ed.). Materialien zur alten islamische Frömmigkeit, Basic Texts in Islamic Mysticism Vol. 2. Leiden: Brill, 2008.",
+              "link": "https://brill.com/view/title/15451",
+              "language": "German"
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    },
+    {
+      "id": "muhasibi",
+      "name": "Abū ʿAbd Allāh al-Ḥārith b. Asad al-Muḥāsibī",
+      "deathDate": "243/857",
+      "deathLocation": "Baghdad",
+      "century": "3rd/9th",
+      "hasMultipleWorks": true,
+      "note": "This bibliography is taken - with modifications from Sezgin, GAS, I:640-642 - from Gavin Picken, Spiritual Purification in Islam. The Life and Works of al-Muḥāsibī, Routledge Sufi Series (London: Routledge, 2011), pp. 67-122.",
+      "works": [
+        {
+          "id": "muhasibi-1",
+          "title": "Kitāb al-Riʿāyah li-Ḥuqūq Allāh [wa-l-Qiyām bihā]",
+          "titleTranslation": "",
+          "type": "discursive",
+          "editions": [
+            {
+              "citation": "Margaret Smith (ed.). Kitāb al-Riʿāyah li-Ḥuqūq Allāh, E.J.W. Gibb Memorial Series Vol. 15. London: Luzac, 1940.",
+              "link": ""
+            },
+            {
+              "citation": "ʿAbd al-Ḥalīm Maḥmūd (ed.). al-Riʿāyah li-Ḥuqūq Allāh. Cairo: Dār al-Kutub al-Ḥadīthah, 1390/1970; reprint Cairo: Dār al-Maʿārif, 1410/1990.",
+              "link": "https://ia601703.us.archive.org/12/items/abdelhalimmahmoud/ri3aya.pdf"
+            },
+            {
+              "citation": "ʿAbd al-Qādir Aḥmad ʿAṭā (ed.). al-Riʿāyah li-Ḥuqūq Allāh. Beirut: Dār al-Kutub al-ʿIlmyah, 1410/1990.",
+              "link": "https://ia601705.us.archive.org/17/items/elmohasebi/ri3aya.pdf"
+            },
+            {
+              "citation": "ʿIṣām Ḥarastānī and Muḥammad Ibrāhīm Zaghlī (eds.). al-Riʿāyah li-Ḥuqūq Allāh. Beirut: Dār al-Jīl, 1422/2001.",
+              "link": ""
+            }
+          ],
+          "translations": [
+            {
+              "citation": "Abdallah Sâbir (trans.). L'Observance des Droits de Dieu: l'Expression de la Gratitude du Croyant. Paris Iqra - Éditions de La Ruche, 2001.",
+              "link": "",
+              "language": "French"
+            },
+            {
+              "citation": "Tholib Anis (trans.). Memelihara hak-hak Allah: Sebuah Karya Klasik Tasawuf (= ed. Maḥmūd). Bandung: Pustaka Hidayah, 2002.",
+              "link": "",
+              "language": "Indonesian"
+            },
+            {
+              "citation": "Şahin Filiz and Hülya Kücük (trans.). Er-Riâye. Istanbul: Insan Yayınları, 2011.",
+              "link": "",
+              "language": "Turkish"
+            }
+          ],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "muhasibi-2",
+          "title": "Kitāb al-Waṣāyā / al-Naṣāʾiḥ al-Dīnīyah",
+          "titleTranslation": "",
+          "type": "discursive",
+          "editions": [
+            {
+              "citation": "ʿAbd al-Qādir Aḥmad ʿAṭā (ed.). al-Waṣāyā aw al-Naṣʾīḥ al-Dīnīyah [wa-l-Nafaḥāt al-Qudsīyah li-Nafʿ Jamīʿ al-Birrīyah]. Cairo: Maktabat Muḥammad ʿAlī Ṣabīḥ, 1965; reprint N.P.: Maktabat Khālid b. al-Walīd, 1400/1980; reprinted in ʿAbd al-Qādir Aḥmad ʿAṭā (ed.). al-Waṣāyā / al-Naṣāʾiḥ — al-Qaṣd wa-l-Rujūʿ ilā Allāh — Badʾ man Anāba ilā Allāh — Fahm al-Ṣalāt — Kitāb al-Tawahhum. Beirut: Dār al-Kutub al-ʿIlmīyah, 1406/1986.",
+              "link": "https://archive.org/details/20220127_20220127_0526"
+            },
+            {
+              "citation": "Muḥammad ʿAbd al-ʿAzīz Aḥmad (ed.). Kitāb al-Naṣāʾiḥ. Cairo: Maktabat al-Qurʾān, 1412/1992.",
+              "link": ""
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        },
+        {
+          "id": "muhasibi-3",
+          "title": "Kitāb al-Tawahhum [fī Waṣf Aḥwāl al-Ākhirah]",
+          "titleTranslation": "",
+          "type": "discursive",
+          "editions": [
+            {
+              "citation": "A.J. Arberry (ed.). Kitāb al-Tawahhum. Cairo: Lanjnat al-Taʾlīf wa-l-Tarjamah wa-l-Nashr, 1937; reprint (with indices) Cairo: Maktabat al-Nahḍah al-Islāmīyah and Aleppo: Dār al-Waʿī, 1979 = Zaqāzīq (Egypt): Dār al-Arqām, 1989 = Baghdad and London: Bayt al-Warrāq, 2010.",
+              "link": "https://ia800504.us.archive.org/31/items/sdakahh_gmail/الحارث%20بن%20أسد%20المحاسبي%20-%20كتاب%20التوهم.pdf"
+            },
+            {
+              "citation": "Khālid ʿAbd al-Raḥmān al-ʿAkk (ed.). al-Tawahhum fī Waṣf Aḥwāl al-Ākhirah. Beirut: Dār al-Bashāʾir al-Islāmīyah, 1411/1991.",
+              "link": ""
+            },
+            {
+              "citation": "ʿAbd al-Qādr Aḥmad ʿAṭāʾ (ed.). 'Kitāb al-Tawahhum', pp. 387-443. InʿAbd al-Qādir Aḥmad ʿAṭā (ed.). al-Waṣāyā / al-Naṣāʾiḥ — al-Qaṣd wa-l-Rujūʿ ilā Allāh — Badʾ man Anāba ilā Allāh — Fahm al-Ṣalāt — Kitāb al-Tawahhum. Beirut: Dār al-Kutub al-ʿIlmīyah, 1406/1986. Reprint, pp. 153-201. In ʿAbd al-Qādir Aḥmad ʿAṭā (ed.). Ādāb al-Nufūs wa-yalīhi Kitāb al-Tawahhum. Beirut: Muʾassasat al-Kutub al-Thaqāfīyah, 1411/1991",
+              "link": "https://ia802609.us.archive.org/21/items/31705/31705.pdf"
+            },
+            {
+              "citation": "al-Mustʿaṣim bi-Allāh Abī Hurayrah (ed.). al-Tawahhum fī Waṣf Aḥwāl al-Ākhirah, with comments of Muṣṭafā b. ʿAlī b. Jaʿfar al-Ṭayyār. Aleppo: Maktabat al-Turāth al-Islāmī, N.D.",
+              "link": "https://al-maktaba.org/book/21799"
+            }
+          ],
+          "translations": [],
+          "manuscripts": [],
+          "reproductions": []
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "totalAuthors": 32,
+    "totalWorks": 149,
+    "lastUpdated": "2025-12-03",
+    "note": "This is a starter dataset. The complete bibliography from the original HTML contains 32 authors and 149 works spanning the 3rd/9th through 5th/11th centuries."
+  }
+}
