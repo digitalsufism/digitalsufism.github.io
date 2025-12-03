@@ -7,21 +7,21 @@ format:
 
 ## A Bibliography of Primary Sources on Early Sufism
 
-The following bibliography presents the Arabic sources that are extant or largely reproduced in later writings by the earliest Sufis or "proto-Sufis" who were active before or contemporary with [ʿAbd al-Karīm al-Qushayrī](https://www.academia.edu/11926762/The_Textual_Legacy_of_Abū_l-Qāsim_al-Qušayrī_A_Bibliographic_Record) (d. Nishapur, 465/1072). In total, this corpus comprises **149 works, treatises, or fragments by thirty-two authors**, who were active during the period ranging from the beginning of the third/ninth century to the middle of the fifth/eleventh century.
+The following bibliography presents the Arabic sources that are extant or largely reproduced in later writings by the earliest Sufis or "proto-Sufis" who were active before or contemporary with [ʿAbd al-Karīm al-Qushayrī](https://www.academia.edu/11926762/The_Textual_Legacy_of_Abū_l-Qāsim_al-Qušayrī_A_Bibliographic_Record) (d. Nishapur, 465/1072). In total, this corpus comprises **149 works, treatises, or fragments by thirty-two authors**, who were active during the period ranging from the beginning of the third/ninth century to the middle of the fifth/eleventh century. The focus on these early Arabic sources is important for three reasons.
 
 ::: {.callout-note collapse="true"}
-## Why Focus on Early Arabic Sources?
+## Continue Reading: Why Focus on Early Arabic Sources?
 
-**First**, the rate of publication of Arabic sources on early Sufism has increased dramatically over the past thirty years. Many of the works that appear in this bibliography - especially those from the fourth/tenth and early fifth/eleventh centuries – were documented by Fuat Sezgin (d. 2018) in the first volume of his monumental [*Geschichte des arabischen Schrifttums*](https://books.google.ae/books?id=3U2loA0orUkC) (Leiden: Brill, 1967). However, there is no comprehensive, up-to-date record of the availability of these works in published editions, and some additional material has been located subsequent to Sezgin's study.
+**First**, the rate of publication of Arabic sources on early Sufism has increased dramatically over the past thirty years. Many of the works that appear in this bibliography - especially those from the fourth/tenth and early fifth/eleventh centuries – were documented by Fuat Sezgin (d. 2018) in the first volume of his monumental [*Geschichte des arabischen Schrifttums*](https://books.google.ae/books?id=3U2loA0orUkC) (Leiden: Brill, 1967). However, there is no comprehensive, up-to-date record of the availability of these works in published editions, and some additional material has been located subsequent to Sezgin's study. As a consequence, many of the works noted here have rarely featured in relevant studies of early systematic Sufi literature or activity. The remark of Julian Baldick, who describes a "peculiar gap in the middle of the fourth century" in Sufis' production of documents, typifies the extent to which some of these works have remained marginal in scholarship on Sufism in European languages. Although a number of the sources listed here do not provide more polished or explicit commentary on the nature of early Sufism than works from the later fifth/eleventh century, such as al-Qushayrī's voluminous output or al-Hujwīrī's *Kashf al-Maḥjūb* (ed. and trans. [Nicholson](https://archive.org/details/kashfalmahjub00usmauoft/page/n3) / ed. [Žukhovskiy](https://drive.google.com/open?id=1nJjaKR8gasakwm1EixCQ25dfPKJt1rZu)), they are nonetheless historiographically valuable. In fact, most were composed by figures who either witnessed the formative period of the late third/ninth century firsthand, or who lived at a single remove from it and were in contact with individuals who fit the preceding description.
 
-**Second**, many of the works that appear in this bibliography are based on relational data. That is, the authors explicitly identify the source of quotes or, even more significantly, preface quotations with extensive "pathways of transmission" (Ar. *asānīd*; sg. *isnād*). The value of these relational data for better describing the dynamics of early Sufi activity has been remarked upon by Sara Sviri: "The formative period of Islamic mysticism cannot be properly described without an attempt to map the affiliations that connected individual mystics of this period to one another."
+**Second**, many of the works that appear in this bibliography are based on relational data. That is, the authors explicitly identify the source of quotes or, even more significantly, preface quotations with extensive "pathways of transmission" (Ar. *asānīd*; sg. *isnād*). The value of these relational data for better describing the dynamics of early Sufi activity has been remarked upon by Sara Sviri: "The formative period of Islamic mysticism cannot be properly described without an attempt to map the affiliations that connected individual mystics of this period to one another." In the Blog, I outline a number of ways that such relational data can be used in historical investigations of the development of early Sufism.
 
-**Finally**, drawing attention to these early works and their relational data is especially appropriate in light of the criticisms of "neo-skeptical" scholarship as it has been applied to the analysis of early Sufism.
+**Finally**, drawing attention to these early works and their relational data is especially appropriate in light of the criticisms of "neo-skeptical" scholarship as it has been applied to the analysis of early Sufism. For instance, Jawid Mojaddedi claims that the contents of fifth-/eleventh-century works like al-Sulamī's (d. 412/1021) *Ṭabaqāt al-ṣūfīyah* should not be treated as "databanks of factual information," and insists rather that such works convey the impression that their contents have been "creatively reworked through time." Similarly, Kenneth Avery contends that, with respect to early Sufis, "it is not the historical biography that is really preserved [in later works], though some historical data are revealed." Such conclusions may hold up in the end, but the relative lack of attention to actual *isnād*-analysis in these works – Mojaddedi examines a maximum of five *isnād*s for any single conclusion about the historiographical worth of early Sufi prosopographies, Avery none – should make the comprehensive examination of these data a priority in future research.
 :::
 
-## Search the Bibliography
+---
 
-Use the interactive database below to search and filter through the bibliography of primary sources.
+## Search the Bibliography
 
 ```{ojs}
 //| echo: false
@@ -167,7 +167,7 @@ filteredWorks.map(work => {
             ${work.translations.map(tr => html`
               <li style="margin-bottom: 0.5rem; color: #adb5bd; font-size: 0.9rem;">
                 ${tr.language ? `[${tr.language}] ` : ''}${tr.citation}
-                ${tr.link ? html` <a href="${ed.link}" target="_blank" style="color: #0dcaf0; text-decoration: none;">[link]</a>` : ''}
+                ${tr.link ? html` <a href="${tr.link}" target="_blank" style="color: #0dcaf0; text-decoration: none;">[link]</a>` : ''}
               </li>
             `)}
           </ol>

@@ -73,7 +73,7 @@ section:nth-of-type(3) {
 
 // Headings
 h1, h2, h3, h4, h5, h6 {
-  color: $light-text;
+  color: #ffffff;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -81,11 +81,17 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
+  color: #ffffff;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 600;
+  color: #e9ecef;
+}
+
+h3, h4, h5, h6 {
+  color: #dee2e6;
 }
 
 // Links
@@ -249,5 +255,24 @@ table {
     background-color: $darker-bg;
     color: $light-text;
     border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  label {
+    color: #e9ecef;
+    font-weight: 500;
+  }
+}
+
+// Callout boxes
+.callout {
+  background-color: rgba(13, 110, 253, 0.1);
+  border-left: 4px solid #0d6efd;
+
+  .callout-header {
+    color: #ffffff;
+  }
+
+  p {
+    color: #dee2e6;
   }
 }
