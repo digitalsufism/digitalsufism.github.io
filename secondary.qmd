@@ -1,0 +1,19 @@
+---
+title: "Secondary Scholarship"
+---
+
+::: {.feature-dark style="padding: 4rem 0;"}
+::: {.container}
+::: {.row}
+::: {.col-md-12 .text-center}
+
+## Thank you for visiting this page.
+
+Content for the **Secondary Scholarship** page is currently being developed.
+
+Please check back soon for updates.
+
+:::
+:::
+:::
+:::

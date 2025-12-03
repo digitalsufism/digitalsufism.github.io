@@ -1,0 +1,91 @@
+/* Additional custom styles */
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Container max-width for better readability */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Grid utilities */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-lg-6, .col-lg-10, .col-md-12 {
+  padding: 0 15px;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-lg-10 {
+    flex: 0 0 83.33%;
+    max-width: 83.33%;
+  }
+
+  .offset-lg-1 {
+    margin-left: 8.33%;
+  }
+}
+
+/* Center text utility */
+.text-center {
+  text-align: center;
+}
+
+/* Feature sections */
+.feature-dark {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
+}
+
+/* Observable JS overrides for dark theme */
+.observablehq {
+  --theme-foreground: #f8f9fa;
+  --theme-background: #1a1d20;
+  --theme-background-alt: #212529;
+  --theme-foreground-alt: #adb5bd;
+  --theme-foreground-muted: #6c757d;
+  --theme-foreground-faint: #495057;
+}
+
+/* Ensure Arabic text renders properly */
+[lang="ar"], .arabic {
+  font-family: "Traditional Arabic", "Arabic Typesetting", "Geeza Pro", "Al Bayan", sans-serif;
+  direction: rtl;
+  text-align: right;
+}

@@ -1,0 +1,32 @@
+# Quarto
+_site/
+/.quarto/
+*.html
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+
+**/*.quarto_ipynb

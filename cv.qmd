@@ -1,0 +1,19 @@
+---
+title: "Curriculum Vitae"
+---
+
+::: {.feature-dark style="padding: 4rem 0;"}
+::: {.container}
+::: {.row}
+::: {.col-md-12 .text-center}
+
+## Jeremy Farrell
+
+For my complete academic CV, please visit:
+
+[Academia.edu Profile](https://emory.academia.edu/JeremyFarrell/CurriculumVitae){.btn .btn-primary target="_blank"}
+
+:::
+:::
+:::
+:::

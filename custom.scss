@@ -1,0 +1,253 @@
+/*-- scss:defaults --*/
+
+// Color palette for dark theme
+$dark-bg: #212529;
+$darker-bg: #1a1d20;
+$light-text: #f8f9fa;
+$muted-text: #adb5bd;
+$accent-color: #0d6efd;
+
+// Typography
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 600;
+
+/*-- scss:rules --*/
+
+// Global dark theme
+body {
+  background-color: $darker-bg;
+  color: $light-text;
+}
+
+// Navbar styling
+.navbar {
+  background-color: $dark-bg !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  .navbar-brand, .nav-link {
+    color: $light-text !important;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+// Section styling
+section {
+  padding: 4rem 0;
+
+  &.feature-dark {
+    background-color: $dark-bg;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
+
+// Smooth fade-in animation (CSS only)
+.animated-section {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Apply fade-in to main content sections
+.quarto-title-block,
+section:nth-of-type(1),
+section:nth-of-type(2) {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+section:nth-of-type(3) {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: $light-text;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+// Links
+a {
+  color: $accent-color;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: lighten($accent-color, 15%);
+    text-decoration: underline;
+  }
+}
+
+// Footer styling
+.page-footer {
+  background-color: $dark-bg;
+  color: $muted-text;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  a {
+    color: $light-text;
+    margin: 0 0.5rem;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+// Bibliography work type colors
+.work-type-discursive {
+  background-color: #f8f9fa;
+  color: #212529;
+  border: 1px solid #dee2e6;
+}
+
+.work-type-isnad {
+  background-color: #0dcaf0;
+  color: #000;
+  border: 1px solid #0dcaf0;
+}
+
+.work-type-reconstruction {
+  background-color: #ffc107;
+  color: #000;
+  border: 1px solid #ffc107;
+}
+
+.work-type-uncertain {
+  background-color: #dc3545;
+  color: #fff;
+  border: 1px solid #dc3545;
+}
+
+// Bibliography cards
+.bib-card {
+  background-color: $dark-bg;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  .work-type-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-right: 0.5rem;
+  }
+}
+
+// Search and filter controls
+.search-controls {
+  background-color: $dark-bg;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  input, select {
+    background-color: $darker-bg;
+    color: $light-text;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+
+    &:focus {
+      outline: none;
+      border-color: $accent-color;
+    }
+  }
+
+  label {
+    color: $muted-text;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+}
+
+// Responsive images
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Feature sections
+.feature-caption {
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: $muted-text;
+
+    a {
+      color: $accent-color;
+      font-weight: 500;
+    }
+  }
+}
+
+// Tables
+table {
+  background-color: $dark-bg;
+  color: $light-text;
+
+  thead {
+    background-color: $darker-bg;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+
+  th, td {
+    padding: 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
+
+// Observable JS styling
+.observablehq {
+  background-color: transparent;
+  color: $light-text;
+
+  input, select {
+    background-color: $darker-bg;
+    color: $light-text;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}

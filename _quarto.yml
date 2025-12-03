@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Digital Sufism / التصوّف الرقميّ"
+  site-url: https://digitalsufism.github.io
+  repo-url: https://github.com/digitalsufism/digitalsufism.github.io
+  favicon: img/sufi.png
+
+  navbar:
+    background: dark
+    logo: img/sufi.png
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Documents"
+        menu:
+          - text: "Primary Sources"
+            href: primary.qmd
+          - text: "Secondary Scholarship"
+            href: secondary.qmd
+          - text: "Future Directions"
+            href: futuredirections.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "Contact"
+        href: "#footer"
+    right:
+      - text: "Jeremy Farrell"
+        href: https://emory.academia.edu/JeremyFarrell/CurriculumVitae
+
+  page-footer:
+    background: dark
+    left: |
+      © 2019–2025 [Jeremy Farrell](cv.qmd)
+    center: |
+      [Attribution-NonCommercial – CC BY-NC](https://creativecommons.org/licenses/)
+    right:
+      - icon: envelope
+        href: mailto:digitalsufism@gmail.com
+        aria-label: Email
+      - icon: github
+        href: https://github.com/digitalsufism
+        aria-label: GitHub
+
+  google-analytics: "UA-140121905-1"
+
+  search:
+    location: navbar
+    type: textbox
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    css: styles.css
+    toc: false
+    grid:
+      body-width: 1000px
+    lang: en
+    link-external-newwindow: true
