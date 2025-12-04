@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>deployment_guide – Digital Sufism / التصوّف الرقميّ</title>
+<title>About – Digital Sufism / التصوّف الرقميّ</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -143,7 +108,7 @@ gtag('config', 'G-FNJVMD1FQC', { 'anonymize_ip': true});
 <span class="menu-text">Bibliography</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -159,271 +124,50 @@ gtag('config', 'G-FNJVMD1FQC', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">About</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="deployment-guide-for-digital-sufism-website" class="level1">
-<h1>Deployment Guide for Digital Sufism Website</h1>
-<p>This guide will walk you through deploying your Quarto website to GitHub Pages at <code>https://digitalsufism.github.io/</code>.</p>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<ul>
-<li>GitHub account (you’re logged in as zurstadt)</li>
-<li>Quarto installed on your computer</li>
-<li>Git installed on your computer</li>
-<li>Terminal/command line access</li>
-</ul>
-</section>
-<section id="step-by-step-deployment-process" class="level2">
-<h2 class="anchored" data-anchor-id="step-by-step-deployment-process">Step-by-Step Deployment Process</h2>
-<section id="phase-1-create-github-organization-5-minutes" class="level3">
-<h3 class="anchored" data-anchor-id="phase-1-create-github-organization-5-minutes">Phase 1: Create GitHub Organization (5 minutes)</h3>
-<ol type="1">
-<li><strong>Go to GitHub</strong> and log in as zurstadt
-<ul>
-<li>Visit: https://github.com</li>
-</ul></li>
-<li><strong>Create new organization</strong>
-<ul>
-<li>Click your profile photo (top-right)</li>
-<li>Select “Your organizations”</li>
-<li>Click “New organization”</li>
-<li>Choose “Create a free organization”</li>
-</ul></li>
-<li><strong>Configure organization</strong>
-<ul>
-<li>Organization account name: <code>digitalsufism</code></li>
-<li>Contact email: (your email)</li>
-<li>This organization belongs to: “My personal account”</li>
-<li>Click “Next”</li>
-<li>Skip the team members step (click “Complete setup”)</li>
-</ul></li>
-</ol>
-</section>
-<section id="phase-2-create-repository-3-minutes" class="level3">
-<h3 class="anchored" data-anchor-id="phase-2-create-repository-3-minutes">Phase 2: Create Repository (3 minutes)</h3>
-<ol type="1">
-<li><strong>Create new repository</strong> in digitalsufism organization
-<ul>
-<li>From the organization page, click “Create a new repository”</li>
-<li>Or visit: https://github.com/organizations/digitalsufism/repositories/new</li>
-</ul></li>
-<li><strong>Configure repository</strong>
-<ul>
-<li>Repository name: <strong>EXACTLY</strong> <code>digitalsufism.github.io</code></li>
-<li>Description: “Digital Sufism project - materials for the study of early Sufism”</li>
-<li>Visibility: <strong>Public</strong> (required for free GitHub Pages)</li>
-<li>Do NOT check “Add a README file”</li>
-<li>Do NOT check “Add .gitignore”</li>
-<li>Do NOT choose a license</li>
-<li>Click “Create repository”</li>
-</ul></li>
-<li><strong>Note the repository URL</strong>
-<ul>
-<li>You should see: <code>https://github.com/digitalsufism/digitalsufism.github.io</code></li>
-<li>Keep this page open for reference</li>
-</ul></li>
-</ol>
-</section>
-<section id="phase-3-push-your-site-to-github-5-minutes" class="level3">
-<h3 class="anchored" data-anchor-id="phase-3-push-your-site-to-github-5-minutes">Phase 3: Push Your Site to GitHub (5 minutes)</h3>
-<p>Open Terminal and navigate to your project:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /Users/jfireland05/Desktop/git-projects/digital-sufism/quarto-digitalsufism</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Initialize Git and push:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize git repository</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Add all files</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create first commit</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial commit: Quarto Digital Sufism website"</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Connect to GitHub repository</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin https://github.com/digitalsufism/digitalsufism.github.io.git</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Rename branch to main</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> branch <span class="at">-M</span> main</span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Push to GitHub</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">-u</span> origin main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p><strong>Note</strong>: You may be prompted for your GitHub username and password. For password, use a <a href="https://github.com/settings/tokens">Personal Access Token</a> rather than your actual password.</p>
-</section>
-<section id="phase-4-create-gh-pages-branch-2-minutes" class="level3">
-<h3 class="anchored" data-anchor-id="phase-4-create-gh-pages-branch-2-minutes">Phase 4: Create gh-pages Branch (2 minutes)</h3>
-<p>This branch will hold your published website:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create empty gh-pages branch</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout <span class="at">--orphan</span> gh-pages</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> reset <span class="at">--hard</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">--allow-empty</span> <span class="at">-m</span> <span class="st">"Initialize gh-pages branch"</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin gh-pages</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Switch back to main branch</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="phase-5-configure-github-pages-2-minutes" class="level3">
-<h3 class="anchored" data-anchor-id="phase-5-configure-github-pages-2-minutes">Phase 5: Configure GitHub Pages (2 minutes)</h3>
-<ol type="1">
-<li><strong>Go to repository settings</strong>
-<ul>
-<li>Visit: https://github.com/digitalsufism/digitalsufism.github.io/settings/pages</li>
-</ul></li>
-<li><strong>Configure Pages</strong>
-<ul>
-<li>Under “Source”, select:
-<ul>
-<li>Branch: <code>gh-pages</code></li>
-<li>Folder: <code>/ (root)</code></li>
-</ul></li>
-<li>Click “Save”</li>
-</ul></li>
-<li><strong>Note</strong>: GitHub will show the URL where your site will be published: <code>https://digitalsufism.github.io/</code></li>
-</ol>
-</section>
-<section id="phase-6-publish-your-site-1-minute" class="level3">
-<h3 class="anchored" data-anchor-id="phase-6-publish-your-site-1-minute">Phase 6: Publish Your Site (1 minute)</h3>
-<p>From your project directory:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>You’ll see output like:</p>
-<pre><code>? Update site at https://digitalsufism.github.io/? (Y/n) ›</code></pre>
-<p>Press <code>Y</code> and Enter.</p>
-<p>Quarto will: 1. Render all your pages 2. Push the content to the gh-pages branch 3. Your site will go live!</p>
-<p><strong>Wait 1-2 minutes</strong>, then visit: <strong>https://digitalsufism.github.io/</strong></p>
-<p>🎉 Your site is live!</p>
-</section>
-</section>
-<section id="future-updates" class="level2">
-<h2 class="anchored" data-anchor-id="future-updates">Future Updates</h2>
-<section id="making-changes" class="level3">
-<h3 class="anchored" data-anchor-id="making-changes">Making Changes</h3>
-<ol type="1">
-<li><p><strong>Edit your files</strong> in the <code>quarto-digitalsufism</code> directory</p>
-<ul>
-<li>Modify .qmd files for content</li>
-<li>Update <code>data/bibliography.json</code> to add more works</li>
-<li>Edit <code>custom.scss</code> for styling changes</li>
-</ul></li>
-<li><p><strong>Preview changes locally</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Visit http://localhost:4444 to see your changes</p></li>
-<li><p><strong>Commit changes to Git</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Description of your changes"</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
-<li><p><strong>Publish to GitHub Pages</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
-</ol>
-</section>
-<section id="adding-more-bibliography-entries" class="level3">
-<h3 class="anchored" data-anchor-id="adding-more-bibliography-entries">Adding More Bibliography Entries</h3>
-<p>The current <code>data/bibliography.json</code> has sample entries. To add more:</p>
-<ol type="1">
-<li>Open <code>data/bibliography.json</code> in a text editor</li>
-<li>Add new author objects or works following the existing structure</li>
-<li>Each work should have:
-<ul>
-<li>Unique <code>id</code></li>
-<li><code>title</code> (Arabic)</li>
-<li><code>type</code>: one of <code>discursive</code>, <code>isnad</code>, <code>reconstruction</code>, <code>uncertain</code></li>
-<li>Arrays for <code>editions</code>, <code>translations</code>, <code>manuscripts</code>, <code>reproductions</code></li>
-</ul></li>
-<li>Save the file</li>
-<li>Test locally with <code>quarto preview</code></li>
-<li>Commit and publish</li>
-</ol>
-</section>
-<section id="maintaining-two-sites" class="level3">
-<h3 class="anchored" data-anchor-id="maintaining-two-sites">Maintaining Two Sites</h3>
-<p>If you want to keep both zurstadt.github.io and digitalsufism.github.io:</p>
-<ul>
-<li><strong>zurstadt.github.io</strong>: Your personal academic site</li>
-<li><strong>digitalsufism.github.io</strong>: The Digital Sufism project</li>
-</ul>
-<p>They’re independent and can coexist!</p>
-</section>
-</section>
-<section id="troubleshooting" class="level2">
-<h2 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h2>
-<section id="issue-repository-already-exists" class="level3">
-<h3 class="anchored" data-anchor-id="issue-repository-already-exists">Issue: “Repository already exists”</h3>
-<ul>
-<li>Someone else may have created <code>digitalsufism</code> organization</li>
-<li>Try a variation like <code>digitalsufism-project</code></li>
-<li>Update <code>_quarto.yml</code> with the new URL</li>
-</ul>
-</section>
-<section id="issue-gh-pages-branch-not-found" class="level3">
-<h3 class="anchored" data-anchor-id="issue-gh-pages-branch-not-found">Issue: “gh-pages branch not found”</h3>
-<ul>
-<li>Make sure you created and pushed the gh-pages branch (Phase 4)</li>
-<li>Check branches: <code>git branch -a</code></li>
-</ul>
-</section>
-<section id="issue-site-not-updating" class="level3">
-<h3 class="anchored" data-anchor-id="issue-site-not-updating">Issue: “Site not updating”</h3>
-<ul>
-<li>Wait 2-3 minutes after publishing</li>
-<li>Check GitHub Actions: https://github.com/digitalsufism/digitalsufism.github.io/actions</li>
-<li>Clear browser cache or try incognito mode</li>
-</ul>
-</section>
-<section id="issue-404-when-visiting-site" class="level3">
-<h3 class="anchored" data-anchor-id="issue-404-when-visiting-site">Issue: “404 when visiting site”</h3>
-<ul>
-<li>Verify GitHub Pages is configured correctly in Settings → Pages</li>
-<li>Ensure <code>gh-pages</code> branch exists</li>
-<li>Wait a few minutes for DNS propagation</li>
-</ul>
-</section>
-<section id="issue-authentication-failed-when-pushing" class="level3">
-<h3 class="anchored" data-anchor-id="issue-authentication-failed-when-pushing">Issue: Authentication failed when pushing</h3>
-<ul>
-<li>Use a <a href="https://github.com/settings/tokens">Personal Access Token</a> instead of password</li>
-<li>Or set up <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">SSH keys</a></li>
-</ul>
-</section>
-</section>
-<section id="advanced-custom-domain-optional" class="level2">
-<h2 class="anchored" data-anchor-id="advanced-custom-domain-optional">Advanced: Custom Domain (Optional)</h2>
-<p>If you want to use a custom domain like <code>digitalsufism.org</code>:</p>
-<ol type="1">
-<li><p>Purchase domain from a registrar</p></li>
-<li><p>Add <code>CNAME</code> file to your project root:</p>
-<pre><code>digitalsufism.org</code></pre></li>
-<li><p>Configure DNS with your registrar:</p>
-<ul>
-<li>Add <code>CNAME</code> record pointing to <code>digitalsufism.github.io</code></li>
-</ul></li>
-<li><p>In GitHub Settings → Pages, add your custom domain</p></li>
-<li><p>Enable “Enforce HTTPS”</p></li>
-</ol>
-</section>
-<section id="support" class="level2">
-<h2 class="anchored" data-anchor-id="support">Support</h2>
-<ul>
-<li><strong>Quarto Documentation</strong>: https://quarto.org/docs/publishing/github-pages.html</li>
-<li><strong>GitHub Pages Docs</strong>: https://docs.github.com/en/pages</li>
-<li><strong>Project Issues</strong>: Open an issue on GitHub if you encounter problems</li>
-</ul>
-</section>
-<section id="next-steps" class="level2">
-<h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
-<ol type="1">
-<li>✅ Complete the deployment following this guide</li>
-<li>Add more bibliography entries to <code>data/bibliography.json</code></li>
-<li>Develop content for Secondary Scholarship page</li>
-<li>Develop content for Future Directions page</li>
-<li>Set up blog posts when ready</li>
-<li>Share your new site URL with colleagues!</li>
-</ol>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="digital-sufism-project" class="level2">
+<h2 class="anchored" data-anchor-id="digital-sufism-project">Digital Sufism Project</h2>
+<p>This website offers digital resources for the study of early Islamic mysticism, with a focus on primary sources from the formative period (3rd/9th to 5th/11th centuries). The project aims to address gaps in the availability and accessibility of early Sufi literature and promote computational methodologies for historical analysis.</p>
 <hr>
-<p><strong>Your new site will be live at</strong>: https://digitalsufism.github.io/</p>
-<p>Good luck! 🚀</p>
-
-
 </section>
+<section id="jeremy-farrell" class="level2">
+<h2 class="anchored" data-anchor-id="jeremy-farrell">Jeremy Farrell</h2>
+<p>I am a scholar of early Islamic mysticism specializing in the formative period of Sufism. My research applies computational methods, particularly network analysis, to the study of early Sufi texts and their transmission.</p>
+<p>For my complete academic CV and publications, please visit my <a href="https://emory.academia.edu/JeremyFarrell/CurriculumVitae">Academia.edu profile</a>.</p>
+<hr>
+</section>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<p>For correspondence, feedback, or updates to the data on this site, please contact:</p>
+<p><strong>Email:</strong> <a href="mailto:farrell.jedw@gmail.com">farrell.jedw@gmail.com</a></p>
+<p><strong>GitHub:</strong> <a href="https://github.com/digitalsufism">github.com/digitalsufism</a></p>
+<hr>
+</section>
+<section id="license" class="level2">
+<h2 class="anchored" data-anchor-id="license">License</h2>
+<p>All content on this site is licensed under <strong>Attribution-NonCommercial – CC BY-NC</strong>. See the <a href="https://creativecommons.org/licenses/">Creative Commons license page</a> for details.</p>
+
+
 </section>
 
 </main> <!-- /main -->
