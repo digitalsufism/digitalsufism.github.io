@@ -65,9 +65,25 @@ def extract_work_specific_footnotes(soup):
             footnote_id = li.get('id')
             if footnote_id in work_ids:
                 print(f"   Found work-specific footnote: {footnote_id}")
-                # Get text content
-                text = li.get_text(separator=' ', strip=True)
+
+                # Get text content, but exclude nested <li> elements to handle malformed HTML
+                # We'll extract text by iterating through direct children
+                text_parts = []
+                for child in li.children:
+                    # Stop if we encounter a nested list or nested li element
+                    if child.name in ['ol', 'ul', 'li']:
+                        break
+                    # Get text from this child
+                    if hasattr(child, 'get_text'):
+                        text_parts.append(child.get_text(separator=' ', strip=True))
+                    elif isinstance(child, str):
+                        text_parts.append(child.strip())
+
+                text = ' '.join(text_parts)
+
+                # Remove trailing backlink arrow and clean up
                 text = re.sub(r'↵\s*$', '', text)
+                text = ' '.join(text.split())  # Normalize whitespace
 
                 # Extract backlink target (work ID)
                 backlink = li.find('a', href=True)
