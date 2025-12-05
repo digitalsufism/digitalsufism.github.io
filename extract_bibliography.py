@@ -268,6 +268,7 @@ def extract_work(work_div, work_button, author_id):
         'titleVariants': [],
         'titleTranslation': '',
         'type': work_type,
+        'status': '',  # Will be determined after extracting editions/manuscripts/reproductions
         'scholarlyCommentary': '',
         'editions': [],
         'translations': [],
@@ -327,6 +328,21 @@ def extract_work(work_div, work_button, author_id):
     work_data['translations'] = extract_section('Translations', 'translations')
     work_data['manuscripts'] = extract_section('Manuscripts', 'manuscripts')
     work_data['reproductions'] = extract_section('Reproductions', 'reproductions')
+
+    # Determine work status based on availability
+    has_editions = len(work_data['editions']) > 0
+    has_reproductions = len(work_data['reproductions']) > 0
+    has_manuscripts = len(work_data['manuscripts']) > 0
+
+    if has_editions:
+        work_data['status'] = 'published'
+    elif has_reproductions:
+        work_data['status'] = 'reproduced'
+    elif has_manuscripts:
+        work_data['status'] = 'extant-as-manuscript'
+    else:
+        # Should not happen based on current data, but handle gracefully
+        work_data['status'] = 'unknown'
 
     # Extract footnote references (for scholarly commentary)
     footnote_refs = work_button.find_all('sup')
