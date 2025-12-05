@@ -238,6 +238,30 @@ def extract_work(work_div, work_button, author_id):
     if not content:
         return None
 
+    # Skip section headers (e.g., "Manuscripts" section that contains nested works)
+    # Section headers contain nested work buttons (not edition/translation/manuscript section buttons)
+    # Edition/translation buttons have targets ending in -ed, -tr, -ms, -repr (with optional number)
+    nested_buttons = content.find_all('button', attrs={'data-target': lambda x: x and x.startswith('#')})
+    nested_work_buttons = []
+    for btn in nested_buttons:
+        target = btn.get('data-target', '').replace('#', '')
+        # Check if this is an edition/translation/manuscript/reproduction section button
+        # These have IDs like "work-ed", "work-tr", "work-ed-1", "work-ms-2", etc.
+        is_section_button = (
+            target.endswith('-ed') or target.endswith('-tr') or
+            target.endswith('-ms') or target.endswith('-repr') or
+            '-ed-' in target or '-tr-' in target or
+            '-ms-' in target or '-repr-' in target
+        )
+
+        # If it's not a section button, it's a work button
+        if not is_section_button:
+            nested_work_buttons.append(btn)
+
+    if nested_work_buttons:
+        print(f"      Skipping section header: {title} (contains {len(nested_work_buttons)} nested works)")
+        return None
+
     work_data = {
         'id': work_id if work_id else f"{author_id}-work",
         'title': title,
@@ -251,25 +275,58 @@ def extract_work(work_div, work_button, author_id):
         'reproductions': []
     }
 
-    # Extract editions
-    editions_div = content.find('div', id=lambda x: x and '-ed' in x)
-    if editions_div:
-        work_data['editions'] = extract_citations(editions_div, 'editions')
+    # Helper function to find button by text content
+    def find_button_by_text(parent, text):
+        for button in parent.find_all('button'):
+            if text in button.get_text():
+                return button
+        return None
 
-    # Extract translations
-    translations_div = content.find('div', id=lambda x: x and '-tr' in x)
-    if translations_div:
-        work_data['translations'] = extract_citations(translations_div, 'translations')
+    # Helper function to extract citations by section type
+    def extract_section(section_name, citation_type):
+        # Pattern 1: with collapse div (id contains -ed, -tr, -ms, -repr)
+        suffix_map = {'Editions': '-ed', 'Translations': '-tr', 'Manuscripts': '-ms', 'Reproductions': '-repr'}
+        suffix = suffix_map.get(section_name, '')
 
-    # Extract manuscripts
-    manuscripts_div = content.find('div', id=lambda x: x and '-ms' in x)
-    if manuscripts_div:
-        work_data['manuscripts'] = extract_citations(manuscripts_div, 'manuscripts')
+        section_div = content.find('div', id=lambda x: x and suffix in x) if suffix else None
+        if section_div:
+            return extract_citations(section_div, citation_type)
 
-    # Extract reproductions
-    reproductions_div = content.find('div', id=lambda x: x and '-repr' in x)
-    if reproductions_div:
-        work_data['reproductions'] = extract_citations(reproductions_div, 'reproductions')
+        # Pattern 2: button followed by <ol> directly
+        section_button = find_button_by_text(content, section_name)
+        if section_button:
+            # Check Pattern 3: <ol> inside button (invalid HTML but exists)
+            ol_inside = section_button.find('ol')
+            if ol_inside:
+                return extract_citations(section_button, citation_type)
+
+            # Pattern 2 continued: <ol> as sibling
+            ol = section_button.find_next_sibling('ol')
+            if ol:
+                return extract_citations(ol.parent, citation_type)
+
+        # Pattern 4: <h6> heading followed by <ol>
+        h6_map = {'Editions': ['Editions', 'EDITIONS'],
+                  'Translations': ['Translations', 'TRANSLATIONS'],
+                  'Manuscripts': ['MS', 'Manuscripts', 'MANUSCRIPTS'],
+                  'Reproductions': ['Reproductions', 'REPRODUCTIONS', 'REPRODUCED']}
+        h6_texts = h6_map.get(section_name, [])
+        if h6_texts:
+            for h6 in content.find_all('h6'):
+                h6_content = h6.get_text().strip()
+                if any(text in h6_content for text in h6_texts):
+                    # Find the parent div and extract from it
+                    parent_div = h6.find_parent('div')
+                    if parent_div:
+                        return extract_citations(parent_div, citation_type)
+
+        return []
+
+    # Extract all sections using the unified helper function
+    work_data['editions'] = extract_section('Editions', 'editions')
+    work_data['translations'] = extract_section('Translations', 'translations')
+    work_data['manuscripts'] = extract_section('Manuscripts', 'manuscripts')
+    work_data['reproductions'] = extract_section('Reproductions', 'reproductions')
 
     # Extract footnote references (for scholarly commentary)
     footnote_refs = work_button.find_all('sup')
