@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Secondary Scholarship – Digital Sufism / التصوّف الرقميّ</title>
+<title>A Bibliography of Secondary Scholarship on Early Sufism – Digital Sufism / التصوّف الرقميّ</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -41,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-383c37534d0382b18cd8013145745c19.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-97fc206f45a02d5d8d95d25e5958bedf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,27 +103,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FNJVMD1FQC"></script>
 
 <script type="text/javascript">
 
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-FNJVMD1FQC', { 'anonymize_ip': true});
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-140121905-1', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
 </script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./img/sufi.png" alt="" class="navbar-logo light-content">
+    <img src="./img/sufi.png" alt="" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Digital Sufism / التصوّف الرقميّ</span>
     </a>
@@ -103,13 +149,35 @@ gtag('config', 'G-FNJVMD1FQC', { 'anonymize_ip': true});
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./bibliography.html"> 
-<span class="menu-text">Bibliography</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bibliography" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Bibliography</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-bibliography">    
+        <li>
+    <a class="dropdown-item" href="./bibliography.html">
+ <span class="dropdown-text">Primary Sources</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./secondary.html">
+ <span class="dropdown-text">Secondary Scholarship</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="mailto:farrell.jedw@gmail.com"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/digitalsufism"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -119,21 +187,21 @@ gtag('config', 'G-FNJVMD1FQC', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Secondary Scholarship</h1>
+<h1 class="title">A Bibliography of Secondary Scholarship on Early Sufism</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -145,21 +213,382 @@ gtag('config', 'G-FNJVMD1FQC', { 'anonymize_ip': true});
 </header>
 
 
-<div class="feature-dark" style="padding: 4rem 0;">
-<div class="container">
-<div class="row">
-<section id="thank-you-for-visiting-this-page." class="level2 col-md-12 text-center">
-<h2 class="anchored" data-anchor-id="thank-you-for-visiting-this-page.">Thank you for visiting this page.</h2>
-<p>Content for the <strong>Secondary Scholarship</strong> page is currently being developed.</p>
-<p>Please check back soon for updates.</p>
-</section>
+<p>This companion bibliography gathers <strong>secondary scholarship</strong> on the early Sufis and “proto-Sufis” documented in our <a href="./bibliography.html">Primary Sources</a> corpus. It launches with a fully curated set of <strong>encyclopaedia entries</strong> drawn from nine reference works (EI², EI³, <em>Encyclopaedia Iranica</em>, <em>Encyclopaedia Islamica</em>, the <em>Türkiye Diyanet Vakfı İslâm Ansiklopedisi</em>, the <em>Dāʾirat al-Maʿārif-i Buzurg-i Islāmī</em>, and others), assembled with the <a href="https://github.com/ammusto/sufi-bios">sufi-bios</a> project. Where an entry concerns one of the authors in the primary corpus, it is cross-linked to that author.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>About this bibliography
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A larger multilingual corpus of <strong>studies</strong> — journal articles, monographs, book chapters, theses, and translations in Arabic, English, French, German, Italian, Persian, and Turkish — is being reviewed and will be added progressively. Corrections and additions are very welcome — please <a href="mailto:farrell.jedw@gmail.com">contact us</a>.</p>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="19" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 18;"><span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>secondary <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"data/secondary.json"</span>)<span class="op">.</span><span class="fu">json</span>()</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>allWorks <span class="op">=</span> secondary<span class="op">.</span><span class="at">works</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co">// summary statistics</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>nEncyclopaedias <span class="op">=</span> <span class="kw">new</span> <span class="bu">Set</span>(allWorks<span class="op">.</span><span class="fu">filter</span>(w <span class="kw">=&gt;</span> w<span class="op">.</span><span class="at">containerAbbrev</span>)<span class="op">.</span><span class="fu">map</span>(w <span class="kw">=&gt;</span> w<span class="op">.</span><span class="at">containerAbbrev</span>))<span class="op">.</span><span class="at">size</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>nLinked <span class="op">=</span> allWorks<span class="op">.</span><span class="fu">filter</span>(w <span class="kw">=&gt;</span> (w<span class="op">.</span><span class="at">relatedPersons</span> <span class="op">||</span> [])<span class="op">.</span><span class="fu">some</span>(p <span class="kw">=&gt;</span> p<span class="op">.</span><span class="at">authorId</span>))<span class="op">.</span><span class="at">length</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div style="background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 1.5rem; margin: 2rem 0;"&gt;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;h3 style="margin-top: 0; color: #212529;"&gt;Corpus Overview&lt;/h3&gt;</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem;"&gt;</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;div style="text-align: center;"&gt;</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div style="font-size: 2.5rem; color: #0d6efd; font-weight: bold;"&gt;</span><span class="sc">${</span>allWorks<span class="op">.</span><span class="at">length</span><span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div style="color: #6c757d;"&gt;Total Works&lt;/div&gt;</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/div&gt;</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;div style="text-align: center;"&gt;</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div style="font-size: 2.5rem; color: #fd7e14; font-weight: bold;"&gt;</span><span class="sc">${</span>nEncyclopaedias<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div style="color: #6c757d;"&gt;Reference Works&lt;/div&gt;</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/div&gt;</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;div style="text-align: center;"&gt;</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div style="font-size: 2.5rem; color: #17a2b8; font-weight: bold;"&gt;</span><span class="sc">${</span>nLinked<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div style="color: #6c757d;"&gt;Linked to Primary Authors&lt;/div&gt;</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/div&gt;</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="vs">    </span><span class="sc">${</span>secondary<span class="op">.</span><span class="at">metadata</span><span class="op">.</span><span class="at">pendingReview</span> <span class="op">?</span> <span class="fu">html</span><span class="vs">`&lt;div style="text-align: center;"&gt;</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div style="font-size: 2.5rem; color: #6610f2; font-weight: bold;"&gt;</span><span class="sc">${</span>secondary<span class="op">.</span><span class="at">metadata</span><span class="op">.</span><span class="at">pendingReview</span><span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div style="color: #6c757d;"&gt;Studies in Review&lt;/div&gt;</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/div&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/div&gt;</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-5" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="54" data-source-offset="-58"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 53;"><span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;style&gt;</span></span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a><span class="vs">  .observablehq input[type="search"],</span></span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="vs">  .observablehq input[type="text"] {</span></span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a><span class="vs">    color: #212529 !important;</span></span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="vs">    background-color: #ffffff !important;</span></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="vs">    border: 1px solid #ced4da !important;</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="vs">  }</span></span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="vs">  .observablehq input[type="search"]::placeholder { color: #6c757d !important; }</span></span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/style&gt;`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-1" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb3" data-startfrom="64" data-source-offset="-357"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 63;"><span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>viewof searchTerm <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">text</span>({</span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>  <span class="dt">placeholder</span><span class="op">:</span> <span class="st">"Search by author, title, journal, encyclopaedia, or subject…"</span><span class="op">,</span></span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>  <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>  <span class="dt">width</span><span class="op">:</span> <span class="st">"100%"</span></span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a>typeOptions <span class="op">=</span> [<span class="st">"All"</span><span class="op">,</span> <span class="st">"journal-article"</span><span class="op">,</span> <span class="st">"book"</span><span class="op">,</span> <span class="st">"book-chapter"</span><span class="op">,</span> <span class="st">"encyclopaedia-entry"</span><span class="op">,</span> <span class="st">"translation"</span><span class="op">,</span> <span class="st">"thesis"</span>]</span>
+<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>typeLabels <span class="op">=</span> ({</span>
+<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a>  <span class="st">"All"</span><span class="op">:</span> <span class="st">"All Types"</span><span class="op">,</span></span>
+<span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a>  <span class="st">"journal-article"</span><span class="op">:</span> <span class="st">"Journal Articles"</span><span class="op">,</span></span>
+<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a>  <span class="st">"book"</span><span class="op">:</span> <span class="st">"Books"</span><span class="op">,</span></span>
+<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a>  <span class="st">"book-chapter"</span><span class="op">:</span> <span class="st">"Book Chapters"</span><span class="op">,</span></span>
+<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a>  <span class="st">"encyclopaedia-entry"</span><span class="op">:</span> <span class="st">"Encyclopaedia Entries"</span><span class="op">,</span></span>
+<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a>  <span class="st">"translation"</span><span class="op">:</span> <span class="st">"Translations"</span><span class="op">,</span></span>
+<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a>  <span class="st">"thesis"</span><span class="op">:</span> <span class="st">"Theses"</span></span>
+<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a>viewof typeFilter <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(typeOptions<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Type:"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="st">"All"</span><span class="op">,</span> <span class="dt">format</span><span class="op">:</span> x <span class="kw">=&gt;</span> typeLabels[x]})</span>
+<span id="cb3-81"><a href="#cb3-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a>langOptions <span class="op">=</span> [<span class="st">"All"</span><span class="op">,</span> <span class="op">...</span><span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>(<span class="kw">new</span> <span class="bu">Set</span>(allWorks<span class="op">.</span><span class="fu">map</span>(w <span class="kw">=&gt;</span> w<span class="op">.</span><span class="at">language</span>)))<span class="op">.</span><span class="fu">sort</span>()]</span>
+<span id="cb3-83"><a href="#cb3-83" aria-hidden="true" tabindex="-1"></a>viewof langFilter <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(langOptions<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Language:"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="st">"All"</span>})</span>
+<span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a>encyclopaediaOptions <span class="op">=</span> [<span class="st">"All"</span><span class="op">,</span> <span class="op">...</span><span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>(<span class="kw">new</span> <span class="bu">Set</span>(allWorks<span class="op">.</span><span class="fu">filter</span>(w <span class="kw">=&gt;</span> w<span class="op">.</span><span class="at">containerAbbrev</span>)<span class="op">.</span><span class="fu">map</span>(w <span class="kw">=&gt;</span> w<span class="op">.</span><span class="at">containerAbbrev</span>)))<span class="op">.</span><span class="fu">sort</span>()]</span>
+<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a>viewof encyclopaediaFilter <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(encyclopaediaOptions<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Encyclopaedia:"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="st">"All"</span>})</span>
+<span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a><span class="co">// related primary-corpus authors that actually have linked scholarship</span></span>
+<span id="cb3-89"><a href="#cb3-89" aria-hidden="true" tabindex="-1"></a>linkedAuthors <span class="op">=</span> {</span>
+<span id="cb3-90"><a href="#cb3-90" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> m <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>()<span class="op">;</span></span>
+<span id="cb3-91"><a href="#cb3-91" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">const</span> w <span class="kw">of</span> allWorks) {</span>
+<span id="cb3-92"><a href="#cb3-92" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> (<span class="kw">const</span> p <span class="kw">of</span> (w<span class="op">.</span><span class="at">relatedPersons</span> <span class="op">||</span> [])) {</span>
+<span id="cb3-93"><a href="#cb3-93" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (p<span class="op">.</span><span class="at">authorId</span>) m<span class="op">.</span><span class="fu">set</span>(p<span class="op">.</span><span class="at">authorId</span><span class="op">,</span> p<span class="op">.</span><span class="at">name</span>)<span class="op">;</span></span>
+<span id="cb3-94"><a href="#cb3-94" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb3-95"><a href="#cb3-95" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb3-96"><a href="#cb3-96" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> m<span class="op">;</span></span>
+<span id="cb3-97"><a href="#cb3-97" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-98"><a href="#cb3-98" aria-hidden="true" tabindex="-1"></a>authorOptions <span class="op">=</span> [<span class="st">"All"</span><span class="op">,</span> <span class="op">...</span><span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>(linkedAuthors<span class="op">.</span><span class="fu">entries</span>())<span class="op">.</span><span class="fu">sort</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> a[<span class="dv">1</span>]<span class="op">.</span><span class="fu">localeCompare</span>(b[<span class="dv">1</span>]))<span class="op">.</span><span class="fu">map</span>(e <span class="kw">=&gt;</span> e[<span class="dv">0</span>])]</span>
+<span id="cb3-99"><a href="#cb3-99" aria-hidden="true" tabindex="-1"></a>viewof authorFilter <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(authorOptions<span class="op">,</span> {</span>
+<span id="cb3-100"><a href="#cb3-100" aria-hidden="true" tabindex="-1"></a>  <span class="dt">label</span><span class="op">:</span> <span class="st">"On primary author:"</span><span class="op">,</span></span>
+<span id="cb3-101"><a href="#cb3-101" aria-hidden="true" tabindex="-1"></a>  <span class="dt">value</span><span class="op">:</span> <span class="st">"All"</span><span class="op">,</span></span>
+<span id="cb3-102"><a href="#cb3-102" aria-hidden="true" tabindex="-1"></a>  <span class="dt">format</span><span class="op">:</span> id <span class="kw">=&gt;</span> id <span class="op">===</span> <span class="st">"All"</span> <span class="op">?</span> <span class="st">"All Authors"</span> <span class="op">:</span> linkedAuthors<span class="op">.</span><span class="fu">get</span>(id)</span>
+<span id="cb3-103"><a href="#cb3-103" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb3-104"><a href="#cb3-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-105"><a href="#cb3-105" aria-hidden="true" tabindex="-1"></a>filteredWorks <span class="op">=</span> {</span>
+<span id="cb3-106"><a href="#cb3-106" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> works <span class="op">=</span> allWorks<span class="op">;</span></span>
+<span id="cb3-107"><a href="#cb3-107" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (typeFilter <span class="op">!==</span> <span class="st">"All"</span>) works <span class="op">=</span> works<span class="op">.</span><span class="fu">filter</span>(w <span class="kw">=&gt;</span> w<span class="op">.</span><span class="at">type</span> <span class="op">===</span> typeFilter)<span class="op">;</span></span>
+<span id="cb3-108"><a href="#cb3-108" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (langFilter <span class="op">!==</span> <span class="st">"All"</span>) works <span class="op">=</span> works<span class="op">.</span><span class="fu">filter</span>(w <span class="kw">=&gt;</span> w<span class="op">.</span><span class="at">language</span> <span class="op">===</span> langFilter)<span class="op">;</span></span>
+<span id="cb3-109"><a href="#cb3-109" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (encyclopaediaFilter <span class="op">!==</span> <span class="st">"All"</span>) works <span class="op">=</span> works<span class="op">.</span><span class="fu">filter</span>(w <span class="kw">=&gt;</span> w<span class="op">.</span><span class="at">containerAbbrev</span> <span class="op">===</span> encyclopaediaFilter)<span class="op">;</span></span>
+<span id="cb3-110"><a href="#cb3-110" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (authorFilter <span class="op">!==</span> <span class="st">"All"</span>) works <span class="op">=</span> works<span class="op">.</span><span class="fu">filter</span>(w <span class="kw">=&gt;</span> (w<span class="op">.</span><span class="at">relatedPersons</span> <span class="op">||</span> [])<span class="op">.</span><span class="fu">some</span>(p <span class="kw">=&gt;</span> p<span class="op">.</span><span class="at">authorId</span> <span class="op">===</span> authorFilter))<span class="op">;</span></span>
+<span id="cb3-111"><a href="#cb3-111" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (searchTerm <span class="op">&amp;&amp;</span> searchTerm<span class="op">.</span><span class="fu">trim</span>() <span class="op">!==</span> <span class="st">""</span>) {</span>
+<span id="cb3-112"><a href="#cb3-112" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> q <span class="op">=</span> searchTerm<span class="op">.</span><span class="fu">toLowerCase</span>()<span class="op">.</span><span class="fu">trim</span>()<span class="op">;</span></span>
+<span id="cb3-113"><a href="#cb3-113" aria-hidden="true" tabindex="-1"></a>    works <span class="op">=</span> works<span class="op">.</span><span class="fu">filter</span>(w <span class="kw">=&gt;</span></span>
+<span id="cb3-114"><a href="#cb3-114" aria-hidden="true" tabindex="-1"></a>      (w<span class="op">.</span><span class="at">title</span> <span class="op">||</span> <span class="st">""</span>)<span class="op">.</span><span class="fu">toLowerCase</span>()<span class="op">.</span><span class="fu">includes</span>(q) <span class="op">||</span></span>
+<span id="cb3-115"><a href="#cb3-115" aria-hidden="true" tabindex="-1"></a>      (w<span class="op">.</span><span class="at">container</span> <span class="op">||</span> <span class="st">""</span>)<span class="op">.</span><span class="fu">toLowerCase</span>()<span class="op">.</span><span class="fu">includes</span>(q) <span class="op">||</span></span>
+<span id="cb3-116"><a href="#cb3-116" aria-hidden="true" tabindex="-1"></a>      (w<span class="op">.</span><span class="at">containerAbbrev</span> <span class="op">||</span> <span class="st">""</span>)<span class="op">.</span><span class="fu">toLowerCase</span>()<span class="op">.</span><span class="fu">includes</span>(q) <span class="op">||</span></span>
+<span id="cb3-117"><a href="#cb3-117" aria-hidden="true" tabindex="-1"></a>      (w<span class="op">.</span><span class="at">notes</span> <span class="op">||</span> <span class="st">""</span>)<span class="op">.</span><span class="fu">toLowerCase</span>()<span class="op">.</span><span class="fu">includes</span>(q) <span class="op">||</span></span>
+<span id="cb3-118"><a href="#cb3-118" aria-hidden="true" tabindex="-1"></a>      (w<span class="op">.</span><span class="at">authors</span> <span class="op">||</span> [])<span class="op">.</span><span class="fu">some</span>(a <span class="kw">=&gt;</span> a<span class="op">.</span><span class="at">name</span><span class="op">.</span><span class="fu">toLowerCase</span>()<span class="op">.</span><span class="fu">includes</span>(q)) <span class="op">||</span></span>
+<span id="cb3-119"><a href="#cb3-119" aria-hidden="true" tabindex="-1"></a>      (w<span class="op">.</span><span class="at">translators</span> <span class="op">||</span> [])<span class="op">.</span><span class="fu">some</span>(a <span class="kw">=&gt;</span> a<span class="op">.</span><span class="at">name</span><span class="op">.</span><span class="fu">toLowerCase</span>()<span class="op">.</span><span class="fu">includes</span>(q)) <span class="op">||</span></span>
+<span id="cb3-120"><a href="#cb3-120" aria-hidden="true" tabindex="-1"></a>      (w<span class="op">.</span><span class="at">relatedPersons</span> <span class="op">||</span> [])<span class="op">.</span><span class="fu">some</span>(p <span class="kw">=&gt;</span> (p<span class="op">.</span><span class="at">name</span> <span class="op">||</span> <span class="st">""</span>)<span class="op">.</span><span class="fu">toLowerCase</span>()<span class="op">.</span><span class="fu">includes</span>(q))</span>
+<span id="cb3-121"><a href="#cb3-121" aria-hidden="true" tabindex="-1"></a>    )<span class="op">;</span></span>
+<span id="cb3-122"><a href="#cb3-122" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb3-123"><a href="#cb3-123" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> works<span class="op">;</span></span>
+<span id="cb3-124"><a href="#cb3-124" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-125"><a href="#cb3-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-126"><a href="#cb3-126" aria-hidden="true" tabindex="-1"></a>displayLimit <span class="op">=</span> <span class="dv">150</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-5" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-6" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-7" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-8" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-9" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-10" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-11" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-12" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-13" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-14" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb4" data-startfrom="132" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 131;"><span id="cb4-132"><a href="#cb4-132" aria-hidden="true" tabindex="-1"></a>typeMeta <span class="op">=</span> ({</span>
+<span id="cb4-133"><a href="#cb4-133" aria-hidden="true" tabindex="-1"></a>  <span class="st">"journal-article"</span><span class="op">:</span> {<span class="dt">color</span><span class="op">:</span> <span class="st">"#cfe2ff"</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Journal Article"</span>}<span class="op">,</span></span>
+<span id="cb4-134"><a href="#cb4-134" aria-hidden="true" tabindex="-1"></a>  <span class="st">"book"</span><span class="op">:</span> {<span class="dt">color</span><span class="op">:</span> <span class="st">"#d1e7dd"</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Book"</span>}<span class="op">,</span></span>
+<span id="cb4-135"><a href="#cb4-135" aria-hidden="true" tabindex="-1"></a>  <span class="st">"book-chapter"</span><span class="op">:</span> {<span class="dt">color</span><span class="op">:</span> <span class="st">"#e2d9f3"</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Book Chapter"</span>}<span class="op">,</span></span>
+<span id="cb4-136"><a href="#cb4-136" aria-hidden="true" tabindex="-1"></a>  <span class="st">"encyclopaedia-entry"</span><span class="op">:</span> {<span class="dt">color</span><span class="op">:</span> <span class="st">"#fff3cd"</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Encyclopaedia"</span>}<span class="op">,</span></span>
+<span id="cb4-137"><a href="#cb4-137" aria-hidden="true" tabindex="-1"></a>  <span class="st">"translation"</span><span class="op">:</span> {<span class="dt">color</span><span class="op">:</span> <span class="st">"#f8d7da"</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Translation"</span>}<span class="op">,</span></span>
+<span id="cb4-138"><a href="#cb4-138" aria-hidden="true" tabindex="-1"></a>  <span class="st">"thesis"</span><span class="op">:</span> {<span class="dt">color</span><span class="op">:</span> <span class="st">"#fde2e4"</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Thesis"</span>}</span>
+<span id="cb4-139"><a href="#cb4-139" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb4-140"><a href="#cb4-140" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-141"><a href="#cb4-141" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">formatCitation</span>(w) {</span>
+<span id="cb4-142"><a href="#cb4-142" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> bits <span class="op">=</span> []<span class="op">;</span></span>
+<span id="cb4-143"><a href="#cb4-143" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (w<span class="op">.</span><span class="at">authors</span> <span class="op">&amp;&amp;</span> w<span class="op">.</span><span class="at">authors</span><span class="op">.</span><span class="at">length</span>) bits<span class="op">.</span><span class="fu">push</span>(w<span class="op">.</span><span class="at">authors</span><span class="op">.</span><span class="fu">map</span>(a <span class="kw">=&gt;</span> a<span class="op">.</span><span class="at">name</span>)<span class="op">.</span><span class="fu">join</span>(<span class="st">", "</span>))<span class="op">;</span></span>
+<span id="cb4-144"><a href="#cb4-144" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (w<span class="op">.</span><span class="at">translators</span> <span class="op">&amp;&amp;</span> w<span class="op">.</span><span class="at">translators</span><span class="op">.</span><span class="at">length</span>) bits<span class="op">.</span><span class="fu">push</span>(<span class="st">"trans. "</span> <span class="op">+</span> w<span class="op">.</span><span class="at">translators</span><span class="op">.</span><span class="fu">map</span>(a <span class="kw">=&gt;</span> a<span class="op">.</span><span class="at">name</span>)<span class="op">.</span><span class="fu">join</span>(<span class="st">", "</span>))<span class="op">;</span></span>
+<span id="cb4-145"><a href="#cb4-145" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> bits<span class="op">.</span><span class="fu">join</span>(<span class="st">" · "</span>)<span class="op">;</span></span>
+<span id="cb4-146"><a href="#cb4-146" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-147"><a href="#cb4-147" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-148"><a href="#cb4-148" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">venue</span>(w) {</span>
+<span id="cb4-149"><a href="#cb4-149" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> bits <span class="op">=</span> []<span class="op">;</span></span>
+<span id="cb4-150"><a href="#cb4-150" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (w<span class="op">.</span><span class="at">container</span>) bits<span class="op">.</span><span class="fu">push</span>(w<span class="op">.</span><span class="at">container</span>)<span class="op">;</span></span>
+<span id="cb4-151"><a href="#cb4-151" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (w<span class="op">.</span><span class="at">containerAbbrev</span> <span class="op">&amp;&amp;</span> <span class="op">!</span>w<span class="op">.</span><span class="at">container</span>) bits<span class="op">.</span><span class="fu">push</span>(w<span class="op">.</span><span class="at">containerAbbrev</span>)<span class="op">;</span></span>
+<span id="cb4-152"><a href="#cb4-152" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (w<span class="op">.</span><span class="at">volume</span>) bits<span class="op">.</span><span class="fu">push</span>(<span class="st">"vol. "</span> <span class="op">+</span> w<span class="op">.</span><span class="at">volume</span> <span class="op">+</span> (w<span class="op">.</span><span class="at">issue</span> <span class="op">?</span> <span class="st">"/"</span> <span class="op">+</span> w<span class="op">.</span><span class="at">issue</span> <span class="op">:</span> <span class="st">""</span>))<span class="op">;</span></span>
+<span id="cb4-153"><a href="#cb4-153" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (w<span class="op">.</span><span class="at">place</span> <span class="op">||</span> w<span class="op">.</span><span class="at">publisher</span>) bits<span class="op">.</span><span class="fu">push</span>([w<span class="op">.</span><span class="at">place</span><span class="op">,</span> w<span class="op">.</span><span class="at">publisher</span>]<span class="op">.</span><span class="fu">filter</span>(<span class="bu">Boolean</span>)<span class="op">.</span><span class="fu">join</span>(<span class="st">": "</span>))<span class="op">;</span></span>
+<span id="cb4-154"><a href="#cb4-154" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (w<span class="op">.</span><span class="at">year</span>) bits<span class="op">.</span><span class="fu">push</span>(w<span class="op">.</span><span class="at">year</span>)<span class="op">;</span></span>
+<span id="cb4-155"><a href="#cb4-155" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (w<span class="op">.</span><span class="at">pages</span>) bits<span class="op">.</span><span class="fu">push</span>(<span class="st">"pp. "</span> <span class="op">+</span> w<span class="op">.</span><span class="at">pages</span>)<span class="op">;</span></span>
+<span id="cb4-156"><a href="#cb4-156" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> bits<span class="op">.</span><span class="fu">join</span>(<span class="st">", "</span>)<span class="op">;</span></span>
+<span id="cb4-157"><a href="#cb4-157" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-158"><a href="#cb4-158" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-159"><a href="#cb4-159" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div&gt;</span></span>
+<span id="cb4-160"><a href="#cb4-160" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;p style="color: #6c757d; margin: 1rem 0;"&gt;</span></span>
+<span id="cb4-161"><a href="#cb4-161" aria-hidden="true" tabindex="-1"></a><span class="vs">    Showing &lt;strong&gt;</span><span class="sc">${</span><span class="bu">Math</span><span class="op">.</span><span class="fu">min</span>(filteredWorks<span class="op">.</span><span class="at">length</span><span class="op">,</span> displayLimit)<span class="sc">}</span><span class="vs">&lt;/strong&gt; of &lt;strong&gt;</span><span class="sc">${</span>filteredWorks<span class="op">.</span><span class="at">length</span><span class="sc">}</span><span class="vs">&lt;/strong&gt; matching works</span><span class="sc">${</span>filteredWorks<span class="op">.</span><span class="at">length</span> <span class="op">&gt;</span> displayLimit <span class="op">?</span> <span class="vs">` (refine your search or filters to narrow the list)`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb4-162"><a href="#cb4-162" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/p&gt;</span></span>
+<span id="cb4-163"><a href="#cb4-163" aria-hidden="true" tabindex="-1"></a><span class="vs">  </span><span class="sc">${</span>filteredWorks<span class="op">.</span><span class="fu">slice</span>(<span class="dv">0</span><span class="op">,</span> displayLimit)<span class="op">.</span><span class="fu">map</span>(w <span class="kw">=&gt;</span> {</span>
+<span id="cb4-164"><a href="#cb4-164" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> meta <span class="op">=</span> typeMeta[w<span class="op">.</span><span class="at">type</span>] <span class="op">||</span> {<span class="dt">color</span><span class="op">:</span> <span class="st">"#e9ecef"</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> w<span class="op">.</span><span class="at">type</span>}<span class="op">;</span></span>
+<span id="cb4-165"><a href="#cb4-165" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> pending <span class="op">=</span> (w<span class="op">.</span><span class="at">notes</span> <span class="op">||</span> <span class="st">""</span>)<span class="op">.</span><span class="fu">toLowerCase</span>()<span class="op">.</span><span class="fu">includes</span>(<span class="st">"metadata pending"</span>) <span class="op">||</span> (w<span class="op">.</span><span class="at">notes</span> <span class="op">||</span> <span class="st">""</span>)<span class="op">.</span><span class="fu">toLowerCase</span>()<span class="op">.</span><span class="fu">includes</span>(<span class="st">"pages missing"</span>)<span class="op">;</span></span>
+<span id="cb4-166"><a href="#cb4-166" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="fu">html</span><span class="vs">`</span></span>
+<span id="cb4-167"><a href="#cb4-167" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div class="bib-card" style="background-color: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 1.25rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08);"&gt;</span></span>
+<span id="cb4-168"><a href="#cb4-168" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;div style="display: flex; justify-content: space-between; align-items: start; gap: 1rem;"&gt;</span></span>
+<span id="cb4-169"><a href="#cb4-169" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;div style="flex: 1;"&gt;</span></span>
+<span id="cb4-170"><a href="#cb4-170" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;h4 style="margin: 0 0 0.35rem 0; color: #212529; font-size: 1.05rem;"&gt;</span></span>
+<span id="cb4-171"><a href="#cb4-171" aria-hidden="true" tabindex="-1"></a><span class="vs">              </span><span class="sc">${</span>w<span class="op">.</span><span class="at">title</span><span class="sc">}</span></span>
+<span id="cb4-172"><a href="#cb4-172" aria-hidden="true" tabindex="-1"></a><span class="vs">              </span><span class="sc">${</span>w<span class="op">.</span><span class="at">url</span> <span class="op">?</span> <span class="fu">html</span><span class="vs">` &lt;a href="</span><span class="sc">${</span>w<span class="op">.</span><span class="at">url</span><span class="sc">}</span><span class="vs">" target="_blank" style="color: #0d6efd; text-decoration: none; font-size: 0.85rem; font-weight: normal;"&gt;[link]&lt;/a&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb4-173"><a href="#cb4-173" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;/h4&gt;</span></span>
+<span id="cb4-174"><a href="#cb4-174" aria-hidden="true" tabindex="-1"></a><span class="vs">            </span><span class="sc">${</span><span class="fu">formatCitation</span>(w) <span class="op">?</span> <span class="fu">html</span><span class="vs">`&lt;p style="margin: 0 0 0.2rem 0; color: #495057; font-size: 0.9rem;"&gt;&lt;strong&gt;</span><span class="sc">${</span><span class="fu">formatCitation</span>(w)<span class="sc">}</span><span class="vs">&lt;/strong&gt;&lt;/p&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb4-175"><a href="#cb4-175" aria-hidden="true" tabindex="-1"></a><span class="vs">            </span><span class="sc">${</span><span class="fu">venue</span>(w) <span class="op">?</span> <span class="fu">html</span><span class="vs">`&lt;p style="margin: 0; color: #6c757d; font-size: 0.88rem;"&gt;</span><span class="sc">${</span><span class="fu">venue</span>(w)<span class="sc">}</span><span class="vs">&lt;/p&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb4-176"><a href="#cb4-176" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;/div&gt;</span></span>
+<span id="cb4-177"><a href="#cb4-177" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.35rem; white-space: nowrap;"&gt;</span></span>
+<span id="cb4-178"><a href="#cb4-178" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span style="background-color: </span><span class="sc">${</span>meta<span class="op">.</span><span class="at">color</span><span class="sc">}</span><span class="vs">; color: #212529; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: 500; border: 1px solid rgba(0,0,0,0.08);"&gt;</span><span class="sc">${</span>meta<span class="op">.</span><span class="at">label</span><span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb4-179"><a href="#cb4-179" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span style="color: #6c757d; font-size: 0.78rem;"&gt;</span><span class="sc">${</span>w<span class="op">.</span><span class="at">language</span><span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb4-180"><a href="#cb4-180" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;/div&gt;</span></span>
+<span id="cb4-181"><a href="#cb4-181" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;/div&gt;</span></span>
+<span id="cb4-182"><a href="#cb4-182" aria-hidden="true" tabindex="-1"></a><span class="vs">        </span><span class="sc">${</span>(w<span class="op">.</span><span class="at">relatedPersons</span> <span class="op">||</span> [])<span class="op">.</span><span class="fu">filter</span>(p <span class="kw">=&gt;</span> p<span class="op">.</span><span class="at">authorId</span>)<span class="op">.</span><span class="at">length</span> <span class="op">?</span> <span class="fu">html</span><span class="vs">`</span></span>
+<span id="cb4-183"><a href="#cb4-183" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;div style="margin-top: 0.65rem; display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center;"&gt;</span></span>
+<span id="cb4-184"><a href="#cb4-184" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span style="color: #6c757d; font-size: 0.8rem;"&gt;On:&lt;/span&gt;</span></span>
+<span id="cb4-185"><a href="#cb4-185" aria-hidden="true" tabindex="-1"></a><span class="vs">            </span><span class="sc">${</span>(w<span class="op">.</span><span class="at">relatedPersons</span> <span class="op">||</span> [])<span class="op">.</span><span class="fu">filter</span>(p <span class="kw">=&gt;</span> p<span class="op">.</span><span class="at">authorId</span>)<span class="op">.</span><span class="fu">map</span>(p <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`</span></span>
+<span id="cb4-186"><a href="#cb4-186" aria-hidden="true" tabindex="-1"></a><span class="vs">              &lt;a href="bibliography.qmd" style="text-decoration: none;"&gt;&lt;span style="background-color: #e7f1ff; color: #084298; padding: 0.15rem 0.55rem; border-radius: 12px; font-size: 0.78rem; border: 1px solid #b6d4fe;"&gt;</span><span class="sc">${</span>p<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs">&lt;/span&gt;&lt;/a&gt;</span></span>
+<span id="cb4-187"><a href="#cb4-187" aria-hidden="true" tabindex="-1"></a><span class="vs">            `</span>)<span class="sc">}</span></span>
+<span id="cb4-188"><a href="#cb4-188" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;/div&gt;</span></span>
+<span id="cb4-189"><a href="#cb4-189" aria-hidden="true" tabindex="-1"></a><span class="vs">        `</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb4-190"><a href="#cb4-190" aria-hidden="true" tabindex="-1"></a><span class="vs">        </span><span class="sc">${</span>w<span class="op">.</span><span class="at">notes</span> <span class="op">?</span> <span class="fu">html</span><span class="vs">`&lt;p style="margin: 0.55rem 0 0 0; color: </span><span class="sc">${</span>pending <span class="op">?</span> <span class="st">"#b02a37"</span> <span class="op">:</span> <span class="st">"#868e96"</span><span class="sc">}</span><span class="vs">; font-size: 0.8rem; font-style: italic;"&gt;</span><span class="sc">${</span>w<span class="op">.</span><span class="at">notes</span><span class="sc">}</span><span class="vs">&lt;/p&gt;`</span> <span class="op">:</span> <span class="vs">``</span><span class="sc">}</span></span>
+<span id="cb4-191"><a href="#cb4-191" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;/div&gt;</span></span>
+<span id="cb4-192"><a href="#cb4-192" aria-hidden="true" tabindex="-1"></a><span class="vs">    `</span><span class="op">;</span></span>
+<span id="cb4-193"><a href="#cb4-193" aria-hidden="true" tabindex="-1"></a>  })<span class="sc">}</span></span>
+<span id="cb4-194"><a href="#cb4-194" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-3-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-3-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-3-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-3-4" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Contribute
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This bibliography grows continuously as new scholarship is published and as legacy entries are reviewed. To suggest corrections or additions, please <a href="mailto:farrell.jedw@gmail.com">contact us</a>.</p>
 </div>
 </div>
 
 
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Ilxuc2Vjb25kYXJ5ID0gRmlsZUF0dGFjaG1lbnQoXCJkYXRhL3NlY29uZGFyeS5qc29uXCIpLmpzb24oKVxuXG5hbGxXb3JrcyA9IHNlY29uZGFyeS53b3Jrc1xuXG4vLyBzdW1tYXJ5IHN0YXRpc3RpY3Ncbm5FbmN5Y2xvcGFlZGlhcyA9IG5ldyBTZXQoYWxsV29ya3MuZmlsdGVyKHcgPT4gdy5jb250YWluZXJBYmJyZXYpLm1hcCh3ID0+IHcuY29udGFpbmVyQWJicmV2KSkuc2l6ZVxubkxpbmtlZCA9IGFsbFdvcmtzLmZpbHRlcih3ID0+ICh3LnJlbGF0ZWRQZXJzb25zIHx8IFtdKS5zb21lKHAgPT4gcC5hdXRob3JJZCkpLmxlbmd0aFxuXG5odG1sYDxkaXYgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOiAjZjhmOWZhOyBib3JkZXI6IDFweCBzb2xpZCAjZGVlMmU2OyBib3JkZXItcmFkaXVzOiA4cHg7IHBhZGRpbmc6IDEuNXJlbTsgbWFyZ2luOiAycmVtIDA7XCI+XG4gIDxoMyBzdHlsZT1cIm1hcmdpbi10b3A6IDA7IGNvbG9yOiAjMjEyNTI5O1wiPkNvcnB1cyBPdmVydmlldzwvaDM+XG4gIDxkaXYgc3R5bGU9XCJkaXNwbGF5OiBncmlkOyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdChhdXRvLWZpdCwgbWlubWF4KDE1MHB4LCAxZnIpKTsgZ2FwOiAxcmVtO1wiPlxuICAgIDxkaXYgc3R5bGU9XCJ0ZXh0LWFsaWduOiBjZW50ZXI7XCI+XG4gICAgICA8ZGl2IHN0eWxlPVwiZm9udC1zaXplOiAyLjVyZW07IGNvbG9yOiAjMGQ2ZWZkOyBmb250LXdlaWdodDogYm9sZDtcIj4ke2FsbFdvcmtzLmxlbmd0aH08L2Rpdj5cbiAgICAgIDxkaXYgc3R5bGU9XCJjb2xvcjogIzZjNzU3ZDtcIj5Ub3RhbCBXb3JrczwvZGl2PlxuICAgIDwvZGl2PlxuICAgIDxkaXYgc3R5bGU9XCJ0ZXh0LWFsaWduOiBjZW50ZXI7XCI+XG4gICAgICA8ZGl2IHN0eWxlPVwiZm9udC1zaXplOiAyLjVyZW07IGNvbG9yOiAjZmQ3ZTE0OyBmb250LXdlaWdodDogYm9sZDtcIj4ke25FbmN5Y2xvcGFlZGlhc308L2Rpdj5cbiAgICAgIDxkaXYgc3R5bGU9XCJjb2xvcjogIzZjNzU3ZDtcIj5SZWZlcmVuY2UgV29ya3M8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IHN0eWxlPVwidGV4dC1hbGlnbjogY2VudGVyO1wiPlxuICAgICAgPGRpdiBzdHlsZT1cImZvbnQtc2l6ZTogMi41cmVtOyBjb2xvcjogIzE3YTJiODsgZm9udC13ZWlnaHQ6IGJvbGQ7XCI+JHtuTGlua2VkfTwvZGl2PlxuICAgICAgPGRpdiBzdHlsZT1cImNvbG9yOiAjNmM3NTdkO1wiPkxpbmtlZCB0byBQcmltYXJ5IEF1dGhvcnM8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgICAke3NlY29uZGFyeS5tZXRhZGF0YS5wZW5kaW5nUmV2aWV3ID8gaHRtbGA8ZGl2IHN0eWxlPVwidGV4dC1hbGlnbjogY2VudGVyO1wiPlxuICAgICAgPGRpdiBzdHlsZT1cImZvbnQtc2l6ZTogMi41cmVtOyBjb2xvcjogIzY2MTBmMjsgZm9udC13ZWlnaHQ6IGJvbGQ7XCI+JHtzZWNvbmRhcnkubWV0YWRhdGEucGVuZGluZ1Jldmlld308L2Rpdj5cbiAgICAgIDxkaXYgc3R5bGU9XCJjb2xvcjogIzZjNzU3ZDtcIj5TdHVkaWVzIGluIFJldmlldzwvZGl2PlxuICAgIDwvZGl2PmAgOiBgYH1cbiAgPC9kaXY+XG48L2Rpdj5gXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbi8vIGlucHV0IHN0eWxpbmcgKG1hdGNoZXMgdGhlIHByaW1hcnkgYmlibGlvZ3JhcGh5IHBhZ2UpXG5odG1sYDxzdHlsZT5cbiAgLm9ic2VydmFibGVocSBpbnB1dFt0eXBlPVwic2VhcmNoXCJdLFxuICAub2JzZXJ2YWJsZWhxIGlucHV0W3R5cGU9XCJ0ZXh0XCJdIHtcbiAgICBjb2xvcjogIzIxMjUyOSAhaW1wb3J0YW50O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmYgIWltcG9ydGFudDtcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjY2VkNGRhICFpbXBvcnRhbnQ7XG4gIH1cbiAgLm9ic2VydmFibGVocSBpbnB1dFt0eXBlPVwic2VhcmNoXCJdOjpwbGFjZWhvbGRlciB7IGNvbG9yOiAjNmM3NTdkICFpbXBvcnRhbnQ7IH1cbjwvc3R5bGU+YFxuXG52aWV3b2Ygc2VhcmNoVGVybSA9IElucHV0cy50ZXh0KHtcbiAgcGxhY2Vob2xkZXI6IFwiU2VhcmNoIGJ5IGF1dGhvciwgdGl0bGUsIGpvdXJuYWwsIGVuY3ljbG9wYWVkaWEsIG9yIHN1YmplY3TigKZcIixcbiAgdmFsdWU6IFwiXCIsXG4gIHdpZHRoOiBcIjEwMCVcIlxufSlcblxudHlwZU9wdGlvbnMgPSBbXCJBbGxcIiwgXCJqb3VybmFsLWFydGljbGVcIiwgXCJib29rXCIsIFwiYm9vay1jaGFwdGVyXCIsIFwiZW5jeWNsb3BhZWRpYS1lbnRyeVwiLCBcInRyYW5zbGF0aW9uXCIsIFwidGhlc2lzXCJdXG50eXBlTGFiZWxzID0gKHtcbiAgXCJBbGxcIjogXCJBbGwgVHlwZXNcIixcbiAgXCJqb3VybmFsLWFydGljbGVcIjogXCJKb3VybmFsIEFydGljbGVzXCIsXG4gIFwiYm9va1wiOiBcIkJvb2tzXCIsXG4gIFwiYm9vay1jaGFwdGVyXCI6IFwiQm9vayBDaGFwdGVyc1wiLFxuICBcImVuY3ljbG9wYWVkaWEtZW50cnlcIjogXCJFbmN5Y2xvcGFlZGlhIEVudHJpZXNcIixcbiAgXCJ0cmFuc2xhdGlvblwiOiBcIlRyYW5zbGF0aW9uc1wiLFxuICBcInRoZXNpc1wiOiBcIlRoZXNlc1wiXG59KVxudmlld29mIHR5cGVGaWx0ZXIgPSBJbnB1dHMuc2VsZWN0KHR5cGVPcHRpb25zLCB7bGFiZWw6IFwiVHlwZTpcIiwgdmFsdWU6IFwiQWxsXCIsIGZvcm1hdDogeCA9PiB0eXBlTGFiZWxzW3hdfSlcblxubGFuZ09wdGlvbnMgPSBbXCJBbGxcIiwgLi4uQXJyYXkuZnJvbShuZXcgU2V0KGFsbFdvcmtzLm1hcCh3ID0+IHcubGFuZ3VhZ2UpKSkuc29ydCgpXVxudmlld29mIGxhbmdGaWx0ZXIgPSBJbnB1dHMuc2VsZWN0KGxhbmdPcHRpb25zLCB7bGFiZWw6IFwiTGFuZ3VhZ2U6XCIsIHZhbHVlOiBcIkFsbFwifSlcblxuZW5jeWNsb3BhZWRpYU9wdGlvbnMgPSBbXCJBbGxcIiwgLi4uQXJyYXkuZnJvbShuZXcgU2V0KGFsbFdvcmtzLmZpbHRlcih3ID0+IHcuY29udGFpbmVyQWJicmV2KS5tYXAodyA9PiB3LmNvbnRhaW5lckFiYnJldikpKS5zb3J0KCldXG52aWV3b2YgZW5jeWNsb3BhZWRpYUZpbHRlciA9IElucHV0cy5zZWxlY3QoZW5jeWNsb3BhZWRpYU9wdGlvbnMsIHtsYWJlbDogXCJFbmN5Y2xvcGFlZGlhOlwiLCB2YWx1ZTogXCJBbGxcIn0pXG5cbi8vIHJlbGF0ZWQgcHJpbWFyeS1jb3JwdXMgYXV0aG9ycyB0aGF0IGFjdHVhbGx5IGhhdmUgbGlua2VkIHNjaG9sYXJzaGlwXG5saW5rZWRBdXRob3JzID0ge1xuICBjb25zdCBtID0gbmV3IE1hcCgpO1xuICBmb3IgKGNvbnN0IHcgb2YgYWxsV29ya3MpIHtcbiAgICBmb3IgKGNvbnN0IHAgb2YgKHcucmVsYXRlZFBlcnNvbnMgfHwgW10pKSB7XG4gICAgICBpZiAocC5hdXRob3JJZCkgbS5zZXQocC5hdXRob3JJZCwgcC5uYW1lKTtcbiAgICB9XG4gIH1cbiAgcmV0dXJuIG07XG59XG5hdXRob3JPcHRpb25zID0gW1wiQWxsXCIsIC4uLkFycmF5LmZyb20obGlua2VkQXV0aG9ycy5lbnRyaWVzKCkpLnNvcnQoKGEsIGIpID0+IGFbMV0ubG9jYWxlQ29tcGFyZShiWzFdKSkubWFwKGUgPT4gZVswXSldXG52aWV3b2YgYXV0aG9yRmlsdGVyID0gSW5wdXRzLnNlbGVjdChhdXRob3JPcHRpb25zLCB7XG4gIGxhYmVsOiBcIk9uIHByaW1hcnkgYXV0aG9yOlwiLFxuICB2YWx1ZTogXCJBbGxcIixcbiAgZm9ybWF0OiBpZCA9PiBpZCA9PT0gXCJBbGxcIiA/IFwiQWxsIEF1dGhvcnNcIiA6IGxpbmtlZEF1dGhvcnMuZ2V0KGlkKVxufSlcblxuZmlsdGVyZWRXb3JrcyA9IHtcbiAgbGV0IHdvcmtzID0gYWxsV29ya3M7XG4gIGlmICh0eXBlRmlsdGVyICE9PSBcIkFsbFwiKSB3b3JrcyA9IHdvcmtzLmZpbHRlcih3ID0+IHcudHlwZSA9PT0gdHlwZUZpbHRlcik7XG4gIGlmIChsYW5nRmlsdGVyICE9PSBcIkFsbFwiKSB3b3JrcyA9IHdvcmtzLmZpbHRlcih3ID0+IHcubGFuZ3VhZ2UgPT09IGxhbmdGaWx0ZXIpO1xuICBpZiAoZW5jeWNsb3BhZWRpYUZpbHRlciAhPT0gXCJBbGxcIikgd29ya3MgPSB3b3Jrcy5maWx0ZXIodyA9PiB3LmNvbnRhaW5lckFiYnJldiA9PT0gZW5jeWNsb3BhZWRpYUZpbHRlcik7XG4gIGlmIChhdXRob3JGaWx0ZXIgIT09IFwiQWxsXCIpIHdvcmtzID0gd29ya3MuZmlsdGVyKHcgPT4gKHcucmVsYXRlZFBlcnNvbnMgfHwgW10pLnNvbWUocCA9PiBwLmF1dGhvcklkID09PSBhdXRob3JGaWx0ZXIpKTtcbiAgaWYgKHNlYXJjaFRlcm0gJiYgc2VhcmNoVGVybS50cmltKCkgIT09IFwiXCIpIHtcbiAgICBjb25zdCBxID0gc2VhcmNoVGVybS50b0xvd2VyQ2FzZSgpLnRyaW0oKTtcbiAgICB3b3JrcyA9IHdvcmtzLmZpbHRlcih3ID0+XG4gICAgICAody50aXRsZSB8fCBcIlwiKS50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKHEpIHx8XG4gICAgICAody5jb250YWluZXIgfHwgXCJcIikudG9Mb3dlckNhc2UoKS5pbmNsdWRlcyhxKSB8fFxuICAgICAgKHcuY29udGFpbmVyQWJicmV2IHx8IFwiXCIpLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMocSkgfHxcbiAgICAgICh3Lm5vdGVzIHx8IFwiXCIpLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMocSkgfHxcbiAgICAgICh3LmF1dGhvcnMgfHwgW10pLnNvbWUoYSA9PiBhLm5hbWUudG9Mb3dlckNhc2UoKS5pbmNsdWRlcyhxKSkgfHxcbiAgICAgICh3LnRyYW5zbGF0b3JzIHx8IFtdKS5zb21lKGEgPT4gYS5uYW1lLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMocSkpIHx8XG4gICAgICAody5yZWxhdGVkUGVyc29ucyB8fCBbXSkuc29tZShwID0+IChwLm5hbWUgfHwgXCJcIikudG9Mb3dlckNhc2UoKS5pbmNsdWRlcyhxKSlcbiAgICApO1xuICB9XG4gIHJldHVybiB3b3Jrcztcbn1cblxuZGlzcGxheUxpbWl0ID0gMTUwXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbnR5cGVNZXRhID0gKHtcbiAgXCJqb3VybmFsLWFydGljbGVcIjoge2NvbG9yOiBcIiNjZmUyZmZcIiwgbGFiZWw6IFwiSm91cm5hbCBBcnRpY2xlXCJ9LFxuICBcImJvb2tcIjoge2NvbG9yOiBcIiNkMWU3ZGRcIiwgbGFiZWw6IFwiQm9va1wifSxcbiAgXCJib29rLWNoYXB0ZXJcIjoge2NvbG9yOiBcIiNlMmQ5ZjNcIiwgbGFiZWw6IFwiQm9vayBDaGFwdGVyXCJ9LFxuICBcImVuY3ljbG9wYWVkaWEtZW50cnlcIjoge2NvbG9yOiBcIiNmZmYzY2RcIiwgbGFiZWw6IFwiRW5jeWNsb3BhZWRpYVwifSxcbiAgXCJ0cmFuc2xhdGlvblwiOiB7Y29sb3I6IFwiI2Y4ZDdkYVwiLCBsYWJlbDogXCJUcmFuc2xhdGlvblwifSxcbiAgXCJ0aGVzaXNcIjoge2NvbG9yOiBcIiNmZGUyZTRcIiwgbGFiZWw6IFwiVGhlc2lzXCJ9XG59KVxuXG5mdW5jdGlvbiBmb3JtYXRDaXRhdGlvbih3KSB7XG4gIGNvbnN0IGJpdHMgPSBbXTtcbiAgaWYgKHcuYXV0aG9ycyAmJiB3LmF1dGhvcnMubGVuZ3RoKSBiaXRzLnB1c2gody5hdXRob3JzLm1hcChhID0+IGEubmFtZSkuam9pbihcIiwgXCIpKTtcbiAgaWYgKHcudHJhbnNsYXRvcnMgJiYgdy50cmFuc2xhdG9ycy5sZW5ndGgpIGJpdHMucHVzaChcInRyYW5zLiBcIiArIHcudHJhbnNsYXRvcnMubWFwKGEgPT4gYS5uYW1lKS5qb2luKFwiLCBcIikpO1xuICByZXR1cm4gYml0cy5qb2luKFwiIMK3IFwiKTtcbn1cblxuZnVuY3Rpb24gdmVudWUodykge1xuICBjb25zdCBiaXRzID0gW107XG4gIGlmICh3LmNvbnRhaW5lcikgYml0cy5wdXNoKHcuY29udGFpbmVyKTtcbiAgaWYgKHcuY29udGFpbmVyQWJicmV2ICYmICF3LmNvbnRhaW5lcikgYml0cy5wdXNoKHcuY29udGFpbmVyQWJicmV2KTtcbiAgaWYgKHcudm9sdW1lKSBiaXRzLnB1c2goXCJ2b2wuIFwiICsgdy52b2x1bWUgKyAody5pc3N1ZSA/IFwiL1wiICsgdy5pc3N1ZSA6IFwiXCIpKTtcbiAgaWYgKHcucGxhY2UgfHwgdy5wdWJsaXNoZXIpIGJpdHMucHVzaChbdy5wbGFjZSwgdy5wdWJsaXNoZXJdLmZpbHRlcihCb29sZWFuKS5qb2luKFwiOiBcIikpO1xuICBpZiAody55ZWFyKSBiaXRzLnB1c2gody55ZWFyKTtcbiAgaWYgKHcucGFnZXMpIGJpdHMucHVzaChcInBwLiBcIiArIHcucGFnZXMpO1xuICByZXR1cm4gYml0cy5qb2luKFwiLCBcIik7XG59XG5cbmh0bWxgPGRpdj5cbiAgPHAgc3R5bGU9XCJjb2xvcjogIzZjNzU3ZDsgbWFyZ2luOiAxcmVtIDA7XCI+XG4gICAgU2hvd2luZyA8c3Ryb25nPiR7TWF0aC5taW4oZmlsdGVyZWRXb3Jrcy5sZW5ndGgsIGRpc3BsYXlMaW1pdCl9PC9zdHJvbmc+IG9mIDxzdHJvbmc+JHtmaWx0ZXJlZFdvcmtzLmxlbmd0aH08L3N0cm9uZz4gbWF0Y2hpbmcgd29ya3Mke2ZpbHRlcmVkV29ya3MubGVuZ3RoID4gZGlzcGxheUxpbWl0ID8gYCAocmVmaW5lIHlvdXIgc2VhcmNoIG9yIGZpbHRlcnMgdG8gbmFycm93IHRoZSBsaXN0KWAgOiBgYH1cbiAgPC9wPlxuICAke2ZpbHRlcmVkV29ya3Muc2xpY2UoMCwgZGlzcGxheUxpbWl0KS5tYXAodyA9PiB7XG4gICAgY29uc3QgbWV0YSA9IHR5cGVNZXRhW3cudHlwZV0gfHwge2NvbG9yOiBcIiNlOWVjZWZcIiwgbGFiZWw6IHcudHlwZX07XG4gICAgY29uc3QgcGVuZGluZyA9ICh3Lm5vdGVzIHx8IFwiXCIpLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMoXCJtZXRhZGF0YSBwZW5kaW5nXCIpIHx8ICh3Lm5vdGVzIHx8IFwiXCIpLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMoXCJwYWdlcyBtaXNzaW5nXCIpO1xuICAgIHJldHVybiBodG1sYFxuICAgICAgPGRpdiBjbGFzcz1cImJpYi1jYXJkXCIgc3R5bGU9XCJiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmZmZmOyBib3JkZXI6IDFweCBzb2xpZCAjZGVlMmU2OyBib3JkZXItcmFkaXVzOiA4cHg7IHBhZGRpbmc6IDEuMjVyZW0gMS41cmVtOyBtYXJnaW4tYm90dG9tOiAxcmVtOyBib3gtc2hhZG93OiAwIDFweCAzcHggcmdiYSgwLDAsMCwwLjA4KTtcIj5cbiAgICAgICAgPGRpdiBzdHlsZT1cImRpc3BsYXk6IGZsZXg7IGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsgYWxpZ24taXRlbXM6IHN0YXJ0OyBnYXA6IDFyZW07XCI+XG4gICAgICAgICAgPGRpdiBzdHlsZT1cImZsZXg6IDE7XCI+XG4gICAgICAgICAgICA8aDQgc3R5bGU9XCJtYXJnaW46IDAgMCAwLjM1cmVtIDA7IGNvbG9yOiAjMjEyNTI5OyBmb250LXNpemU6IDEuMDVyZW07XCI+XG4gICAgICAgICAgICAgICR7dy50aXRsZX1cbiAgICAgICAgICAgICAgJHt3LnVybCA/IGh0bWxgIDxhIGhyZWY9XCIke3cudXJsfVwiIHRhcmdldD1cIl9ibGFua1wiIHN0eWxlPVwiY29sb3I6ICMwZDZlZmQ7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgZm9udC1zaXplOiAwLjg1cmVtOyBmb250LXdlaWdodDogbm9ybWFsO1wiPltsaW5rXTwvYT5gIDogYGB9XG4gICAgICAgICAgICA8L2g0PlxuICAgICAgICAgICAgJHtmb3JtYXRDaXRhdGlvbih3KSA/IGh0bWxgPHAgc3R5bGU9XCJtYXJnaW46IDAgMCAwLjJyZW0gMDsgY29sb3I6ICM0OTUwNTc7IGZvbnQtc2l6ZTogMC45cmVtO1wiPjxzdHJvbmc+JHtmb3JtYXRDaXRhdGlvbih3KX08L3N0cm9uZz48L3A+YCA6IGBgfVxuICAgICAgICAgICAgJHt2ZW51ZSh3KSA/IGh0bWxgPHAgc3R5bGU9XCJtYXJnaW46IDA7IGNvbG9yOiAjNmM3NTdkOyBmb250LXNpemU6IDAuODhyZW07XCI+JHt2ZW51ZSh3KX08L3A+YCA6IGBgfVxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgc3R5bGU9XCJkaXNwbGF5OiBmbGV4OyBmbGV4LWRpcmVjdGlvbjogY29sdW1uOyBhbGlnbi1pdGVtczogZmxleC1lbmQ7IGdhcDogMC4zNXJlbTsgd2hpdGUtc3BhY2U6IG5vd3JhcDtcIj5cbiAgICAgICAgICAgIDxzcGFuIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjogJHttZXRhLmNvbG9yfTsgY29sb3I6ICMyMTI1Mjk7IHBhZGRpbmc6IDAuMnJlbSAwLjZyZW07IGJvcmRlci1yYWRpdXM6IDRweDsgZm9udC1zaXplOiAwLjhyZW07IGZvbnQtd2VpZ2h0OiA1MDA7IGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMCwwLDAsMC4wOCk7XCI+JHttZXRhLmxhYmVsfTwvc3Bhbj5cbiAgICAgICAgICAgIDxzcGFuIHN0eWxlPVwiY29sb3I6ICM2Yzc1N2Q7IGZvbnQtc2l6ZTogMC43OHJlbTtcIj4ke3cubGFuZ3VhZ2V9PC9zcGFuPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgJHsody5yZWxhdGVkUGVyc29ucyB8fCBbXSkuZmlsdGVyKHAgPT4gcC5hdXRob3JJZCkubGVuZ3RoID8gaHRtbGBcbiAgICAgICAgICA8ZGl2IHN0eWxlPVwibWFyZ2luLXRvcDogMC42NXJlbTsgZGlzcGxheTogZmxleDsgZmxleC13cmFwOiB3cmFwOyBnYXA6IDAuMzVyZW07IGFsaWduLWl0ZW1zOiBjZW50ZXI7XCI+XG4gICAgICAgICAgICA8c3BhbiBzdHlsZT1cImNvbG9yOiAjNmM3NTdkOyBmb250LXNpemU6IDAuOHJlbTtcIj5Pbjo8L3NwYW4+XG4gICAgICAgICAgICAkeyh3LnJlbGF0ZWRQZXJzb25zIHx8IFtdKS5maWx0ZXIocCA9PiBwLmF1dGhvcklkKS5tYXAocCA9PiBodG1sYFxuICAgICAgICAgICAgICA8YSBocmVmPVwiYmlibGlvZ3JhcGh5LnFtZFwiIHN0eWxlPVwidGV4dC1kZWNvcmF0aW9uOiBub25lO1wiPjxzcGFuIHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjogI2U3ZjFmZjsgY29sb3I6ICMwODQyOTg7IHBhZGRpbmc6IDAuMTVyZW0gMC41NXJlbTsgYm9yZGVyLXJhZGl1czogMTJweDsgZm9udC1zaXplOiAwLjc4cmVtOyBib3JkZXI6IDFweCBzb2xpZCAjYjZkNGZlO1wiPiR7cC5uYW1lfTwvc3Bhbj48L2E+XG4gICAgICAgICAgICBgKX1cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgYCA6IGBgfVxuICAgICAgICAke3cubm90ZXMgPyBodG1sYDxwIHN0eWxlPVwibWFyZ2luOiAwLjU1cmVtIDAgMCAwOyBjb2xvcjogJHtwZW5kaW5nID8gXCIjYjAyYTM3XCIgOiBcIiM4NjhlOTZcIn07IGZvbnQtc2l6ZTogMC44cmVtOyBmb250LXN0eWxlOiBpdGFsaWM7XCI+JHt3Lm5vdGVzfTwvcD5gIDogYGB9XG4gICAgICA8L2Rpdj5cbiAgICBgO1xuICB9KX1cbjwvZGl2PmBcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnc2VhcmNoVGVybScpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCd0eXBlRmlsdGVyJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2xhbmdGaWx0ZXInKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnZW5jeWNsb3BhZWRpYUZpbHRlcicpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdhdXRob3JGaWx0ZXInKSJ9XX0=
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -572,7 +1001,7 @@ gtag('config', 'G-FNJVMD1FQC', { 'anonymize_ip': true});
 <p>© 2019–2025 Jeremy Farrell</p>
 </div>   
     <div class="nav-footer-center">
-<p><a href="https://creativecommons.org/licenses/">CC BY-NC License</a></p>
+<p><a href="https://creativecommons.org/licenses/">Attribution-NonCommercial – CC BY-NC</a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
