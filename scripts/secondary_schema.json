@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://digitalsufism.github.io/schema/secondary.json",
+  "title": "Digital Sufism Secondary Scholarship",
+  "description": "Unified CSL-inspired record set for secondary scholarship on early Sufism.",
+  "type": "object",
+  "required": ["metadata", "works"],
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["totalWorks", "lastUpdated", "version", "sources"],
+      "additionalProperties": true,
+      "properties": {
+        "totalWorks": { "type": "integer", "minimum": 0 },
+        "lastUpdated": { "type": "string" },
+        "version": { "type": "string" },
+        "sources": { "type": "array", "items": { "type": "string" } },
+        "counts": { "type": "object" }
+      }
+    },
+    "works": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/work" }
+    }
+  },
+  "definitions": {
+    "person": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "minLength": 1 }
+      }
+    },
+    "relatedPerson": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "authorId": { "type": ["string", "null"] },
+        "bioId": { "type": ["string", "null"] }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["source"],
+      "additionalProperties": false,
+      "properties": {
+        "source": { "type": "string", "minLength": 1 },
+        "sourceId": { "type": ["string", "null"] },
+        "annotator": { "type": ["string", "null"] },
+        "reviewed": { "type": "boolean" }
+      }
+    },
+    "work": {
+      "type": "object",
+      "required": ["id", "type", "title", "language", "provenance"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^sec_[0-9a-z]+$" },
+        "type": {
+          "type": "string",
+          "enum": [
+            "journal-article",
+            "book",
+            "book-chapter",
+            "encyclopaedia-entry",
+            "translation",
+            "thesis"
+          ]
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "authors": { "type": "array", "items": { "$ref": "#/definitions/person" } },
+        "translators": { "type": "array", "items": { "$ref": "#/definitions/person" } },
+        "container": { "type": "string" },
+        "containerAbbrev": { "type": "string" },
+        "volume": { "type": "string" },
+        "issue": { "type": "string" },
+        "year": { "type": "string" },
+        "pages": { "type": "string" },
+        "place": { "type": "string" },
+        "publisher": { "type": "string" },
+        "language": {
+          "type": "string",
+          "enum": [
+            "English",
+            "French",
+            "Arabic",
+            "German",
+            "Persian",
+            "Turkish",
+            "Italian",
+            "Russian",
+            "Multiple",
+            "Unknown"
+          ]
+        },
+        "url": { "type": "string" },
+        "relatedPersons": { "type": "array", "items": { "$ref": "#/definitions/relatedPerson" } },
+        "subjectCategory": { "type": "string", "enum": ["entity", "term", ""] },
+        "provenance": { "$ref": "#/definitions/provenance" },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

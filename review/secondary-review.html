@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Secondary Scholarship — Review</title>
+<style>
+  :root {
+    --bg:#f5f5f5; --card:#fff; --border:#ddd; --accent:#1a73e8;
+    --success:#1e8e3e; --danger:#d93025; --orange:#e8710a;
+    --text:#202124; --muted:#5f6368;
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+         background:var(--bg); color:var(--text); }
+  header { position:sticky; top:0; z-index:10; background:#fff; border-bottom:1px solid var(--border);
+           padding:.6rem 1rem; display:flex; flex-wrap:wrap; gap:.75rem; align-items:center; }
+  header h1 { font-size:1rem; margin:0 1rem 0 0; }
+  .pill { background:#eef; border-radius:12px; padding:.15rem .6rem; font-size:.8rem; color:var(--muted); }
+  .filters { padding:.5rem 1rem; display:flex; flex-wrap:wrap; gap:.5rem; align-items:center;
+             background:#fafafa; border-bottom:1px solid var(--border); font-size:.85rem; }
+  select,input[type=text],textarea { font:inherit; padding:.25rem .4rem; border:1px solid var(--border);
+             border-radius:4px; background:#fff; color:var(--text); }
+  .main { max-width:920px; margin:1rem auto; padding:0 1rem; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:8px;
+          padding:1rem 1.25rem; margin-bottom:1rem; }
+  .card.accept { border-left:5px solid var(--success); }
+  .card.edit   { border-left:5px solid var(--accent); }
+  .card.reject { border-left:5px solid var(--danger); opacity:.7; }
+  .card.flag   { border-left:5px solid var(--orange); }
+  .row { display:flex; gap:.6rem; margin:.25rem 0; align-items:center; }
+  .row label { width:120px; color:var(--muted); font-size:.8rem; flex:none; }
+  .row input,.row textarea,.row select { flex:1; }
+  .meta { color:var(--muted); font-size:.78rem; }
+  .badge { font-size:.72rem; padding:.1rem .5rem; border-radius:4px; background:#eee; }
+  .acts { display:flex; gap:.4rem; margin-top:.6rem; flex-wrap:wrap; }
+  .acts button { font:inherit; padding:.3rem .7rem; border:1px solid var(--border); border-radius:5px;
+                 background:#fff; cursor:pointer; }
+  .acts button.on-accept { background:var(--success); color:#fff; border-color:var(--success); }
+  .acts button.on-edit   { background:var(--accent);  color:#fff; border-color:var(--accent); }
+  .acts button.on-reject { background:var(--danger);  color:#fff; border-color:var(--danger); }
+  .acts button.on-flag   { background:var(--orange);  color:#fff; border-color:var(--orange); }
+  .edit-grid { display:none; margin-top:.6rem; padding-top:.6rem; border-top:1px dashed var(--border); }
+  .card.editing .edit-grid { display:block; }
+  .toolbar button { font:inherit; padding:.35rem .8rem; border:1px solid var(--accent); background:var(--accent);
+                    color:#fff; border-radius:5px; cursor:pointer; }
+  .toolbar button.secondary { background:#fff; color:var(--accent); }
+  .nav { display:flex; gap:.4rem; align-items:center; }
+  code { background:#f0f0f0; padding:0 .25rem; border-radius:3px; font-size:.85em; }
+  .hint { font-size:.75rem; color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Secondary Scholarship — Review</h1>
+  <span class="nav">
+    Annotator: <input type="text" id="annotator" maxlength="16" placeholder="initials" style="width:6em">
+  </span>
+  <span class="pill" id="progress">0 / 0</span>
+  <span class="pill" id="counts"></span>
+  <span class="toolbar nav" style="margin-left:auto">
+    <button class="secondary" onclick="loadCandidates()">Load harvest candidates</button>
+    <button onclick="exportJSON()">Export reviewed JSON</button>
+    <button class="secondary" onclick="exportRejects()">Export rejects</button>
+  </span>
+</header>
+
+<div class="filters">
+  <label>Source <select id="f-source" onchange="render()"></select></label>
+  <label>Type <select id="f-type" onchange="render()"></select></label>
+  <label>Language <select id="f-lang" onchange="render()"></select></label>
+  <label>Status
+    <select id="f-status" onchange="render()">
+      <option value="all">All</option>
+      <option value="undecided" selected>Undecided</option>
+      <option value="accept">Accepted</option>
+      <option value="edit">Edited</option>
+      <option value="reject">Rejected</option>
+      <option value="flag">Flagged</option>
+    </select>
+  </label>
+  <label>Search <input type="text" id="f-q" oninput="render()" placeholder="title / author"></label>
+  <span class="hint">keys: <code>1</code> accept · <code>2</code> edit · <code>3</code> reject · <code>4</code> flag · <code>J/K</code> move</span>
+</div>
+
+<div class="main" id="main"></div>
+
+<script>
+const DATA_URL = "../data/sources/secondary_pending.json";
+const CAND_URL = "../data/sources/harvest_candidates.json";
+const STORAGE_KEY = "secondary_review_v1";
+const TYPES = ["journal-article","book","book-chapter","encyclopaedia-entry","translation","thesis"];
+const LANGS = ["English","French","Arabic","German","Persian","Turkish","Italian","Russian","Multiple","Unknown"];
+
+let ALL = [];                 // review queue (reviewed:false records)
+let DEC = load();             // { id: {action, edits:{}, note} }
+let cur = 0;
+
+function load(){ try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; } catch(e){ return {}; } }
+function save(){ localStorage.setItem(STORAGE_KEY, JSON.stringify(DEC)); }
+function dec(id){ return DEC[id] || (DEC[id] = {action:"", edits:{}, note:""}); }
+function ESC(s){ return (s==null?"":String(s)).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+async function boot(){
+  const r = await fetch(DATA_URL);
+  const d = await r.json();
+  ALL = d.works.filter(w => !(w.provenance && w.provenance.reviewed));
+  initFilters();
+  render();
+}
+
+async function loadCandidates(){
+  try {
+    const r = await fetch(CAND_URL);
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    const have = new Set(ALL.map(w => w.id));
+    let n = 0;
+    for (const w of d.works){ if (!have.has(w.id)){ ALL.push(w); n++; } }
+    initFilters(); render();
+    alert(n + " harvest candidates added to the queue.");
+  } catch(e){ alert("No harvest_candidates.json found (run scripts/harvest_online.py first)."); }
+}
+
+function srcOf(w){ return (w.provenance && w.provenance.source) || "?"; }
+
+function initFilters(){
+  fill("f-source", ["all", ...uniq(ALL.map(srcOf))]);
+  fill("f-type",   ["all", ...uniq(ALL.map(w=>w.type))]);
+  fill("f-lang",   ["all", ...uniq(ALL.map(w=>w.language))]);
+}
+function uniq(a){ return [...new Set(a)].sort(); }
+function fill(id, opts){
+  const sel = document.getElementById(id); const prev = sel.value;
+  sel.innerHTML = opts.map(o=>`<option value="${ESC(o)}">${o==="all"?"All":ESC(o)}</option>`).join("");
+  if (opts.includes(prev)) sel.value = prev;
+}
+
+function statusOf(id){ return (DEC[id]||{}).action || ""; }
+
+function queue(){
+  const fs=val("f-source"), ft=val("f-type"), fl=val("f-lang"), fst=val("f-status"), q=val("f-q").toLowerCase().trim();
+  return ALL.filter(w=>{
+    if (fs!=="all" && srcOf(w)!==fs) return false;
+    if (ft!=="all" && w.type!==ft) return false;
+    if (fl!=="all" && w.language!==fl) return false;
+    const st = statusOf(w.id);
+    if (fst==="undecided" && st) return false;
+    if (["accept","edit","reject","flag"].includes(fst) && st!==fst) return false;
+    if (q){
+      const hay = (w.title+" "+(w.authors||[]).map(a=>a.name).join(" ")+" "+(w.container||"")).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+function val(id){ return document.getElementById(id).value; }
+
+function field(w,k){ const e=dec(w.id).edits; return (k in e)? e[k] : w[k]; }
+
+function render(){
+  const list = queue();
+  if (cur>=list.length) cur = Math.max(0, list.length-1);
+  const main = document.getElementById("main");
+  document.getElementById("progress").textContent =
+    Object.values(DEC).filter(d=>d.action).length + " decided / " + ALL.length + " total";
+  document.getElementById("counts").textContent = "showing " + list.length;
+  if (!list.length){ main.innerHTML = "<p class='meta'>Nothing matches these filters.</p>"; return; }
+  main.innerHTML = list.map((w,i)=>card(w,i)).join("");
+}
+
+function card(w,i){
+  const d = dec(w.id);
+  const a = d.action;
+  const cls = a + (a==="edit"?" editing":"");
+  const authors = (field(w,"authors")||[]).map(x=>x.name).join("; ");
+  const venue = [field(w,"container"), field(w,"volume")&&("vol. "+field(w,"volume")),
+                 [field(w,"place"),field(w,"publisher")].filter(Boolean).join(": "),
+                 field(w,"year"), field(w,"pages")&&("pp. "+field(w,"pages"))].filter(Boolean).join(", ");
+  const rel = (w.relatedPersons||[]).filter(p=>p.authorId).map(p=>`<span class="badge">${ESC(p.name)}</span>`).join(" ");
+  return `<div class="card ${cls}" data-i="${i}" id="card-${ESC(w.id)}">
+    <div class="row" style="justify-content:space-between">
+      <strong style="font-size:1.02rem">${ESC(field(w,"title"))} ${w.url?`<a href="${ESC(w.url)}" target="_blank">[link]</a>`:""}</strong>
+      <span class="badge">${ESC(field(w,"type"))}</span>
+    </div>
+    <div class="meta">${ESC(authors)}</div>
+    <div class="meta">${ESC(venue)} · <em>${ESC(field(w,"language"))}</em></div>
+    ${rel?`<div class="meta">On: ${rel}</div>`:""}
+    ${w.notes?`<div class="meta" style="color:var(--orange)">${ESC(field(w,"notes"))}</div>`:""}
+    <div class="meta">source: <code>${ESC(srcOf(w))}</code> · id <code>${ESC(w.id)}</code></div>
+    <div class="acts">
+      <button class="${a==="accept"?"on-accept":""}" onclick="act('${w.id}','accept')">1 Accept</button>
+      <button class="${a==="edit"?"on-edit":""}"     onclick="act('${w.id}','edit')">2 Edit</button>
+      <button class="${a==="reject"?"on-reject":""}" onclick="act('${w.id}','reject')">3 Reject</button>
+      <button class="${a==="flag"?"on-flag":""}"     onclick="act('${w.id}','flag')">4 Flag</button>
+    </div>
+    <div class="edit-grid">
+      ${ef(w,"title","Title")}
+      ${efAuthors(w)}
+      ${efSel(w,"type","Type",TYPES)}
+      ${efSel(w,"language","Language",LANGS)}
+      ${ef(w,"container","Container")}
+      ${ef(w,"volume","Volume")} ${ef(w,"issue","Issue")}
+      ${ef(w,"year","Year")} ${ef(w,"pages","Pages")}
+      ${ef(w,"place","Place")} ${ef(w,"publisher","Publisher")}
+      ${ef(w,"url","URL")}
+      ${efText(w,"notes","Notes")}
+      <div class="row"><label>Reviewer note</label><input type="text" value="${ESC(d.note||"")}"
+           oninput="setNote('${w.id}',this.value)"></div>
+    </div>
+  </div>`;
+}
+function ef(w,k,label){ return `<div class="row"><label>${label}</label>
+  <input type="text" value="${ESC(field(w,k)||"")}" oninput="setEdit('${w.id}','${k}',this.value)"></div>`; }
+function efText(w,k,label){ return `<div class="row"><label>${label}</label>
+  <textarea rows="2" oninput="setEdit('${w.id}','${k}',this.value)">${ESC(field(w,k)||"")}</textarea></div>`; }
+function efSel(w,k,label,opts){ const cv=field(w,k); return `<div class="row"><label>${label}</label>
+  <select onchange="setEdit('${w.id}','${k}',this.value)">${opts.map(o=>`<option ${o===cv?"selected":""}>${o}</option>`).join("")}</select></div>`; }
+function efAuthors(w){ const a=(field(w,"authors")||[]).map(x=>x.name).join("; ");
+  return `<div class="row"><label>Authors (; sep)</label>
+  <input type="text" value="${ESC(a)}" oninput="setAuthors('${w.id}',this.value)"></div>`; }
+
+function act(id,action){ const d=dec(id); d.action = (d.action===action?"":action); save(); render(); }
+function setEdit(id,k,v){ dec(id).edits[k]=v; save(); }
+function setAuthors(id,v){ dec(id).edits.authors = v.split(";").map(s=>s.trim()).filter(Boolean).map(n=>({name:n})); save(); }
+function setNote(id,v){ dec(id).note=v; save(); }
+
+function merged(w){
+  const d=dec(w.id); const out={...w, ...d.edits};
+  out.provenance = {...(w.provenance||{}), reviewed:true};
+  if (document.getElementById("annotator").value) out.provenance.reviewedBy = document.getElementById("annotator").value;
+  if (d.note) out.notes = (out.notes? out.notes+" " : "") + "[review] "+d.note;
+  return out;
+}
+
+function download(name, obj){
+  const blob = new Blob([JSON.stringify(obj,null,2)], {type:"application/json"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=name; a.click();
+}
+function exportJSON(){
+  const keep = ALL.filter(w=>["accept","edit"].includes((DEC[w.id]||{}).action)).map(merged);
+  download("secondary_reviewed.json", {metadata:{exported:new Date().toISOString(),
+    annotator:document.getElementById("annotator").value, totalWorks:keep.length}, works:keep});
+}
+function exportRejects(){
+  const rej = ALL.filter(w=>(DEC[w.id]||{}).action==="reject").map(w=>({id:w.id, title:w.title, source:srcOf(w), note:(DEC[w.id]||{}).note||""}));
+  download("secondary_rejects.json", {rejected:rej});
+}
+
+document.addEventListener("keydown", e=>{
+  if (["INPUT","TEXTAREA","SELECT"].includes(e.target.tagName)) return;
+  const list=queue(); if(!list.length) return;
+  if (e.key==="j"||e.key==="J"){ cur=Math.min(list.length-1,cur+1); scrollCur(); }
+  else if (e.key==="k"||e.key==="K"){ cur=Math.max(0,cur-1); scrollCur(); }
+  else if (["1","2","3","4"].includes(e.key)){ act(list[cur].id, {"1":"accept","2":"edit","3":"reject","4":"flag"}[e.key]); }
+});
+function scrollCur(){ const list=queue(); const el=document.getElementById("card-"+list[cur].id);
+  if(el) el.scrollIntoView({block:"center",behavior:"smooth"}); }
+
+const ann = localStorage.getItem("secondary_review_annotator");
+if (ann) document.getElementById("annotator").value = ann;
+document.getElementById("annotator").addEventListener("input", e=>localStorage.setItem("secondary_review_annotator", e.target.value));
+boot();
+</script>
+</body>
+</html>

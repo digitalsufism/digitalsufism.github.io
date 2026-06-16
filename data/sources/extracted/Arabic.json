@@ -1,0 +1,3210 @@
+{
+  "works": [
+    {
+      "id": "sec_xar0001",
+      "type": "book",
+      "title": "Qiṣṣat al-Ḥallāj wa-mā jarā lahu maʿa Ahl Baghdād",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Saʿīd ʿAbd al-Fattāḥ"
+        }
+      ],
+      "year": "1996",
+      "place": "Cairo",
+      "publisher": "Wazārat al-Thaqāfah and al-Hayʾah al-ʿĀmmah li-Quṣūr al-Thaqāfah",
+      "relatedPersons": [
+        {
+          "name": "al-Ḥallāj"
+        }
+      ],
+      "notes": "Series: Min Turāth al-Ḥallāj Vol. 2. Reprint: Cairo: al-Maktabah al-Azharīyah, 2000.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_001",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0002",
+      "type": "book",
+      "title": "Athr al-Aḥādīth al-Ḍaʿīfah wa-l-Mawḍūʿah fī al-Taṣawwuf al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Bāsiṭ Muḥammad Amīn Sulaymān ʿAbd al-Hādī"
+        }
+      ],
+      "year": "2019",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Azhar li-l-Turāth",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_002",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0003",
+      "type": "book",
+      "title": "al-ʿĀrif bi-llāh Dhū al-Nūn al-Miṣrī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad ʿAbd al-Raḥīm"
+        }
+      ],
+      "year": "1996",
+      "place": "Beirut",
+      "publisher": "Dār al-Fikr",
+      "relatedPersons": [
+        {
+          "name": "Dhū al-Nūn al-Miṣrī"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_003",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0004",
+      "type": "book-chapter",
+      "title": "Baḥth fī al-Ṣūfīyah wa-l-Firaq al-Islāmīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muṣṭafā ʿAbd al-Rāziq"
+        }
+      ],
+      "container": "Iʿtiqādāt Firaq al-Muslimīn wa-l-Mushrikīn",
+      "year": "1938",
+      "pages": "6-16",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Nahḍah al-Miṣrīyah",
+      "url": "https://archive.org/details/192Pdf_201812",
+      "notes": "In Fakhr al-Dīn al-Rāzī, Iʿtiqādāt Firaq al-Muslimīn wa-l-Mushrikīn. Reprint: ʿAlī Sāmī al-Nashshār (ed.). Beirut: Dār al-Kutub al-ʿIlmīyah, 1402/1982.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_004",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0005",
+      "type": "book",
+      "title": "al-Taṣawwuf: Hal la-hu Aṣl fī al-Kitāb wa-l-Sunnah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Maḥmūd ʿAbduh ʿAbd al-Rāziq"
+        }
+      ],
+      "place": "Jeddah",
+      "publisher": "Dār Mājid ʿAsīrī",
+      "notes": "No date (N.D.) in source.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_004",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0006",
+      "type": "journal-article",
+      "title": "Abū Naṣr al-Sarrāj wa-kitābuhu ‘al-Lumaʿ’",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Karīm Zuhūr ʿAdī"
+        }
+      ],
+      "container": "Majallat Majmaʿ al-Lughah al-ʿArabīyah bi-Dimashq",
+      "volume": "57",
+      "issue": "1-2",
+      "year": "1982",
+      "pages": "35-91",
+      "relatedPersons": [
+        {
+          "name": "al-Sarrāj"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_005",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0007",
+      "type": "journal-article",
+      "title": "Abū Nuʿaym al-Iṣbahānī wa-kitābuhu 'Ḥilyat al-Awliyāʾ wa-Ṭabaqāt al-Aṣfiyāʾ': al-Juzʾ al-Awwal",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Karīm Zuhūr ʿAdī"
+        }
+      ],
+      "container": "Majallat Majmaʿ al-Lughah al-ʿArabīyah bi-Dimashq",
+      "volume": "59",
+      "issue": "4",
+      "year": "1984",
+      "pages": "709-39",
+      "notes": "Multipart article continued: al-Juzʾ al-Thānī, Majallat Majmaʿ al-Lughah al-ʿArabīyah bi-Dimashq 60/1 (1985): pp. 35-91; al-Juzʾ al-Thālith, 60/2 (1985): pp. 207-26.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_005",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0008",
+      "type": "book",
+      "title": "al-Daʿwā wa-l-Shaṭḥ ʿinda al-Ṣūfīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Ḥabīb Allāh Hasan Aḥmad"
+        }
+      ],
+      "year": "2004",
+      "place": "Cairo",
+      "publisher": "Miṣr li-l-Khidmāt al-ʿIlmīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_006",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0009",
+      "type": "book",
+      "title": "Wulāh wa-Awliyāʾ: al-Sulṭah wa-l-Mutaṣawwifah fī Islām al-ʿAṣr al-Wasīṭ",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Ḥilmī ʿAbd al-Wahhāb"
+        }
+      ],
+      "year": "2009",
+      "place": "Beirut",
+      "publisher": "al-Shabakah al-ʿArabīyah li-l-Abḥāth wa-l-Nashr",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_007",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0010",
+      "type": "book",
+      "title": "Zuhd al-Majjān fī al-ʿAṣr al-ʿAbbāsī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad ʿAlī Abū Zayd"
+        }
+      ],
+      "year": "1986",
+      "place": "Cairo",
+      "publisher": "Dār al-Thaqāfah",
+      "notes": "Co-published Alexandria: Maktabat al-Maʿārif al-Ḥadīthah, 1986.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_008",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0011",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī: Mā lahu wa-mā ʿalayhi",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad ʿAlī Abū Zayd"
+        }
+      ],
+      "year": "2005",
+      "place": "Cairo",
+      "publisher": "al-Fāris li-l-Nashr",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_008",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0012",
+      "type": "book",
+      "title": "al-Taṣawwuf: al-Thawrah al-Rūḥīyah fī al-Islām",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Abū al-ʿAlāʾ (ʿIlāʾ) al-ʿAfīfī"
+        }
+      ],
+      "year": "1963",
+      "place": "Cairo",
+      "notes": "No publisher (N.P.).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_009",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0013",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī: Ḥaqīqatuhu wa-Tārīkhuhu wa-Dawruhu al-Ḥaḍārī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAzmī Ṭāhā al-Sayyid Aḥmad"
+        }
+      ],
+      "year": "2004",
+      "place": "Amman",
+      "publisher": "al-Muʾassasah al-ʿArabīyah al-Dawlīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_010",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0014",
+      "type": "journal-article",
+      "title": "al-Ṣūfīyah wa-l-ʿaqīdah al-Jabarīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Tawfīq bin ʿĀmir"
+        }
+      ],
+      "container": "Multaqā al-Imām al-Māzirī li-l-Falsafah al-Islāmī (Monastir, Tunis)",
+      "volume": "2",
+      "year": "1978",
+      "notes": "Pages not given in source. Reprinted in: Majallat Ḥawliyāt al-Jāmiʿah al-Tūnisīyah 18 (1980): pp. 75-88.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_011",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0015",
+      "type": "journal-article",
+      "title": "al-Sarī al-Saqaṭī wa-nashʾat al-madrasah al-Baghdādīyah fī al-taṣawwuf",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Tawfīq bin ʿĀmir"
+        }
+      ],
+      "container": "Ḥawlīyāt al-Jāmiʿah al-Tūnisīyah",
+      "volume": "16",
+      "year": "1978",
+      "pages": "187-225",
+      "relatedPersons": [
+        {
+          "name": "al-Sarī al-Saqaṭī"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_011",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0016",
+      "type": "book",
+      "title": "Dirāsāt fī al-Zuhd wa-l-Taṣawwuf",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Tawfīq bin ʿĀmir"
+        }
+      ],
+      "year": "1981",
+      "place": "Tunis",
+      "publisher": "Dār al-ʿArabīyah li-l-Kitāb",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_011",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0017",
+      "type": "journal-article",
+      "title": "Mawāqif al-Fuqahāʾ min al-Ṣūfīyah fī al-Fikr al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Tawfīq bin ʿĀmir"
+        }
+      ],
+      "container": "Majallat Ḥawlīyāt al-Jāmiʿah al-Tūnisīyah",
+      "volume": "39",
+      "year": "1995",
+      "notes": "Pages not given in source.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_011",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0018",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī ilā al-Qarn al-Sādis al-Hijrī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Tawfīq bin ʿĀmir"
+        }
+      ],
+      "year": "1998",
+      "place": "Tunis",
+      "publisher": "al-Markaz al-Qawmī al-Bīdāghūjī and Jāmiʿat al-Zaytūnah",
+      "notes": "Reprint: N.P.: Kanz Nāshirūn, 2017.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_011",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0019",
+      "type": "journal-article",
+      "title": "al-Turāth al-Ṣūfī: al-Muʾaththarāt al-Thaqāfīyah wa-l-Nazāʿāt al-Falsafīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Tawfīq bin ʿĀmir"
+        }
+      ],
+      "container": "al-Ḥayāt al-Thaqāfīyah (Tunis)",
+      "volume": "25",
+      "issue": "112",
+      "year": "2000",
+      "pages": "7-15",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_011",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0020",
+      "type": "journal-article",
+      "title": "al-Munʿaraj al-Ḥāsim fī Tārīkh al-Taṣawwuf",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Tawfīq bin ʿĀmir"
+        }
+      ],
+      "container": "al-Ḥayāt al-Thaqāfīyah (Tunis)",
+      "volume": "35",
+      "issue": "210",
+      "year": "2010",
+      "pages": "6-15",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_011",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0021",
+      "type": "book",
+      "title": "al-Tajribah al-Dīnīyah bayna al-Wiḥdah wa-l-Tanawwuʿ",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Tawfīq bin ʿĀmir"
+        }
+      ],
+      "year": "2013",
+      "place": "Casablanca and Beirut",
+      "publisher": "al-Markaz al-Thaqāfī al-ʿArabī",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_011",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0022",
+      "type": "book",
+      "title": "al-Taṣawwuf fī al-Islām: Manābiʿuhu wa-Aṭwāruhu",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Ṣādiq ʿArjūn"
+        }
+      ],
+      "year": "1967",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Kulīyāt al-Azharīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_012",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0023",
+      "type": "book",
+      "title": "Jawāhir al-Taṣwawuf li-Yaḥyā b. Muʿādh al-Rāzī (tuwuffiya 258 hijrī)",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Saʿīd Hārūn ʿĀshūr"
+        }
+      ],
+      "year": "2002",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Ādāb",
+      "relatedPersons": [
+        {
+          "name": "Yaḥyā b. Muʿādh al-Rāzī"
+        }
+      ],
+      "notes": "ʿĀshūr is editor (ed.) of this edition of Yaḥyā b. Muʿādh al-Rāzī's text.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_013",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0024",
+      "type": "book",
+      "title": "al-Taṣawwuf: Qirāʾah fī al-Muṣṭalaḥ wa-l-Muʿtaqad wa-l-Sulūk",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbbūd ʿAskarī"
+        }
+      ],
+      "year": "2006",
+      "place": "Damascus",
+      "publisher": "Dār al-Numayr",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_014",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0025",
+      "type": "book",
+      "title": "al-Shiʿr al-Ṣūfī ḥattā Afwal Madrasat Baghdād wa-Ẓuhūr al-Ghazālī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAdnān Ḥusayn al-ʿAwādī"
+        }
+      ],
+      "year": "1986",
+      "place": "Baghdad",
+      "publisher": "Dār al-Shuʾūn al-Thaqāfīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_015",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0026",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī: Tārīkhuhu wa-Madārisuhu wa-Ṭabīʿatuhu wa-Athruhu",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Aḥmad Tawfīq ʿAyyād"
+        }
+      ],
+      "year": "1970",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Anglū al-Miṣrīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_016",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0027",
+      "type": "book",
+      "title": "al-Awliyāʾ al-Thalāthah: Rābiʿah al-ʿAdawīyah, Mālik b. Dīnār, Dhū al-Nūn al-Miṣrī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Ṣalāḥ ʿAzzām"
+        }
+      ],
+      "year": "2002",
+      "place": "Cairo",
+      "publisher": "Muʾassasat Dār al-Shaʿb",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        },
+        {
+          "name": "Mālik b. Dīnār"
+        },
+        {
+          "name": "Dhū al-Nūn al-Miṣrī"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_017",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0028",
+      "type": "book",
+      "title": "Shaṭḥāt al-Ṣūfīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Raḥmān Badawī"
+        }
+      ],
+      "year": "1949",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Nahḍah al-Miṣrīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_018",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0029",
+      "type": "book",
+      "title": "Shahīdat al-ʿIshq al-Ilahī Rābiʿah al-ʿAdawīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Raḥmān Badawī"
+        }
+      ],
+      "year": "1962",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Nahḍah al-Miṣrīyah",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        }
+      ],
+      "notes": "First published 1954.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_018",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0030",
+      "type": "book",
+      "title": "Tārīkh al-Taṣawwuf al-Islāmī min al-Bidāyah ḥattā Nihāyat al-Qarn al-Thānī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Raḥmān Badawī"
+        }
+      ],
+      "year": "1978",
+      "place": "Kuwait",
+      "publisher": "Wakālat al-Maṭbūʿāt",
+      "notes": "First published 1975. Reprint: Cairo: al-Nāshir al-Shaʿāʿ, 2008.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_018",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0031",
+      "type": "book",
+      "title": "al-Ḥuḍūr al-Ṣūfī fī al-Andalus wa-l-Maghrib ilā Ḥudūd al-Qarn al-Sābiʿ al-Hijrī: Dirāsah Tārīkhīyah wa-Qirāʾah Taḥlīlīyah fī Mawāfiq Ibn Khamīr al-Sabtī min al-Taṣawwuf wa-l-Mutaṣawwifah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Jamāl ʿAllāl Bakhtī"
+        }
+      ],
+      "year": "2005",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Thaqāfah al-Dīnīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_019",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0032",
+      "type": "book",
+      "title": "al-Ḥarakah al-Ṣūfīyah wa-Mawqif al-Islām minhā",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Naṣr Allāh Muḥammad ʿAbd al-Ḥamīd Barājah"
+        }
+      ],
+      "year": "2002",
+      "place": "Alexandria",
+      "publisher": "Maktabat Bustān al-Maʿrifah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_020",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0033",
+      "type": "book",
+      "title": "al-Quwā al-Maʿnawīyah fī al-Mīthāq",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Ibrāhīm Basyūnī (Abū al-ʿAlāʾ)"
+        }
+      ],
+      "year": "1962",
+      "place": "Cairo",
+      "publisher": "al-Dār al-Qawmīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_021",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0034",
+      "type": "book",
+      "title": "Nashaʾat al-Taṣawwuf al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Ibrāhīm Basyūnī (Abū al-ʿAlāʾ)"
+        }
+      ],
+      "year": "1969",
+      "place": "Cairo",
+      "publisher": "Dār al-Maʿārif",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_021",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0035",
+      "type": "book",
+      "title": "al-Basmalah bayna Ahl al-ʿIbārah wa-Ahl al-Ishārah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Ibrāhīm Basyūnī (Abū al-ʿAlāʾ)"
+        }
+      ],
+      "year": "1972",
+      "place": "Cairo",
+      "publisher": "al-Hayʾah al-Miṣrīyah al-ʿĀmmah li-l-Kitāb",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_021",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0036",
+      "type": "book-chapter",
+      "title": "al-Maḥabbah wa-l-ʿIshq bayna al-Falsafah al-Taṣawwuf wa-l-ʿIrfān: Dirāsah Tarkībīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAmmār Muḥammad ʿAlī al-Birqāwī"
+        }
+      ],
+      "container": "al-Taṣawwuf: Abḥāth wa-Dirāsāt. Qirāʾah Naqdīyah",
+      "year": "2015",
+      "pages": "147-74",
+      "place": "Beirut and Riyadh",
+      "publisher": "Manshūrāt Ḍafāf and Rabat: Dār al-Amān",
+      "notes": "In ʿĀmir ʿAbd Zayd al-Wāʾilī (ed.), al-Taṣawwuf: Abḥāth wa-Dirāsāt. Qirāʾah Naqdīyah.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_022",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0037",
+      "type": "book",
+      "title": "Min Aʿlām al-ʿĀbidāt al-Zāhidāt fī Bayt al-Muqaddis: Rābiʿah al-ʿAdawīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Ḥusayn Aḥmad al-Darāwīsh"
+        }
+      ],
+      "year": "1995",
+      "publisher": "al-Rawḍah al-Ḥadīthah",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        }
+      ],
+      "notes": "No place (N.P.).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_023",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0038",
+      "type": "book",
+      "title": "Aʿlām al-ʿĀbidāt al-Zāhidāt",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Darnīqah"
+        }
+      ],
+      "year": "1990",
+      "place": "Beirut",
+      "publisher": "al-Muʾassasah al-Jāmiʿīyah li-l-Dirāsāt",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_024",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0039",
+      "type": "book",
+      "title": "Ṣafaḥāt min Jihād al-Ṣūfīyah wa-l-Zuhhād",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Darnīqah"
+        }
+      ],
+      "year": "1994",
+      "place": "Tripoli (Lebanon)",
+      "publisher": "Jārrūs Press",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_024",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0040",
+      "type": "book",
+      "title": "Muʿjam al-muʾallifīn al-Ṣūfīyīn. Akthar min 1600 tarjamah li-Ṣūfīyīn muʾallifīn min Atrāk wa-Furs wa-ʿArab wa-Hunūd wa-Afāriqah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Darnīqah"
+        }
+      ],
+      "year": "2006",
+      "place": "Tripoli (Lebanon)",
+      "publisher": "al-Muʾassasah al-Ḥadīthah li-l-Kitāb",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_024",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0041",
+      "type": "book",
+      "title": "Shaykh al-ʿĀrifīn al-Imām al-Tustarī (tuwuffiya 283 hijrī)",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Ibrāhīm Fayyūmī"
+        }
+      ],
+      "year": "2002",
+      "place": "Cairo",
+      "publisher": "Dār al-Thaqāfah",
+      "relatedPersons": [
+        {
+          "name": "al-Tustarī"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_025",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0042",
+      "type": "book",
+      "title": "Ḥallāj, al-Ḥasan ibn Manṣūr",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muṣṭafā Ghālib"
+        }
+      ],
+      "year": "1982",
+      "place": "Beirut",
+      "publisher": "Muʾassasat ʿIzz al-Dīn",
+      "relatedPersons": [
+        {
+          "name": "al-Ḥallāj"
+        }
+      ],
+      "notes": "Title contains [sic] after 'al-Ḥasan' in source.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_026",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0043",
+      "type": "journal-article",
+      "title": "Masters and dissertations on taṣawwuf in Egypt and Saudi Arabia up to 1997",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Dilaver Gürer"
+        },
+        {
+          "name": "Ali Namli"
+        }
+      ],
+      "container": "Journal d’Histoire du Soufisme",
+      "volume": "4",
+      "year": "2003",
+      "pages": "263-77",
+      "notes": "Issue dated 2003-4. Entry is in English though listed in the Arabic bibliography.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_027",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0044",
+      "type": "book",
+      "title": "Taʾrīkh Mutaṣawwifat Baghdād",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Jamīl Ibrāhīm Ḥabīb"
+        }
+      ],
+      "year": "1988",
+      "place": "Baghdad",
+      "publisher": "Maktabat al-Sharq al-Jadīd",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_028",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0045",
+      "type": "book",
+      "title": "Qaḍāyā Hāmmah fī al-Taṣawwuf al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Fawqī Ḥajjāj"
+        },
+        {
+          "name": "Muḥammad Muṣṭafā"
+        }
+      ],
+      "year": "1976",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Azhar",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_029",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0046",
+      "type": "book",
+      "title": "al-Rahbanah wa-l-Taṣawwuf fī al-Masīḥīyah wa-l-Islām",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad ʿAbd al-Ḥamīd Ḥamad"
+        }
+      ],
+      "year": "2004",
+      "place": "al-Raqqah",
+      "notes": "No publisher (N.P.).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_030",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0047",
+      "type": "book",
+      "title": "al-ʿĀbidah al-Khāshiʿah Rābiʿah al-ʿAdawīyah: Imāmat al-ʿĀshiqīn wa-l-Maḥzūnīn",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Munʿim al-Ḥifnī"
+        }
+      ],
+      "year": "1996",
+      "place": "Cairo",
+      "publisher": "Dār al-Rashshād",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        }
+      ],
+      "notes": "First published 1991.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_031",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0048",
+      "type": "book",
+      "title": "al-Mawsūʿah al-Ṣūfīyah: Aʿlām al-Taṣawwuf wa-l-Munkirīn ʿalayhi wa-l-Ṭuruq al-Ṣūfīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Munʿim al-Ḥifnī"
+        }
+      ],
+      "year": "1992",
+      "place": "Cairo",
+      "publisher": "Dār al-Rashshād",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_031",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0049",
+      "type": "book",
+      "title": "al-Ḥayāh al-Rūḥīyah fī al-Islām",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Muṣṭafā Ḥilmī"
+        }
+      ],
+      "year": "1945",
+      "place": "Cairo",
+      "publisher": "ʿĪsā al-Bābī al-Ḥalabī and Dār Iḥyāʾ al-Kutub al-ʿArabīyah",
+      "notes": "Series: Muʾallifāt al-Jamʿīyah al-Falsafīyah al-Miṣrīyah.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_032",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0050",
+      "type": "book",
+      "title": "al-Ḥubb al-Ilahī fī al-Taṣawwuf al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muṣṭafā Ḥilmī"
+        }
+      ],
+      "year": "1960",
+      "place": "Cairo",
+      "publisher": "Wazārat al-Thaqāfah wa-l-Irshād al-Qawmī and Dār al-Qalam",
+      "notes": "Series: al-Maktabah al-Thaqāfīyah Vol. 24.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_033",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0051",
+      "type": "book",
+      "title": "al-Zuhhād al-Awāʾil: Dirāsah fī al-Ḥayāh al-Rūḥīyah al-Khāliṣah fī al-Qurūn al-Ulā",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muṣṭafā Ḥilmī"
+        }
+      ],
+      "year": "1979",
+      "place": "Tripoli (Libya)",
+      "publisher": "Dār al-Daʿwah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_033",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0052",
+      "type": "book",
+      "title": "Dhū al-Nūn al-Miṣrī: al-Tafsīr al-ʿIrfānī li-l-Qurʾān al-Karīm",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Maḥmūd al-Hindī"
+        }
+      ],
+      "year": "2007",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Madbūlī",
+      "relatedPersons": [
+        {
+          "name": "Dhū al-Nūn al-Miṣrī"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_034",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0053",
+      "type": "book-chapter",
+      "title": "al-Tajribah al-Ṣūfīyah fī Taṣawuf al-Ḥārith b. Asad al-Muḥāsibī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAlāʾ Jaʿfar Ḥusayn"
+        }
+      ],
+      "container": "al-Taṣawwuf: Abḥāth wa-Dirāsāt. Qirāʾah Naqdīyah",
+      "year": "2015",
+      "pages": "215-40",
+      "place": "Beirut and Riyadh",
+      "publisher": "Manshūrāt Ḍafāf and Rabat: Dār al-Amān",
+      "relatedPersons": [
+        {
+          "name": "al-Muḥāsibī"
+        }
+      ],
+      "notes": "In ʿĀmir ʿAbd Zayd al-Wāʾilī (ed.), al-Taṣawwuf: Abḥāth wa-Dirāsāt. Qirāʾah Naqdīyah.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_035",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0054",
+      "type": "book-chapter",
+      "title": "Taṣawwuf al-Rawwād al-Awāʾil fī al-Qarnayn al-Thālith wa-l-Rābiʿ al-Hijrīyayn",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Maḥmūd Abū al-Hadī al-Ḥusaynī"
+        }
+      ],
+      "container": "Les Maîtres Soufis et Leurs Disciples des IIIe-Ve siècles de l'Hégire (IXe-XIe): Enseignement, formation et transmission",
+      "year": "2012",
+      "pages": "239-57",
+      "place": "Damascus",
+      "publisher": "Presses de l'IFPO",
+      "notes": "In Geneviève Gobillot and Jean-Jacques Thibon (eds.).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_036",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0055",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Sunnī: Ḥāl al-Fanāʾ bayna al-Junayd wa-l-Ghazālī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿĀṭif al-ʿIrāqī"
+        }
+      ],
+      "year": "2002",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Thaqāfah al-Dīnīyah",
+      "relatedPersons": [
+        {
+          "name": "al-Junayd"
+        }
+      ],
+      "notes": "Series: al-Maktabah al-Ṣūfīyah.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_037",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0056",
+      "type": "book",
+      "title": "Maʾsāt al-Ḥallāj bayna Māsīnyūn wa-l-Bāḥithīn al-Baghdādīyīn, 1908-1998",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAlī Ḥusayn Jābirī"
+        }
+      ],
+      "year": "2008",
+      "place": "Damascus",
+      "publisher": "Dār Nīnawā",
+      "relatedPersons": [
+        {
+          "name": "al-Ḥallāj"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_038",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0057",
+      "type": "book",
+      "title": "Min Turāth al-Ṣūfī li-Sahl b. ʿAbd Allāh al-Tustarī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Kamāl Ibrāhīm Jaʿfar"
+        }
+      ],
+      "year": "1974",
+      "place": "Cairo",
+      "publisher": "Dār al-Maʿārif",
+      "relatedPersons": [
+        {
+          "name": "al-Tustarī"
+        }
+      ],
+      "notes": "Reprint: Cairo: al-Majlis al-Aʿlā li-l-Thaqāfah, 1403/1982.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_039",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0058",
+      "type": "book",
+      "title": "Min al-Turāth al-Falsafī li-Ibn Masarrah (tuwuffiya 319 hijrī)",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Kamāl Ibrāhīm Jaʿfar"
+        }
+      ],
+      "year": "1982",
+      "place": "Cairo",
+      "publisher": "al-Majlis al-Aʿlā li-l-Thaqāfah",
+      "relatedPersons": [
+        {
+          "name": "Ibn Masarrah"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_039",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0059",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī fī Ittijāhāt al-Adabīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Qays Kāẓim al-Jannābī"
+        }
+      ],
+      "year": "2007",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Thaqāfah al-Dīnīyah",
+      "notes": "Series: al-Maktabah al-Ṣūfīyah.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_040",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0060",
+      "type": "book",
+      "title": "Riḥlat al-Taṣawwuf: Fī al-Amṣār al-Islāmīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Qays Kāẓim al-Jannābī"
+        }
+      ],
+      "place": "Baghdad",
+      "publisher": "Muʾassasat al-Intishār al-ʿArabī",
+      "notes": "No date (N.D.).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_040",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0061",
+      "type": "book",
+      "title": "Mutaṣawwifat al-Zuhhād: al-Zāhidah al-Tāʾibah Rābiʿah al-ʿAdawīyah Shahīdat al-Ḥubb al-Ilahī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Rashīd Salīm Jarrāḥ"
+        }
+      ],
+      "year": "2006",
+      "place": "Beirut",
+      "publisher": "Dār al-Kutub al-ʿIlmīyah",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_041",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0062",
+      "type": "book",
+      "title": "Mutaṣawwifat Baghdād",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAzīz al-Sayyid Jāsim"
+        }
+      ],
+      "year": "1990",
+      "place": "Baghdad",
+      "publisher": "Sharikat al-Maʿrifah",
+      "notes": "Reprint: Paris: Muʾassasat al-Risālah, 1994; Beirut and Casablanca: Markaz al-Thaqāfī al-ʿArabī, 1997.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_042",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0063",
+      "type": "book",
+      "title": "al-Rubaṭ al-Ṣūfīyah al-Baghdādīyah wa-Athruhā fī al-Thaqāfah al-Islāmīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muṣṭafā Jawwād"
+        }
+      ],
+      "year": "2006",
+      "place": "Beirut",
+      "publisher": "Dār al-ʿArabīyah li-l-Mawsūʿāt",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_043",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0064",
+      "type": "book",
+      "title": "Qaḍāyā wa-Shakhṣīyāt Ṣūfīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Aḥmad Maḥmūd Jazzār"
+        }
+      ],
+      "year": "2001",
+      "place": "Alexandria (Egypt)",
+      "publisher": "Manshʾat al-Maʿārif",
+      "notes": "Series: Dirāsāt fī al-Taṣawwuf Vol. 3.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_044",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0065",
+      "type": "book",
+      "title": "Dirāsāt fī al-Taṣawwuf al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Aḥmad Maḥmūd Jazzār"
+        }
+      ],
+      "year": "2015",
+      "place": "Alexandria",
+      "publisher": "Dār al-Wafāʾ li-l-Dunyā",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_044",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0066",
+      "type": "book",
+      "title": "Naẓrāt fī al-Taṣawwuf al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Maḥmūd b. al-Jīlī"
+        }
+      ],
+      "year": "1998",
+      "place": "Khartoum",
+      "publisher": "Mashyakhat al-Sammānīyah bi-Ṭābit",
+      "notes": "Series: Silsilat al-Maṭbūʿāt Vol. 13.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_045",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0067",
+      "type": "book",
+      "title": "Khaṣāʾiṣ al-Tajribah al-Ṣūfīyah fī al-Islām: Dirāsah wa-Naqd",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Naẓlah Aḥmad Nāʾil al-Jubūrī"
+        }
+      ],
+      "year": "2001",
+      "place": "Baghdad",
+      "publisher": "Bayt al-Ḥikmah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_046",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0068",
+      "type": "book",
+      "title": "Nuṣūṣ al-Muṣṭalaḥ al-Ṣūfī fī al-Islām",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Naẓlah Aḥmad Nāʾil al-Jubūrī"
+        }
+      ],
+      "year": "2013",
+      "place": "Damascus",
+      "publisher": "Dār Nīnawā",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_046",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0069",
+      "type": "book",
+      "title": "al-Fikr al-Ṣūfī: Muqārabāt fī al-Muṣṭalaḥ wa-l-Minhaj wa-l-Lughah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Naẓlah Aḥmad Nāʾil al-Jubūrī"
+        }
+      ],
+      "year": "2014",
+      "place": "Baghdad",
+      "publisher": "al-Markaz al-ʿIlmī al-ʿIrāqī and Beirut: Maktabat al-Baṣāʾir",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_046",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0070",
+      "type": "book-chapter",
+      "title": "Mafhūm Waḥdat al-Shuhūd fī al-Fikr al-Ṣūfī: Abū al-Ḥusayn al-Nūrī Anmūdhajan",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Naẓlah Aḥmad Nāʾil al-Jubūrī"
+        }
+      ],
+      "container": "al-Taṣawwuf: Abḥāth wa-Dirāsāt. Qirāʾah Naqdīyah",
+      "year": "2015",
+      "pages": "65-83",
+      "place": "Beirut and Riyadh",
+      "publisher": "Manshūrāt Ḍafāf and Rabat: Dār al-Amān",
+      "relatedPersons": [
+        {
+          "name": "Abū al-Ḥusayn al-Nūrī"
+        }
+      ],
+      "notes": "In ʿĀmir ʿAbd Zayd al-Wāʾilī (ed.), al-Taṣawwuf: Abḥāth wa-Dirāsāt. Qirāʾah Naqdīyah.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_046",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0071",
+      "type": "book",
+      "title": "Salāṭīn al-Mutaṣawwifah fī al-ʿIshq wa-l-Maʿrifah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Naẓlah Aḥmad Nāʾil al-Jubūrī"
+        }
+      ],
+      "year": "2016",
+      "place": "Baghdad",
+      "publisher": "al-Madā li-l-Iʿlām wa-l-Thaqāfah wa-l-Funūn",
+      "notes": "Series: Taṣawwuf.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_046",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0072",
+      "type": "book",
+      "title": "Rābiʿah al-ʿAdawīyah bayna al-Asṭūrah wa-l-Ḥaqīqah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Sihām Khaḍr"
+        }
+      ],
+      "place": "Beirut",
+      "publisher": "Dār al-Kutub al-ʿIlmīyah",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        }
+      ],
+      "notes": "No date (N.D.).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_047",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0073",
+      "type": "book",
+      "title": "Dirāsāt fī al-Taṣawwuf al-Islāmī: Ṭalāluhu fī al-Adab al-ʿArabī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad ʿAbd al-Munʿim al-Khafājī"
+        }
+      ],
+      "year": "1960",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Qāhirah",
+      "notes": "2 vols.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_048",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0074",
+      "type": "book",
+      "title": "al-Adab al-Ṣūfī fī Mafhūm Jadīd",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Karīm Khaṭīb"
+        }
+      ],
+      "year": "1965",
+      "place": "Cairo",
+      "publisher": "Dār al-Thaqāfah al-ʿArabīyah",
+      "notes": "Series: Silsilat al-Thaqāfah al-Islāmīyah Vol. 49.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_049",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0075",
+      "type": "book",
+      "title": "Ṣarʿā al-Taṣawwuf: al-Ḥallāj (tuwuffiya 309 hijrī) wa-ʿAyn al-Quḍāt al-Hamadhānī (tuwuffiya 525 hijrī) wa-l-Suhruwardī (tuwuffiya 586 hijrī) Namādhij. Dirāsah Taḥlīlīyah Naqdīyah Muqāranah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Asmāʾ Khawālidīyah"
+        }
+      ],
+      "year": "2013",
+      "place": "Tunis and Gafsah",
+      "publisher": "Maṭbaʿat Quṭayf Shawqī and Beirut: Manshūrāt al-Ḍifāf",
+      "relatedPersons": [
+        {
+          "name": "al-Ḥallāj"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_050",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0076",
+      "type": "book",
+      "title": "Rābiʿah al-ʿAdawīyah bayna al-Usṭūrah wa-l-Ḥaqīqah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Sihān Khiḍr"
+        }
+      ],
+      "year": "2010",
+      "place": "Beirut",
+      "publisher": "Dār al-Kutub al-ʿIlmīyah",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_051",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0077",
+      "type": "book",
+      "title": "al-Junayd: Hādhā Kitāb al-Durr al-Farīd bi-Iḥyāʾ Ṭarīqat al-Sayyid al-Junayd wa-Bayānannahā Ḥayyah bi-Ḥayāt al-Kitāb wa-l-Sunnah maʿa Nasab Uṣūlihi wa-Furūʿihi",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Saʿīd Kurdī"
+        }
+      ],
+      "year": "1948",
+      "place": "Damascus",
+      "publisher": "Maṭābiʿ al-Hilāl",
+      "relatedPersons": [
+        {
+          "name": "al-Junayd"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_052",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0078",
+      "type": "book",
+      "title": "Dhū al-Nūn al-Miṣrī wa-l-Adab al-Ṣūfī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "al-Sayyid Abū Ḍayf Madanī"
+        }
+      ],
+      "year": "1973",
+      "place": "Cairo",
+      "publisher": "Dār al-Shurūq",
+      "relatedPersons": [
+        {
+          "name": "Dhū al-Nūn al-Miṣrī"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_053",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0079",
+      "type": "book",
+      "title": "Uṣūl al-Taṣawwuf fī al-Qurʾān al-Karīm wa-l-Sunnah al-Muḥammadīyah: al-Maʿālim al-Ṣūfīyah fī qaṣṣat Sayyidnā Mūsā wa-l-Khiḍr",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Jūdah Muḥammad Muḥammad Mahdī"
+        }
+      ],
+      "year": "1999",
+      "place": "Cairo",
+      "publisher": "al-Maktabah al-Fayḍīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_054",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0080",
+      "type": "book",
+      "title": "Biḥār al-Wilāyah al-Muḥammadīyah fī Manāqib Aʿlām al-Ṣūfīyah: Tarājim ʿIlmīyah Ṣūfīyah Muwaththaqah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Jūdah Muḥammad Muḥammad Mahdī"
+        }
+      ],
+      "year": "1998",
+      "place": "Cairo",
+      "publisher": "Dār al-Gharāʾib",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_054",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0081",
+      "type": "book",
+      "title": "al-Ittijāh al-Ṣūfī ʿinda Aʾimmah Tafsīr al-Qurʾān al-Karīm",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Jūdah Muḥammad Muḥammad Mahdī"
+        }
+      ],
+      "year": "2007",
+      "place": "Cairo",
+      "publisher": "Dār al-Jūdīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_054",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0082",
+      "type": "book",
+      "title": "al-Taṣawwuf Rūḥ al-Islam: al-Mawsūʿah al-Kāmilah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Jūdah Muḥammad Muḥammad Mahdī"
+        }
+      ],
+      "year": "2014",
+      "place": "Cairo",
+      "publisher": "Aṭlas li-l-Istīrād wa-l-Taṣdīr",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_054",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0083",
+      "type": "book",
+      "title": "Biḥār al-Wilāyah al-Muḥammadīyah fī Manāqib Aʿlām al-Ṣūfīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Abū al-Yazīd al-Mahdī"
+        }
+      ],
+      "year": "1998",
+      "place": "Cairo",
+      "publisher": "Dār al-Gharīb",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_055",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0084",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī: Shakhṣīyāt wa-Nuṣūṣ",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Ḥalīm Maḥmūd"
+        }
+      ],
+      "year": "1968",
+      "place": "Cairo",
+      "publisher": "Dār al-Shaʿb al-ʿArabī and Maʿhad al-Dirāsāt al-Islāmīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_056",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0085",
+      "type": "book",
+      "title": "al-Isrāʾ wa-l-Miʿrāj",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Ḥalīm Maḥmūd"
+        }
+      ],
+      "year": "1968",
+      "place": "Cairo",
+      "publisher": "Dār al-Kitāb al-ʿArabī",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_056",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0086",
+      "type": "book",
+      "title": "Ibrāhīm b. Adam Shaykh al-Ṣūfīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Ḥalīm Maḥmūd"
+        }
+      ],
+      "year": "1972",
+      "place": "Cairo",
+      "publisher": "al-Hayʾah al-Miṣrīyah al-ʿĀmmah li-l-Kitāb",
+      "relatedPersons": [
+        {
+          "name": "Ibrāhīm b. Adham"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_056",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0087",
+      "type": "book",
+      "title": "al-ʿĀlim al-ʿĀbid al-ʿĀrif bi-llāh Dhū al-Nūn al-Miṣrī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Ḥalīm Maḥmūd"
+        }
+      ],
+      "year": "1973",
+      "place": "Cairo",
+      "publisher": "Dār al-Shaʿb",
+      "relatedPersons": [
+        {
+          "name": "Dhū al-Nūn al-Miṣrī"
+        }
+      ],
+      "notes": "Reprint: Sidon and Beirut: al-Maktabah al-ʿAṣarīyah, 1980; Cairo: Dār al-Rashshād, 2004.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_056",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0088",
+      "type": "book",
+      "title": "Tāj al-Ṣūfīyah Abū Bakr al-Shiblī: Ḥayātuhu wa-Ārāʾuhu",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Ḥalīm Maḥmūd"
+        }
+      ],
+      "year": "1978",
+      "place": "Cairo",
+      "publisher": "Maṭbaʿat Dār al-Miṣrīyah",
+      "relatedPersons": [
+        {
+          "name": "al-Shiblī"
+        }
+      ],
+      "notes": "Reprint: Cairo: Dār al-Maʿārif, 1993.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_056",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0089",
+      "type": "book",
+      "title": "al-ʿĀrif bi-llāh Bishr b. al-Ḥārith al-Ḥāfī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Ḥalīm Maḥmūd"
+        }
+      ],
+      "year": "1994",
+      "place": "Cairo",
+      "publisher": "Dār al-Maʿārif",
+      "relatedPersons": [
+        {
+          "name": "Bishr b. al-Ḥārith al-Ḥāfī"
+        }
+      ],
+      "notes": "Reprint edition; original details not given. Author inferred from preceding block Arabic_056 (ʿAbd al-Ḥalīm Maḥmūd).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_057",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0090",
+      "type": "book",
+      "title": "al-ʿĀrif bi-llāh Sahl b. ʿAbd Allāh al-Tustarī: Ḥayātuhu wa-Ārāʾuhu",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Ḥalīm Maḥmūd"
+        }
+      ],
+      "year": "1994",
+      "place": "Cairo",
+      "publisher": "Dār al-Maʿārif",
+      "relatedPersons": [
+        {
+          "name": "al-Tustarī"
+        }
+      ],
+      "notes": "Reprint edition; original details not given. Author inferred from preceding block Arabic_056 (ʿAbd al-Ḥalīm Maḥmūd).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_057",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0091",
+      "type": "book",
+      "title": "Rābiʿah al-ʿAdawīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Ḥalīm Maḥmūd"
+        },
+        {
+          "name": "Muḥammad ʿAṭīyah Khamīs"
+        }
+      ],
+      "year": "2006",
+      "place": "Cairo",
+      "publisher": "al-Maktabah al-Azharīyah li-l-Turāth",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_058",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0092",
+      "type": "book-chapter",
+      "title": "Kashf al-Maknūn fī Shiʿr al-Taṣawwuf bi-l-Lisān al-ʿArabī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Maḥmūd Malyān"
+        }
+      ],
+      "container": "Les Maîtres Soufis et Leurs Disciples des IIIe-Ve siècles de l'Hégire (IXe-XIe): Enseignement, formation et transmission",
+      "year": "2012",
+      "pages": "258-69",
+      "place": "Damascus",
+      "publisher": "Presses de l'IFPO",
+      "notes": "In Geneviève Gobillot and Jean-Jacques Thibon (eds.).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_059",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0093",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī al-Ṣaḥīḥ",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-ʿAzīz Aḥmad Manṣūr"
+        }
+      ],
+      "year": "1996",
+      "place": "Cairo",
+      "notes": "No publisher (N.P.). Series: Silsilat al-Buḥūth fī al-Taṣawwuf, 2 vols., 1416-17/1996-97.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_060",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0094",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī al-Khāliṣ",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "al-Sayyid Maḥmūd Abū al-Fayḍ al-Manūfī"
+        }
+      ],
+      "year": "1979",
+      "place": "Cairo",
+      "publisher": "Dār al-Nahḍah al-ʿArabīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_061",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0095",
+      "type": "book",
+      "title": "Rābiʿah al-ʿAdawīyah: Masraḥīyah Shiʿrīyah min Arbaʿat Fuṣūl",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAdnān Mardam"
+        }
+      ],
+      "year": "1972",
+      "place": "Beirut",
+      "publisher": "Manshūrāt ʿUwaydāt",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_062",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0096",
+      "type": "book",
+      "title": "al-Islam wa-l-Taṣawwuf",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Lūwīs Māsīnyūn"
+        },
+        {
+          "name": "Muṣṭafā ʿAbd al-Rāziq"
+        }
+      ],
+      "year": "1979",
+      "place": "Cairo",
+      "publisher": "Dār al-Shaʿb",
+      "notes": "Edited by Ibrāhīm Zakkī and ʿAbd al-Ḥamīd Khūrshīd.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_063",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0097",
+      "type": "book",
+      "title": "Falsafat al-Taṣawwuf al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Minshāwī"
+        }
+      ],
+      "year": "2008",
+      "place": "Cairo",
+      "publisher": "Maktabat Madbūlī",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_064",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0098",
+      "type": "book",
+      "title": "al-Imām al-Junayd Sayyid al-Ṭāʾifatayn: Mashāyikhuhu Aqrānuhu Tilāmidhatuhu Kutubuhu wa-Risāʾiluhu",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Aḥmad Farīd Mizyadī"
+        }
+      ],
+      "year": "2006",
+      "place": "Beirut",
+      "publisher": "Dār al-Kutub al-ʿIlmīyah",
+      "relatedPersons": [
+        {
+          "name": "al-Junayd"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_065",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0099",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī: Madārisuhu, Rumūzuhu wa-Adabuhu",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Shaʿbān ʿAbd al-Ḥakīm Muḥammad"
+        }
+      ],
+      "year": "2016",
+      "place": "Amman",
+      "publisher": "al-Warrāq",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_066",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0100",
+      "type": "book",
+      "title": "Madrasat al-ʿIrāq al-Ṣūfīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Qādir Mūsā al-Muḥammadī"
+        }
+      ],
+      "year": "2012",
+      "publisher": "Dār Amal al-Jadīdah",
+      "notes": "No place (N.P.).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_067",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0101",
+      "type": "book",
+      "title": "Nashʾat al-Taṣawwuf al-Islāmī wa-Taṭawwuruhu fī al-ʿIrāq",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Qādir Mūsā al-Muḥammadī"
+        }
+      ],
+      "year": "2013",
+      "place": "Baghdad",
+      "publisher": "Wizārat al-Thaqāfah",
+      "notes": "Series: Iṣdārāt Mashrūʿ Baghdād ʿĀṣimat al-Thaqāfah al-ʿArabīyah 2013 No. 120.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_067",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0102",
+      "type": "book",
+      "title": "Maqām al-Riḍā ʿinda Ṣūfīyah al-Qarnayn al-Thālith wa-l-Rābiʿ al-Hijrīayn",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Mukhtār Muṣliḥ"
+        }
+      ],
+      "year": "2010",
+      "place": "Cairo",
+      "publisher": "Dār al-Salām",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_068",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0103",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Albīr Naṣrī Nādir"
+        }
+      ],
+      "year": "1960",
+      "place": "Beirut",
+      "publisher": "L'Imprimérie Catholique",
+      "notes": "Subtitle/series: Nuṣūṣ wa-Durūs = Textes et études, Vol. 16.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_069",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0104",
+      "type": "book",
+      "title": "Dhū al-Nūn al-Miṣrī: Rāʾid al-Taṣawwuf al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muṣṭafā Hasan Nashshār"
+        }
+      ],
+      "year": "2006",
+      "place": "Cairo",
+      "publisher": "Dār al-Qubāʾ",
+      "relatedPersons": [
+        {
+          "name": "Dhū al-Nūn al-Miṣrī"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_070",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0105",
+      "type": "book",
+      "title": "Rābiʿah al-ʿAdawīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Qamar al-Dawlah Nasīf"
+        }
+      ],
+      "year": "1966",
+      "place": "Cairo",
+      "publisher": "al-Majlis al-Aʿlā li-Shuʾūn al-Islāmīyah",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_071",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0106",
+      "type": "book",
+      "title": "al-Ḥaqīqah al-Tārīkhīyah li-l-Taṣawwuf al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad al-Bahlī Nayyāl"
+        }
+      ],
+      "year": "1965",
+      "place": "Tunis",
+      "publisher": "Maktabat al-Najāḥ",
+      "notes": "Reprint: Tunis: Dār Āfāq, 2013.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_072",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0107",
+      "type": "book-chapter",
+      "title": "Māsīnyūn wa-Mafhūm al-Ḥubb al-Dhātī al-Ḥallājī fī al-Taṣawwuf al-Fārsī: Dirāsah Naqdīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Naṣr Allāh Pūrjavādī"
+        }
+      ],
+      "container": "Au Cœur de l'Orient: Relectures Contemporaines de l'œuvre de Louis Massignon / Fī Qalb al-Sharq: Qirāʾah Muʿāṣarah li-Aʿmāl Lūwīs Māsīnyūn",
+      "year": "2003",
+      "pages": "128-39",
+      "place": "Cairo",
+      "publisher": "al-Majlis al-Aʿlā li-l-Thaqāfah",
+      "relatedPersons": [
+        {
+          "name": "al-Ḥallāj"
+        }
+      ],
+      "notes": "In Ḥasan Ḥanafī (ed.).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_073",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0108",
+      "type": "book",
+      "title": "Fī al-Taṣawwuf al-Islāmī: Nashʾatuhu wa-Taṭawwuruhu",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Hayy Muḥammad Qābīl"
+        }
+      ],
+      "year": "2014",
+      "place": "Alexandria",
+      "publisher": "Dār al-Wafāʾ li-l-Dunyā",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_074",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0109",
+      "type": "book",
+      "title": "al-Tashayyuʿ wa-l-Taṣawwuf: Liqāʾ um Iftirāq",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Inʿām Aḥmad Qaddūḥ"
+        }
+      ],
+      "year": "1993",
+      "place": "Beirut",
+      "publisher": "Markaz al-Jawād",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_075",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0110",
+      "type": "book",
+      "title": "Qiddīsat al-Islām: Rābiʿah al-ʿAdawīyah. al-Dhikrā al-Miʾawīyah al-Thānīyat ʿAsharah li-Wafātihā 801-2001 m[īlādī]",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Suhayl Qāshā"
+        }
+      ],
+      "year": "2003",
+      "place": "Tripoli (Lebanon)",
+      "publisher": "Maktabat al-Sāʾiḥ",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_076",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0111",
+      "type": "book",
+      "title": "Taṣawwuf al-Ḥārith al-Muḥāsibī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Rizqī"
+        }
+      ],
+      "year": "2004",
+      "place": "Tunis",
+      "publisher": "Dār Sanābil li-l-Nashr",
+      "relatedPersons": [
+        {
+          "name": "al-Muḥāsibī"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_077",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0112",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Ṣuhayb al-Rūmī"
+        }
+      ],
+      "year": "2007",
+      "place": "Beirut",
+      "publisher": "Baysān",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_078",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0113",
+      "type": "book",
+      "title": "Siyar al-Mutaṣawwifīn al-Muslimīn fī Jabal Lubnān: Min al-Qarn al-Awwal ilā al-Sābiʿ al-Hijrī / al-Sābiʿ ilā al-Rābiʿ ʿAshar Mīlādī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Yūḥannā Ṣādir"
+        }
+      ],
+      "year": "2004",
+      "place": "Beirut",
+      "publisher": "Dār Ṣādir",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_079",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0114",
+      "type": "book",
+      "title": "ʿĀshiqat al-Mutaṣawwifah: Rābiʿah al-ʿAdawīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Widād al-Sakkākīnī"
+        }
+      ],
+      "year": "1955",
+      "place": "Cairo",
+      "publisher": "Dār al-Maʿārif",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        }
+      ],
+      "notes": "Reprint: Damascus: Dār Ṭalās, 1989. Translated as: Nabil Safwat (trans.), First among Sufis: The Life and Thought of Rabiʿa al-ʿAdawiyya, the Woman Saint of Basra. London: The Octagon Press, 1995 [1982].",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_080",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0115",
+      "type": "book",
+      "title": "Abū Sulaymān al-Dārānī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥyī al-Dīn Salīmah"
+        }
+      ],
+      "year": "2003",
+      "place": "Riyadh",
+      "publisher": "Dār al-Hudā",
+      "relatedPersons": [
+        {
+          "name": "Abū Sulaymān al-Dārānī"
+        }
+      ],
+      "notes": "Series: Ūlāʾika Ābāʾī Vol. 3.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_081",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0116",
+      "type": "journal-article",
+      "title": "Tajribat al-Wuṣūl al-Ṣūfī fī Tanẓīr Abī Bakr al-Kalābādhī (tuwuffiya 380/990): Namūdhaj li-Bunyat al-Khiṭāb wa-Ishkālāt al-Muqārabah fī Muʾallafāt al-Qaran al-Mīlādī al-ʿAshar",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿArīn Shawkat Salāmah-Qudsī"
+        }
+      ],
+      "container": "AL-MAJALLA: Journal of the Arabic Language Academy Haifa",
+      "volume": "2",
+      "year": "2011",
+      "pages": "71-100",
+      "relatedPersons": [
+        {
+          "name": "al-Kalābādhī"
+        }
+      ],
+      "notes": "Author also rendered as Arin Shawkat Salamah-Qudsi.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_082",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0117",
+      "type": "book",
+      "title": "al-Shaykh Ibrāhīm b. Adam",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Bāsim Muḥammad Nājī Muḥammad Sāmarrāʾī"
+        }
+      ],
+      "year": "1990",
+      "place": "Baghdad",
+      "relatedPersons": [
+        {
+          "name": "Ibrāhīm b. Adham"
+        }
+      ],
+      "notes": "No publisher (N.P.). Series: Min Aʿlām al-Taṣawwuf.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_083",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0118",
+      "type": "book",
+      "title": "al-Madāris al-Zuhdīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Maḥmūd Abū al-Futūḥ Sayyid"
+        }
+      ],
+      "year": "2017",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Īmān",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_084",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0119",
+      "type": "book",
+      "title": "al-Islām wa-l-Taṣawwuf",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Aḥmad al-Shāmī"
+        }
+      ],
+      "year": "1954",
+      "place": "Manṣūrah (Egypt)",
+      "publisher": "Maktabat al-Shāmī",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_085",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0120",
+      "type": "book",
+      "title": "Dirāsāt al-Taṣawwuf al-Islāmī: Shakhṣīyāt wa-Madhāhib",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Jalāl Abū al-Futūḥ Sharaf"
+        }
+      ],
+      "year": "1998",
+      "place": "Alexandria (Egypt)",
+      "publisher": "Dār al-Maʿārif",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_086",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0121",
+      "type": "book",
+      "title": "al-Taṣawuf al-ʿArabī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Yāsir Sharaf"
+        }
+      ],
+      "year": "1982",
+      "place": "Cairo",
+      "publisher": "Dār al-Hilāl",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_087",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0122",
+      "type": "book",
+      "title": "al-Ittijāhāt al-Ḥadīthah fī Dirāsat al-Taṣawwuf al-Islāmī: Maṣādiruhu wa-Āthāruhu Taḥlīl wa-Naqd",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad ʿAbd Allāh al-Sharqāwī"
+        }
+      ],
+      "year": "1993",
+      "place": "Cairo",
+      "publisher": "Dār al-Fikr al-ʿArabī",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_088",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0123",
+      "type": "book",
+      "title": "al-Mustashriqūn wa-Nashʾat al-Taṣawwuf al-Islāmī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad ʿAbd Allāh al-Sharqāwī"
+        }
+      ],
+      "year": "2017",
+      "place": "Cairo",
+      "publisher": "Dār al-Bashīr li-l-Thaqāfah wa-l-ʿUlūm",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_088",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0124",
+      "type": "book",
+      "title": "al-Ṣilah bayna al-Taṣawwuf wa-l-Tashayyuʿ",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Kamāl Muṣṭafā Shaybī"
+        }
+      ],
+      "year": "1963",
+      "place": "Baghdad",
+      "publisher": "Maṭbaʿat al-Zahrāʾ",
+      "notes": "2 vols. Reprinted: Beirut: Dār al-Andalus, 1400/1980; Cologne: Manshūrāt al-Jamal, 2011. Translated as: Sufism and Shiʿism. Surrey: LAAM, 1991.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_089",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0125",
+      "type": "book",
+      "title": "al-Fikr al-Shīʿī wa-l-Nazaʿāt al-Ṣūfīyah ḥattā Maṭlaʿ al-Qarn al-Thānī ʿAshr al-Hijrī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Kamāl Muṣṭafā Shaybī"
+        }
+      ],
+      "year": "1966",
+      "place": "Baghdad",
+      "publisher": "Maktabat al-Nahḍah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_089",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0126",
+      "type": "book",
+      "title": "Ṣafaḥāt Mukaththafah min Tārīkh al-Taṣawwuf",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Kamāl Muṣṭafā Shaybī"
+        }
+      ],
+      "year": "1997",
+      "place": "Beirut",
+      "publisher": "Dār al-Manāhil",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_089",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0127",
+      "type": "book",
+      "title": "al-Islām wa-l-Taṣawwuf",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Aḥmad Shāyib"
+        }
+      ],
+      "place": "Tunis",
+      "publisher": "Dār Bū Salāmah",
+      "notes": "No date (N.D.).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_090",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0128",
+      "type": "book",
+      "title": "al-Zāhid al-ʿAnsī Abū Sulaymān al-Dārānī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Muḥammad Ḥasan Shurrāb"
+        }
+      ],
+      "year": "1997",
+      "place": "Damascus",
+      "publisher": "Dār al-Saqqā",
+      "relatedPersons": [
+        {
+          "name": "Abū Sulaymān al-Dārānī"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_091",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0129",
+      "type": "book",
+      "title": "al-Adab al-Islāmī al-Ṣūfī ḥattā Nihāyat al-Qarn al-Rābiʿ al-Hijrī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAlī ʿAlī Ṣubḥ"
+        }
+      ],
+      "year": "1997",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Azharīyah li-l-Turāth",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_092",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0130",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī fī Marāḥil Taṭawwurihi",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Muḥsin ʿAbd al-Maqṣūd Muḥammad Sulṭān"
+        }
+      ],
+      "year": "2003",
+      "place": "Cairo",
+      "publisher": "Dār al-Āfāq al-ʿArabīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_093",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0131",
+      "type": "book",
+      "title": "Rābiʿah al-ʿAdawīyah wa-l-Ḥayāt al-Rūḥīyah fī al-Islām",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Ṭāhā ʿAbd al-Bāqī Surūr"
+        }
+      ],
+      "year": "1957",
+      "place": "Cairo",
+      "publisher": "Dār al-Fikr al-ʿArabī",
+      "relatedPersons": [
+        {
+          "name": "Rābiʿah al-ʿAdawīyah"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_094",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0132",
+      "type": "book",
+      "title": "Islām al-Mutaṣawwifah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad b. al-Ṭayyib"
+        }
+      ],
+      "year": "2007",
+      "place": "Beirut",
+      "publisher": "Dār al-Ṭalīʿah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_095",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0133",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī al-ʿArabī: Baḥth fī Taṭawwur al-Fikr al-ʿArabī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Laṭīf Ṭībāwī"
+        }
+      ],
+      "year": "1928",
+      "place": "Cairo",
+      "publisher": "Dār al-ʿUṣūr",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_096",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0134",
+      "type": "book-chapter",
+      "title": "al-Taṣawwuf al-Islāmī al-ʿArabī min al-Ḥasan al-Baṣrī ḥattā al-Ḥallāj",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿAbd al-Laṭīf Ṭībāwī"
+        }
+      ],
+      "container": "Muḥāḍarāt fī Tārīkh al-ʿArab wa-l-Islām",
+      "year": "1972",
+      "pages": "55-62",
+      "place": "Beirut and Baghdad",
+      "publisher": "Maktabat al-Muthannā",
+      "relatedPersons": [
+        {
+          "name": "al-Ḥasan al-Baṣrī"
+        },
+        {
+          "name": "al-Ḥallāj"
+        }
+      ],
+      "notes": "In ʿAbd al-Laṭīf Ṭībāwī, Muḥāḍarāt fī Tārīkh al-ʿArab wa-l-Islām, 2 vols. Reprint: Beirut: Dār al-Andalus, 1979.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_096",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0135",
+      "type": "book",
+      "title": "Raʾs ʿalā bāb al-Riḍā: Maʿrūf al-Karkhī, Tilmīdh al-Imām al-Riḍā wa-Ustādh al-ʿUrafāʾ. Dirāsah Mustawʿibah li-Ḥayāt Maʿrūf al-Karkhī Bawāb al-Imām al-Riḍā wa-Ṣāḥib Sirrihi wa-Ithbāt Tashayyuʿihi wa-Ṣilatihi bihi",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Qāsim Ṭihrānī"
+        }
+      ],
+      "year": "2003",
+      "place": "Beirut",
+      "publisher": "Dār al-Maḥajjah al-Bayḍāʾ and Damascus: Muʾassasat al-Shaykh al-Akbar Muḥyī al-Dīn Ibn al-ʿArabī li-l-Dirāsāt wa-l-Taḥqīqāt al-ʿIrfānī",
+      "relatedPersons": [
+        {
+          "name": "Maʿrūf al-Karkhī"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_097",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0136",
+      "type": "book",
+      "title": "al-Taṣawwuf wa-l-Tafalsuf: al-Wasāʾil wa-l-Ghāyāt",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Ṣābir ʿAbd al-Raḥmān Ṭuʿaymah"
+        }
+      ],
+      "year": "2005",
+      "place": "Cairo",
+      "publisher": "Maktabat Madbūlī",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_098",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0137",
+      "type": "book",
+      "title": "al-Taṣawwuf al-Islāmī: Risālatuhu wa-Mabādiʾuhu wa-Māḍīhi wa-Ḥāḍiruhu",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Maḥmūd ʿUlwān"
+        }
+      ],
+      "year": "1958",
+      "place": "Cairo",
+      "publisher": "Mashyakhah al-Ṭuruq al-Ṣūfīyah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_099",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0138",
+      "type": "book",
+      "title": "al-Fanāʾ fī al-Insān: Kibār al-Ṣūfīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Hālah al-ʿŪrī"
+        }
+      ],
+      "year": "2013",
+      "place": "Damascus",
+      "publisher": "Ṣafaḥāt li-l-Dirāsāt wa-l-Nashr",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_100",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0139",
+      "type": "book",
+      "title": "Dhū al-Nūn al-Miṣrī al-Ḥakīm al-Zāhid",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Kamāl Muṣṭafā Muḥammad ʿUwayḍā"
+        }
+      ],
+      "year": "1996",
+      "place": "Beirut",
+      "publisher": "Dār al-Kutub al-ʿIlmīyah",
+      "relatedPersons": [
+        {
+          "name": "Dhū al-Nūn al-Miṣrī"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_101",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0140",
+      "type": "book",
+      "title": "al-Taṣawwuf: Abḥāth wa-Dirāsāt. Qirāʾah Naqdīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "ʿĀmir ʿAbd Zayd al-Wāʾilī"
+        }
+      ],
+      "year": "2015",
+      "place": "Beirut and Riyadh",
+      "publisher": "Manshūrāt Ḍafāf and Rabat: Dār al-Amān",
+      "notes": "al-Wāʾilī is editor (ed.) of this collected volume.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_102",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0141",
+      "type": "book",
+      "title": "al-Ḥallāj: Tarājīdīyā Tārīkhīyah",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Anwar Wardah"
+        }
+      ],
+      "year": "2010",
+      "place": "Damascus",
+      "publisher": "Markaz al-Nāqid al-Thaqāfī",
+      "relatedPersons": [
+        {
+          "name": "al-Ḥallāj"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_103",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0142",
+      "type": "book",
+      "title": "al-Taṣawwuf",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Yūsuf Zaydān"
+        }
+      ],
+      "year": "2013",
+      "place": "Cairo",
+      "publisher": "Dār al-Nahḍah",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_104",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0143",
+      "type": "book",
+      "title": "al-Ruʾyā al-Insānīyah al-Ṣūfīyah ʿinda Abī ʿAbd Allāh al-Ḥārith b. Asad al-Muḥāsibī al-mutawaffī sanati 243 h[ijrī]",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Muḥammad Zaymūn"
+        }
+      ],
+      "year": "2018",
+      "place": "Amman",
+      "publisher": "Dār Majdalāwī",
+      "relatedPersons": [
+        {
+          "name": "al-Muḥāsibī"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_105",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0144",
+      "type": "book",
+      "title": "Ibrāhīm b. Adam: Dirāsah wa-Taḥlīl",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Samīḥ ʿĀṭif Zayn"
+        }
+      ],
+      "year": "1988",
+      "place": "Beirut",
+      "publisher": "al-Sharikah al-ʿĀlamīyah li-l-Kitāb",
+      "relatedPersons": [
+        {
+          "name": "Ibrāhīm b. Adham"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_106",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0145",
+      "type": "book",
+      "title": "al-Imām al-Junayd wa-l-Taṣawwuf fī al-Qarn al-Thālith al-Hijrī",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Zuhayr Ẓāẓā"
+        }
+      ],
+      "year": "1994",
+      "place": "Beirut",
+      "publisher": "Dār al-Khayr",
+      "relatedPersons": [
+        {
+          "name": "al-Junayd"
+        }
+      ],
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_107",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0146",
+      "type": "translation",
+      "title": "Tārīkh al-Taṣawwuf fī al-Islām",
+      "language": "Arabic",
+      "authors": [
+        {
+          "name": "Qāsim Ghany"
+        }
+      ],
+      "year": "2016",
+      "place": "Cairo",
+      "publisher": "Maktabat al-Nahḍah al-Miṣrīyah and Damascus: Dār Nīnawā",
+      "notes": "Translated by Ṣādiq Nashʾat (trans.).",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_111",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0147",
+      "type": "book",
+      "title": "Other version of the Kitab al-Lumaʿ",
+      "language": "Arabic",
+      "url": "https://www.worldcat.org/oclc/784566145&referer=brief_results",
+      "relatedPersons": [
+        {
+          "name": "al-Sarrāj"
+        }
+      ],
+      "notes": "metadata pending — bare WorldCat URL; humanized from annotation 'Other version of the Kitāb al-Lumaʿ'.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_114",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0148",
+      "type": "book",
+      "title": "Soufisme: le voyage spirituel vers Dieu",
+      "language": "Arabic",
+      "url": "https://www.worldcat.org/title/soufisme-le-voyage-spirituel-vers-dieu/oclc/993351899&referer=brief_results",
+      "notes": "metadata pending — derived from WorldCat URL slug.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_115",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0149",
+      "type": "book",
+      "title": "Dastur al-gumhur fi manaqib sultan al-arifin Abu Yazid Taifur",
+      "language": "Arabic",
+      "url": "https://www.worldcat.org/title/dastur-al-gumhur-fi-manaqib-sultan-al-arifin-abu-yazid-taifur/oclc/837711591&referer=brief_results",
+      "relatedPersons": [
+        {
+          "name": "al-Bisṭāmī"
+        }
+      ],
+      "notes": "metadata pending — derived from WorldCat URL slug; concerns Abū Yazīd Ṭayfūr al-Bisṭāmī.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_116",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0150",
+      "type": "book",
+      "title": "Mistica islamica: atualidade e convergencia com a espiritualidade crista",
+      "language": "Arabic",
+      "url": "https://www.worldcat.org/title/mistica-islamica-atualidade-e-convergencia-com-a-espiritualidade-crista/oclc/51242269&referer=brief_results",
+      "notes": "metadata pending — derived from WorldCat URL slug.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_117",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0151",
+      "type": "book",
+      "title": "Ḥawlīyāt al-Jāmiʿah al-Tūnisīyah",
+      "language": "Arabic",
+      "url": "https://archive.org/details/7-j-t",
+      "notes": "metadata pending — journal archive reference (Annales de l'Université Tunisienne); not a discrete monograph.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_119",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xar0152",
+      "type": "book",
+      "title": "Big Bibliography",
+      "language": "Arabic",
+      "url": "https://books.google.ae/books?id=C9h5DwAAQBAJ&pg=PT171&lpg=PT171",
+      "notes": "metadata pending — Google Books reference annotated 'Big Bibliography'; full URL truncated.",
+      "provenance": {
+        "source": "old_bibliography/Arabic",
+        "sourceId": "Arabic_121",
+        "reviewed": false
+      }
+    }
+  ]
+}

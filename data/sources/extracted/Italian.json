@@ -1,0 +1,231 @@
+{
+  "works": [
+    {
+      "id": "sec_xit0001",
+      "type": "book",
+      "title": "Il Sufismo",
+      "authors": [{ "name": "Leonardo V. Arena" }],
+      "year": "1996",
+      "place": "Milan",
+      "publisher": "Mondadori",
+      "language": "Italian",
+      "notes": "Series: Piccola Biblioteca Oscar Vol. 109.",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_001",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0002",
+      "type": "book",
+      "title": "Rābiʿa: La Mistica",
+      "authors": [{ "name": "Caterina Greppi" }],
+      "year": "2003",
+      "place": "Milan",
+      "publisher": "Jaca Boo",
+      "language": "Italian",
+      "relatedPersons": [{ "name": "Rābiʿa" }],
+      "notes": "Series: Donne d'Oriente e d'Occidente Vol. 13. Publisher 'Jaca Boo' appears to be a typo for 'Jaca Book'.",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_002",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0003",
+      "type": "book",
+      "title": "Sufismo e Islam: L'Importanza della Donna nella Mistica",
+      "authors": [{ "name": "Tamara Mancini" }],
+      "year": "2013",
+      "place": "Viterbo",
+      "publisher": "La Caravella Editrice",
+      "language": "Italian",
+      "notes": "Series: Il Mare Vol. 12.",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_003",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0004",
+      "type": "book",
+      "title": "Il Sufism, Vertice della Piramide Esoterica",
+      "authors": [{ "name": "Gabriele Mandel" }],
+      "year": "1977",
+      "place": "Milan",
+      "publisher": "SugarCo",
+      "language": "Italian",
+      "notes": "Series: Universo Sconosciuto Vol. 63.",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_004",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0005",
+      "type": "book",
+      "title": "Storia del Sufism",
+      "authors": [{ "name": "Gabriele Mandel" }],
+      "year": "1995",
+      "place": "Milan",
+      "publisher": "Rusconi",
+      "language": "Italian",
+      "notes": "Series: Orizzonti della Storia.",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_004",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0006",
+      "type": "book",
+      "title": "La Spiritualità Islamica",
+      "authors": [{ "name": "Federico Peirone" }, { "name": "Giuseppe Rizzardi" }],
+      "year": "1986",
+      "place": "Rome",
+      "publisher": "Stadium",
+      "language": "Italian",
+      "notes": "Series: Spiritualità non cristiana Storia e Testi Vol. 5.",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_005",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0007",
+      "type": "book",
+      "title": "Introduzione alla Mistica Islamica",
+      "authors": [{ "name": "Rosario Marcello Puglisi" }],
+      "year": "2015",
+      "place": "Acireale",
+      "publisher": "Tipheret",
+      "language": "Italian",
+      "notes": "Series: Maqâmat Vol. 6.",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_006",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0008",
+      "type": "book",
+      "title": "Il Sufismo: Storia e Dottrina",
+      "authors": [{ "name": "Angelo Scarabel" }],
+      "year": "2007",
+      "place": "Rome",
+      "publisher": "Carocci",
+      "language": "Italian",
+      "notes": "Series: Frecce Vol. 36.",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_007",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0009",
+      "type": "book",
+      "title": "Il Cristo dell'Islam: Scritti Mistici",
+      "authors": [{ "name": "Alberto Ventura" }],
+      "year": "2007",
+      "place": "Milan",
+      "publisher": "Monadori",
+      "language": "Italian",
+      "notes": "Series: Islamica Vol. 3. Publisher 'Monadori' appears to be a typo for 'Mondadori'.",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_008",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0010",
+      "type": "book",
+      "title": "Sapienza Sufi: Dottrine e Simboli dell'Esoterismo Islamico",
+      "authors": [{ "name": "Alberto Ventura" }],
+      "year": "2016",
+      "place": "Rome",
+      "publisher": "Edizioni Mediterranee",
+      "language": "Italian",
+      "notes": "Series: Orizzonti dello Spirito Vol. 105.",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_008",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0011",
+      "type": "book",
+      "title": "Il Crocifisso dell'Islam: al-Hallaj, storia di un martire del IX secolo",
+      "authors": [{ "name": "Alberto Ventura" }, { "name": "Gabriella Caramore" }],
+      "year": "2000",
+      "place": "Brescia",
+      "publisher": "Morcelliana",
+      "language": "Italian",
+      "relatedPersons": [{ "name": "al-Ḥallāj" }],
+      "notes": "Series: Uomini e Profeti Vol. 5.",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_009",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0012",
+      "type": "book",
+      "title": "I Mistici dell'Islam: Antologia del Sufismo",
+      "authors": [{ "name": "Eva de Vitray-Meyerovitch" }, { "name": "Stefano Tubino" }],
+      "year": "1996",
+      "place": "Milan",
+      "publisher": "TEAM",
+      "language": "Italian",
+      "notes": "Series: Religioni e Miti Vol. 188. Listed as editors (eds.).",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_010",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0013",
+      "type": "translation",
+      "title": "Dīwān al-Ḥallāj",
+      "translators": [{ "name": "Alberto Ventura" }],
+      "year": "2005",
+      "place": "Genova",
+      "publisher": "Marietti",
+      "language": "Italian",
+      "relatedPersons": [{ "name": "al-Ḥallāj" }],
+      "notes": "Series: Sabiana Vol. 6. Italian translation of a primary Sufi text (the Dīwān of al-Ḥallāj).",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_012",
+        "reviewed": false
+      }
+    },
+    {
+      "id": "sec_xit0014",
+      "type": "translation",
+      "title": "Antologia della Mistica arabo-persiana",
+      "translators": [{ "name": "Martino Mario Moreno" }],
+      "year": "1951",
+      "place": "Bari",
+      "publisher": "G. Laterza",
+      "language": "Italian",
+      "notes": "Series: Studi Religiosi e Esoterici. Listed as editor (ed.); anthology of primary mystical texts in Italian translation, classified under Primary Sources in Italian.",
+      "provenance": {
+        "source": "old_bibliography/Italian",
+        "sourceId": "Italian_013",
+        "reviewed": false
+      }
+    }
+  ]
+}

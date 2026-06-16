@@ -1,0 +1,17 @@
+{
+  "works": [
+    {
+      "id": "sec_ru001",
+      "type": "book",
+      "title": "Sotsialno filosofskie aspekty genezisa sufizma",
+      "language": "Russian",
+      "url": "https://www.worldcat.org/title/sotsialno-filosofskie-aspekty-genezisa-sufizma/oclc/319858111&referer=brief_results",
+      "notes": "metadata pending — derived from WorldCat URL slug",
+      "provenance": {
+        "source": "old_bibliography/Russian",
+        "sourceId": "Russian_001",
+        "reviewed": false
+      }
+    }
+  ]
+}

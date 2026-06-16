@@ -1,0 +1,1153 @@
+{
+  "metadata": {
+    "totalWorks": 64,
+    "lastUpdated": "2026-06-16T16:27:30",
+    "version": "1.0",
+    "sources": [
+      "crossref",
+      "openalex"
+    ],
+    "note": "Harvested candidates — review before merging into data/secondary.json"
+  },
+  "works": [
+    {
+      "id": "sec_h0001",
+      "type": "book",
+      "title": "Sufism",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Ahmet T. Karamustafa"
+        }
+      ],
+      "container": "Edinburgh University Press eBooks",
+      "year": "2007",
+      "url": "https://doi.org/10.1515/9780748628971"
+    },
+    {
+      "id": "sec_h0002",
+      "type": "journal-article",
+      "title": "From Hubb to lhringIshq: The Development of Love in Early Sufism",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Joseph E. B. Lumbard"
+        }
+      ],
+      "container": "Journal of Islamic Studies",
+      "year": "2007",
+      "url": "https://doi.org/10.1093/jis/etm030"
+    },
+    {
+      "id": "sec_h0003",
+      "type": "book-chapter",
+      "title": "Origins and Early Sufism",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Christopher Melchert"
+        }
+      ],
+      "container": "Cambridge University Press eBooks",
+      "year": "2014",
+      "url": "https://doi.org/10.1017/cco9781139087599.003"
+    },
+    {
+      "id": "sec_h0004",
+      "type": "book-chapter",
+      "title": "Early Sufism Between Persecution and Heresy",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Gerhard Böwerıng"
+        }
+      ],
+      "year": "1999",
+      "url": "https://doi.org/10.1163/9789004452725_007"
+    },
+    {
+      "id": "sec_h0005",
+      "type": "journal-article",
+      "title": "Biogenesis of Fe-S Cluster by the Bacterial Suf System",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Laurent Loiseau"
+        },
+        {
+          "name": "Sandrine Ollagnier de Choudens"
+        },
+        {
+          "name": "Laurence Nachin"
+        },
+        {
+          "name": "Marc Fontecave"
+        },
+        {
+          "name": "Frédéric Barras"
+        }
+      ],
+      "container": "Journal of Biological Chemistry",
+      "year": "2003",
+      "url": "https://doi.org/10.1074/jbc.m305953200"
+    },
+    {
+      "id": "sec_h0006",
+      "type": "journal-article",
+      "title": "Sufism: the formative period",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "container": "Choice Reviews Online",
+      "year": "2008",
+      "url": "https://doi.org/10.5860/choice.45-5521"
+    },
+    {
+      "id": "sec_h0007",
+      "type": "journal-article",
+      "title": "Mystical Islam: an introduction to Sufism",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Baldick, Julian"
+        }
+      ],
+      "container": "Choice Reviews Online",
+      "year": "1990",
+      "url": "https://doi.org/10.5860/choice.28-0912"
+    },
+    {
+      "id": "sec_h0008",
+      "type": "book",
+      "title": "Sufism and the ‘Modern’ in Islam",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Bruinessen, Martin van 1946-"
+        },
+        {
+          "name": "Howell, Julia Day 1943-"
+        }
+      ],
+      "container": "I.B.Tauris eBooks",
+      "year": "2007",
+      "url": "https://doi.org/10.5040/9780755607983"
+    },
+    {
+      "id": "sec_h0009",
+      "type": "journal-article",
+      "title": "Sufism",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Encyclopedia of Early Modern History Online",
+      "publisher": "Walter de Gruyter GmbH",
+      "year": "None",
+      "url": "https://doi.org/10.1163/2352-0272_emho_com_028522"
+    },
+    {
+      "id": "sec_h0010",
+      "type": "book-chapter",
+      "title": "Chapter 10: The transition to Sufism",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Before Sufism",
+      "pages": "177-194",
+      "publisher": "De Gruyter",
+      "year": "2020",
+      "url": "https://doi.org/10.1515/9783110617962-011"
+    },
+    {
+      "id": "sec_h0011",
+      "type": "book-chapter",
+      "title": "I. The Early History Of Sufism",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Sufism: Its Saints and Shrines",
+      "pages": "6-16",
+      "publisher": "Gorgias Press",
+      "year": "2009",
+      "url": "https://doi.org/10.31826/9781463220396-006"
+    },
+    {
+      "id": "sec_h0012",
+      "type": "book",
+      "title": "Before Sufism",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Christopher Melchert"
+        }
+      ],
+      "publisher": "De Gruyter",
+      "year": "2020",
+      "url": "https://doi.org/10.1515/9783110617962"
+    },
+    {
+      "id": "sec_h0013",
+      "type": "book-chapter",
+      "title": "Sufism In Yemen After The Age of Ibn ‘Alwān",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Religion and Mysticism In Early Islam",
+      "publisher": "I.B.Tauris",
+      "year": "2011",
+      "url": "https://doi.org/10.5040/9780755611027.ch-009"
+    },
+    {
+      "id": "sec_h0014",
+      "type": "book-chapter",
+      "title": "Sufism In Yemen Prior To The Seventh/Thirteenth Century",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Religion and Mysticism In Early Islam",
+      "publisher": "I.B.Tauris",
+      "year": "2011",
+      "url": "https://doi.org/10.5040/9780755611027.ch-002"
+    },
+    {
+      "id": "sec_h0015",
+      "type": "book-chapter",
+      "title": "Index",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Before Sufism",
+      "pages": "217-240",
+      "publisher": "De Gruyter",
+      "year": "2020",
+      "url": "https://doi.org/10.1515/9783110617962-013"
+    },
+    {
+      "id": "sec_h0016",
+      "type": "journal-article",
+      "title": "Humility in Islamic Contemplative Ethics",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Atif Khalil"
+        }
+      ],
+      "container": "Journal of Islamic Ethics",
+      "year": "2020",
+      "url": "https://doi.org/10.1163/24685542-12340048"
+    },
+    {
+      "id": "sec_h0017",
+      "type": "journal-article",
+      "title": "God’s Mercy is Not Limited to Arabic Speakers: Reading Intellectual Biography of Muhammad Salih Darat and His Pegon Islamic Texts",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Saiful Umam"
+        }
+      ],
+      "container": "STUDIA ISLAMIKA",
+      "year": "2013",
+      "url": "https://doi.org/10.15408/sdi.v20i2.388"
+    },
+    {
+      "id": "sec_h0018",
+      "type": "journal-article",
+      "title": "Some Early Definitions of Taṣawwuf: Exploring the Centrality of Abū Yazīd al-Bisṭāmi in Its History",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Dheen Mohamed Mohamed Meerasahibu"
+        }
+      ],
+      "container": "Jurnal Akidah & Pemikiran Islam",
+      "year": "2021",
+      "url": "https://doi.org/10.22452/afkar.vol23no1.6"
+    },
+    {
+      "id": "sec_h0019",
+      "type": "journal-article",
+      "title": "Sainthood and the law: The influence of mysticism in eighteenth century pedagogy of the \"fuqahāʾ\"",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Sara Nims"
+        }
+      ],
+      "container": "Journal of Arabic and Islamic Studies",
+      "year": "1970",
+      "url": "https://doi.org/10.5617/jais.4644"
+    },
+    {
+      "id": "sec_h0020",
+      "type": "journal-article",
+      "title": "Le soufisme et les soufis selon Ibn Taymiyya",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Qais Assef"
+        }
+      ],
+      "container": "Bulletin d'études orientales",
+      "year": "2012",
+      "url": "https://doi.org/10.4000/beo.330"
+    },
+    {
+      "id": "sec_h0021",
+      "type": "journal-article",
+      "title": "The Revival Movement of the Idrisiyya Order in Indonesia",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Sulaiman Sulaiman"
+        },
+        {
+          "name": "Miftahul Ula"
+        },
+        {
+          "name": "Muhammad Faiq"
+        },
+        {
+          "name": "Machrus Machrus"
+        },
+        {
+          "name": "Yusriyah Yusriyah"
+        },
+        {
+          "name": "Rokhmah Ulfah"
+        }
+      ],
+      "container": "Teosofia Indonesian Journal of Islamic Mysticism",
+      "year": "2023",
+      "url": "https://doi.org/10.21580/tos.v12i2.18810"
+    },
+    {
+      "id": "sec_h0022",
+      "type": "book-chapter",
+      "title": "Sharḥ al-Taʿarruf li-madhhab al-taṣawwuf",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Najīb Māyīl Hiravī"
+        }
+      ],
+      "container": "Sharḥ al-Taʿarruf li-madhhab al-taṣawwuf",
+      "pages": "1-10",
+      "publisher": "BRILL",
+      "year": "2013",
+      "url": "https://doi.org/10.1163/9789004406216_001"
+    },
+    {
+      "id": "sec_h0023",
+      "type": "journal-article",
+      "title": "TAṢAWWUF",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Encyclopédie de l’Islam",
+      "publisher": "Walter de Gruyter GmbH",
+      "year": "None",
+      "url": "https://doi.org/10.1163/_eifo_com_1188"
+    },
+    {
+      "id": "sec_h0024",
+      "type": "journal-article",
+      "title": "Risāla-yi sivum [dar radd-i ṭarīq-i ahl-i taṣawwuf]",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Christian-Muslim Relations 1500 - 1900",
+      "publisher": "Walter de Gruyter GmbH",
+      "year": "None",
+      "url": "https://doi.org/10.1163/2451-9537_cmrii_com_33313"
+    },
+    {
+      "id": "sec_h0025",
+      "type": "book-chapter",
+      "title": "Foundations of Sufism: An Annotated Translation of Qawāʿid al-Taṣawwuf",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "The Foundations of Sufism",
+      "pages": "47-197",
+      "publisher": "BRILL",
+      "year": "2024",
+      "url": "https://doi.org/10.1163/9789004540101_005"
+    },
+    {
+      "id": "sec_h0026",
+      "type": "book",
+      "title": "Early Islamic Mysticism",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Michael Anthony Sells"
+        }
+      ],
+      "container": "Paulist Press eBooks",
+      "year": "1996",
+      "url": "https://doi.org/10.5040/9780809171132"
+    },
+    {
+      "id": "sec_h0027",
+      "type": "book",
+      "title": "Early Islamic mysticism : Sufi, Qurʼan, Miraj, poetic and theological writings",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Carl W. Ernst"
+        },
+        {
+          "name": "Michael Anthony Sells"
+        }
+      ],
+      "container": "Medical Entomology and Zoology",
+      "year": "1996",
+      "url": "https://ci.nii.ac.jp/ncid/BA29633308"
+    },
+    {
+      "id": "sec_h0028",
+      "type": "book",
+      "title": "The Concept of Sainthood in Early Islamic Mysticism",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "John W. O’Kane"
+        },
+        {
+          "name": "Bernd Radtke"
+        }
+      ],
+      "year": "2013",
+      "url": "https://doi.org/10.4324/9781315026688"
+    },
+    {
+      "id": "sec_h0029",
+      "type": "book",
+      "title": "In the Garden of Myrtles: Studies in Early Islamic Mysticism",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Tor Andræ"
+        }
+      ],
+      "container": "Medical Entomology and Zoology",
+      "year": "1987",
+      "url": "https://ci.nii.ac.jp/ncid/BA03441276"
+    },
+    {
+      "id": "sec_h0030",
+      "type": "book",
+      "title": "Perspectives on Early Islamic Mysticism",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Sara Sviri"
+        }
+      ],
+      "year": "2019",
+      "url": "https://doi.org/10.4324/9780203022726"
+    },
+    {
+      "id": "sec_h0031",
+      "type": "journal-article",
+      "title": "In the Garden of Myrtles: Studies in Early Islamic Mysticism",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Ali S. Asani"
+        },
+        {
+          "name": "Tor Andræ"
+        },
+        {
+          "name": "Birgitta Sharpe"
+        }
+      ],
+      "container": "Journal of the American Oriental Society",
+      "year": "1989",
+      "url": "https://doi.org/10.2307/604124"
+    },
+    {
+      "id": "sec_h0032",
+      "type": "book",
+      "title": "The concept of sainthood in early Islamic mysticism : two works",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Muḥammad ibn ʿAlī Ḥakīm al-Tirmidhī"
+        },
+        {
+          "name": "Bernd Radtke"
+        },
+        {
+          "name": "John O’Kane"
+        }
+      ],
+      "container": "Curzon eBooks",
+      "year": "1996",
+      "url": "https://ci.nii.ac.jp/ncid/BA30316459"
+    },
+    {
+      "id": "sec_h0033",
+      "type": "journal-article",
+      "title": "Sources of Islamic Mysticism",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Early Islamic Mysticism",
+      "pages": "29-74",
+      "publisher": "Paulist Press",
+      "year": "1996",
+      "url": "https://doi.org/10.5040/9780809171132.ch-001"
+    },
+    {
+      "id": "sec_h0034",
+      "type": "book-chapter",
+      "title": "Zuhd in Islamic mysticism",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Sara Sviri"
+        }
+      ],
+      "container": "Perspectives on Early Islamic Mysticism",
+      "pages": "37-57",
+      "publisher": "Routledge",
+      "year": "2019",
+      "url": "https://doi.org/10.4324/9780203022726-3"
+    },
+    {
+      "id": "sec_h0035",
+      "type": "journal-article",
+      "title": "Early Sufi Qur’an Interpretation",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Early Islamic Mysticism",
+      "pages": "75-96",
+      "publisher": "Paulist Press",
+      "year": "1996",
+      "url": "https://doi.org/10.5040/9780809171132.ch-002"
+    },
+    {
+      "id": "sec_h0036",
+      "type": "journal-article",
+      "title": "Notes",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Early Islamic Mysticism",
+      "pages": "322-374",
+      "publisher": "Paulist Press",
+      "year": "1996",
+      "url": "https://doi.org/10.5040/9780809171132.0013"
+    },
+    {
+      "id": "sec_h0037",
+      "type": "journal-article",
+      "title": "Introduction",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Early Islamic Mysticism",
+      "pages": "11-26",
+      "publisher": "Paulist Press",
+      "year": "1996",
+      "url": "https://doi.org/10.5040/9780809171132.0009"
+    },
+    {
+      "id": "sec_h0038",
+      "type": "journal-article",
+      "title": "Bistami",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Early Islamic Mysticism",
+      "pages": "212-250",
+      "publisher": "Paulist Press",
+      "year": "1996",
+      "url": "https://doi.org/10.5040/9780809171132.ch-007"
+    },
+    {
+      "id": "sec_h0039",
+      "type": "book",
+      "title": "Sufism in the Contemporary Arabic Novel",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Ziad Elmarsafy"
+        }
+      ],
+      "container": "Edinburgh University Press eBooks",
+      "year": "2012",
+      "url": "https://doi.org/10.1515/9780748655649"
+    },
+    {
+      "id": "sec_h0040",
+      "type": "journal-article",
+      "title": "Situating Sufism and Yoga",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Carl W. Ernst"
+        }
+      ],
+      "container": "Journal of the Royal Asiatic Society of Great Britain & Ireland",
+      "year": "2005",
+      "url": "https://doi.org/10.1017/s1356186304004675"
+    },
+    {
+      "id": "sec_h0041",
+      "type": "journal-article",
+      "title": "A re-examination of the place of al-Hallaj in the development of Southeast Asian Islam",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "R. Michael Feener"
+        }
+      ],
+      "container": "Bijdragen tot de taal- land- en volkenkunde / Journal of the Humanities and Social Sciences of Southeast Asia",
+      "year": "1998",
+      "url": "https://doi.org/10.1163/22134379-90003885"
+    },
+    {
+      "id": "sec_h0042",
+      "type": "journal-article",
+      "title": "Konsep Hulul Menurut Al-Hallaj Dan Penempatan Posisi Tasawuf",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Amir Reza Kusuma"
+        }
+      ],
+      "container": "Jurnal Penelitian Medan Agama",
+      "year": "2021",
+      "url": "https://doi.org/10.58836/jpma.v12i1.10488"
+    },
+    {
+      "id": "sec_h0043",
+      "type": "journal-article",
+      "title": "PEMIKIRAN TASAWUF FALSAFI AWAL: RABI’AH AL-‘ADAWIYYAH, AL-BUSTAMĪ, DAN AL-HALLAJ",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Mubaidi Sulaeman"
+        }
+      ],
+      "container": "Refleksi Jurnal Filsafat dan Pemikiran Islam",
+      "year": "2020",
+      "url": "https://doi.org/10.14421/ref.2020.2001-01"
+    },
+    {
+      "id": "sec_h0044",
+      "type": "journal-article",
+      "title": "Martydrom of al-Hallaj &amp; unity of the Existence: the Condemners and the Commenders",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Yusri Mohamad Ramli"
+        }
+      ],
+      "container": "International Journal of Islamic Thought",
+      "year": "2013",
+      "url": "https://doi.org/10.24035/ijit.03.2013.010"
+    },
+    {
+      "id": "sec_h0045",
+      "type": "journal-article",
+      "title": "Insan Kamil dalam Perspektif Syaikh Abd al-Karim al-Jili",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Kiki Muhamad Hakiki"
+        }
+      ],
+      "container": "Wawasan Jurnal Ilmiah Agama dan Sosial Budaya",
+      "year": "2018",
+      "url": "https://doi.org/10.15575/jw.v3i2.2287"
+    },
+    {
+      "id": "sec_h0046",
+      "type": "journal-article",
+      "title": "A Comparative Study of al-Ghazali’s and Ibn Taymiyyah’s Views on Sufism",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Ahmed Nafiu Arikewuyo"
+        }
+      ],
+      "container": "International Journal of Islamic Thought",
+      "year": "2020",
+      "url": "https://doi.org/10.24035/ijit.17.2020.166"
+    },
+    {
+      "id": "sec_h0047",
+      "type": "journal-article",
+      "title": "ASPECTS OF SUFISM IN THE ARAB THEATRICAL TEXT:  AL-HALLAJ PLAY AS A EXAMPLE",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Wesal Khelfah Kadhem Al-BAKRI-"
+        }
+      ],
+      "container": "International Journal of Language Academy",
+      "volume": "32",
+      "issue": "32",
+      "pages": "150-175",
+      "publisher": "ASOS Yayinevi",
+      "year": "2020",
+      "url": "https://doi.org/10.29228/ijla.42055"
+    },
+    {
+      "id": "sec_h0048",
+      "type": "journal-article",
+      "title": "A Comparative Study of Ibn Arabi and Al-Hallaj on Spirituality and Mysticism in Islamic Sufism",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Toat Haryanto"
+        },
+        {
+          "name": "Enjang"
+        }
+      ],
+      "container": "Masagi: Jurnal Pendidikan Karakter",
+      "volume": "2",
+      "issue": "2",
+      "pages": "323-336",
+      "publisher": "Universitas Islam Bandung (Unisba)",
+      "year": "2025",
+      "url": "https://doi.org/10.29313/masagi.v2i2.8010"
+    },
+    {
+      "id": "sec_h0049",
+      "type": "book-chapter",
+      "title": "Table of Contents",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "The Passion of Al-Hallaj, Mystic and Martyr of Islam, Volume 2",
+      "pages": "v-xii",
+      "publisher": "Princeton University Press",
+      "year": "2019",
+      "url": "https://doi.org/10.2307/j.ctvhhhdfz.2"
+    },
+    {
+      "id": "sec_h0050",
+      "type": "book-chapter",
+      "title": "BIOGRAPHICAL OUTLINE",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "The Passion of Al-Hallaj, Mystic and Martyr of Islam, Volume 1",
+      "pages": "3-52",
+      "publisher": "Princeton University Press",
+      "year": "2019",
+      "url": "https://doi.org/10.2307/j.ctvh9w050.10"
+    },
+    {
+      "id": "sec_h0051",
+      "type": "book-chapter",
+      "title": "MYSTICAL THEOLOGY",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "The Passion of Al-Hallaj, Mystic and Martyr of Islam, Volume 3",
+      "pages": "3-52",
+      "publisher": "Princeton University Press",
+      "year": "2019",
+      "url": "https://doi.org/10.2307/j.ctvhhhdgf.6"
+    },
+    {
+      "id": "sec_h0052",
+      "type": "book-chapter",
+      "title": "Front Matter",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "The Passion of Al-Hallaj, Mystic and Martyr of Islam, Volume 3",
+      "pages": "i-iv",
+      "publisher": "Princeton University Press",
+      "year": "2019",
+      "url": "https://doi.org/10.2307/j.ctvhhhdgf.1"
+    },
+    {
+      "id": "sec_h0053",
+      "type": "book-chapter",
+      "title": "THE MARTYRDOM",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "The Passion of Al-Hallaj, Mystic and Martyr of Islam, Volume 1",
+      "pages": "560-646",
+      "publisher": "Princeton University Press",
+      "year": "2019",
+      "url": "https://doi.org/10.2307/j.ctvh9w050.16"
+    },
+    {
+      "id": "sec_h0054",
+      "type": "journal-article",
+      "title": "Sufism as The Core of Islam: A Review of Imam Junayd Al-Baghdadi’s Concept of Tasawwuf",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Cucu Setiawan"
+        },
+        {
+          "name": "Maulani Maulani"
+        },
+        {
+          "name": "Busro Busro"
+        }
+      ],
+      "container": "Teosofia Indonesian Journal of Islamic Mysticism",
+      "year": "2020",
+      "url": "https://doi.org/10.21580/tos.v9i2.6170"
+    },
+    {
+      "id": "sec_h0055",
+      "type": "book-chapter",
+      "title": "Al-Junayd al-Baghdādī",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Erik S. Ohlander"
+        }
+      ],
+      "year": "2020",
+      "url": "https://doi.org/10.4324/9781315175348-4"
+    },
+    {
+      "id": "sec_h0056",
+      "type": "book",
+      "title": "Sufism and the Perfect Human",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Fitzroy Morrissey"
+        }
+      ],
+      "year": "2020",
+      "url": "https://doi.org/10.4324/9781003003335"
+    },
+    {
+      "id": "sec_h0057",
+      "type": "journal-article",
+      "title": "The Problem of Periodization in the Studies of Sufism",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Ekrem Demirli"
+        }
+      ],
+      "container": "Nazariyat İslam Felsefe ve Bilim Tarihi Araştırmaları Dergisi (Journal for the History of Islamic Philosophy and Sciences)",
+      "year": "2016",
+      "url": "https://doi.org/10.12658/nazariyat.2.4.m0030"
+    },
+    {
+      "id": "sec_h0058",
+      "type": "journal-article",
+      "title": "THE NEW PSEUDO-SUFI ORDER OF THE MAJELIS SHALAWAT AMONG URBAN MUSLIMS IN EAST JAVA",
+      "language": "English",
+      "provenance": {
+        "source": "openalex",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Rubaidi Rubaidi"
+        }
+      ],
+      "container": "JOURNAL OF INDONESIAN ISLAM",
+      "year": "2020",
+      "url": "https://doi.org/10.15642/jiis.2020.14.2.431-456"
+    },
+    {
+      "id": "sec_h0059",
+      "type": "journal-article",
+      "title": "Junayd (or Muḥammad Junayd) b. Muḥammad al-Bukhārī b. Aḥmad b. ʿUthmān",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Arabic Literature of Africa Online",
+      "publisher": "Walter de Gruyter GmbH",
+      "year": "None",
+      "url": "https://doi.org/10.1163/2405-4453_alao_com_ala_20005_5_9"
+    },
+    {
+      "id": "sec_h0060",
+      "type": "book-chapter",
+      "title": "PART 111 THE RASA'IL OF AL-JUNAYD",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "The Life, Personality and Writings of al-Junayd",
+      "pages": "120-247",
+      "publisher": "Edinburgh University Press",
+      "year": "2014",
+      "url": "https://doi.org/10.1515/9781909724495-004"
+    },
+    {
+      "id": "sec_h0061",
+      "type": "journal-article",
+      "title": "Tasavvufun Gâye ve Yöntemini Belirleyen Bir Kavram Olarak Ezeliyet: Cüneyd-i Bağdâdî’de İnsanın Ezelîliği Düşüncesi",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Melek KARACAN"
+        }
+      ],
+      "container": "Mütefekkir",
+      "volume": "10",
+      "issue": "19",
+      "pages": "169-191",
+      "publisher": "Mutefekkir",
+      "year": "2023",
+      "url": "https://doi.org/10.30523/mutefekkir.1312461"
+    },
+    {
+      "id": "sec_h0062",
+      "type": "journal-article",
+      "title": "Junayd",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "Oxford Art Online",
+      "publisher": "Oxford University Press",
+      "year": "2003",
+      "url": "https://doi.org/10.1093/gao/9781884446054.article.t045333"
+    },
+    {
+      "id": "sec_h0063",
+      "type": "thesis",
+      "title": "Perceptions And Repercussions In Early Imami Legal Discourse. The Case of Ibn Abī ʿAqīl al-ʿUmānī and Ibn al-Junayd al-Iskāfī",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "authors": [
+        {
+          "name": "Ali Rida Rizek"
+        }
+      ],
+      "publisher": "University Goettingen Repository",
+      "year": "None",
+      "url": "https://doi.org/10.53846/goediss-11493"
+    },
+    {
+      "id": "sec_h0064",
+      "type": "book-chapter",
+      "title": "INTRODUCTION",
+      "language": "English",
+      "provenance": {
+        "source": "crossref",
+        "reviewed": false
+      },
+      "container": "The Life, Personality and Writings of al-Junayd",
+      "pages": "vi-xv",
+      "publisher": "Edinburgh University Press",
+      "year": "2014",
+      "url": "https://doi.org/10.1515/9781909724495-001"
+    }
+  ]
+}

@@ -1,19 +1,201 @@
 ---
-title: "Secondary Scholarship"
+title: "A Bibliography of Secondary Scholarship on Early Sufism"
+format:
+  html:
+    page-layout: full
 ---
 
-::: {.feature-dark style="padding: 4rem 0;"}
-::: {.container}
-::: {.row}
-::: {.col-md-12 .text-center}
+This companion bibliography gathers **secondary scholarship** on the early Sufis and "proto-Sufis" documented in our [Primary Sources](primary.qmd) corpus. It launches with a fully curated set of **encyclopaedia entries** drawn from nine reference works (EI², EI³, *Encyclopaedia Iranica*, *Encyclopaedia Islamica*, the *Türkiye Diyanet Vakfı İslâm Ansiklopedisi*, the *Dāʾirat al-Maʿārif-i Buzurg-i Islāmī*, and others), assembled with the [sufi-bios](https://github.com/ammusto/sufi-bios) project. Where an entry concerns one of the authors in the primary corpus, it is cross-linked to that author.
 
-## Thank you for visiting this page.
+::: {.callout-note collapse="true"}
+## About this bibliography
 
-Content for the **Secondary Scholarship** page is currently being developed.
-
-Please check back soon for updates.
-
+A larger multilingual corpus of **studies** — journal articles, monographs, book chapters, theses, and translations in Arabic, English, French, German, Italian, Persian, and Turkish — is being reviewed and will be added progressively. Corrections and additions are very welcome — please [contact us](mailto:digitalsufism@gmail.com).
 :::
-:::
-:::
+
+```{ojs}
+//| echo: false
+
+secondary = FileAttachment("data/secondary.json").json()
+
+allWorks = secondary.works
+
+// summary statistics
+nEncyclopaedias = new Set(allWorks.filter(w => w.containerAbbrev).map(w => w.containerAbbrev)).size
+nLinked = allWorks.filter(w => (w.relatedPersons || []).some(p => p.authorId)).length
+
+html`<div style="background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 1.5rem; margin: 2rem 0;">
+  <h3 style="margin-top: 0; color: #212529;">Corpus Overview</h3>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem;">
+    <div style="text-align: center;">
+      <div style="font-size: 2.5rem; color: #0d6efd; font-weight: bold;">${allWorks.length}</div>
+      <div style="color: #6c757d;">Total Works</div>
+    </div>
+    <div style="text-align: center;">
+      <div style="font-size: 2.5rem; color: #fd7e14; font-weight: bold;">${nEncyclopaedias}</div>
+      <div style="color: #6c757d;">Reference Works</div>
+    </div>
+    <div style="text-align: center;">
+      <div style="font-size: 2.5rem; color: #17a2b8; font-weight: bold;">${nLinked}</div>
+      <div style="color: #6c757d;">Linked to Primary Authors</div>
+    </div>
+    ${secondary.metadata.pendingReview ? html`<div style="text-align: center;">
+      <div style="font-size: 2.5rem; color: #6610f2; font-weight: bold;">${secondary.metadata.pendingReview}</div>
+      <div style="color: #6c757d;">Studies in Review</div>
+    </div>` : ``}
+  </div>
+</div>`
+```
+
+```{ojs}
+//| echo: false
+
+// input styling (matches the primary bibliography page)
+html`<style>
+  .observablehq input[type="search"],
+  .observablehq input[type="text"] {
+    color: #212529 !important;
+    background-color: #ffffff !important;
+    border: 1px solid #ced4da !important;
+  }
+  .observablehq input[type="search"]::placeholder { color: #6c757d !important; }
+</style>`
+
+viewof searchTerm = Inputs.text({
+  placeholder: "Search by author, title, journal, encyclopaedia, or subject…",
+  value: "",
+  width: "100%"
+})
+
+typeOptions = ["All", "journal-article", "book", "book-chapter", "encyclopaedia-entry", "translation", "thesis"]
+typeLabels = ({
+  "All": "All Types",
+  "journal-article": "Journal Articles",
+  "book": "Books",
+  "book-chapter": "Book Chapters",
+  "encyclopaedia-entry": "Encyclopaedia Entries",
+  "translation": "Translations",
+  "thesis": "Theses"
+})
+viewof typeFilter = Inputs.select(typeOptions, {label: "Type:", value: "All", format: x => typeLabels[x]})
+
+langOptions = ["All", ...Array.from(new Set(allWorks.map(w => w.language))).sort()]
+viewof langFilter = Inputs.select(langOptions, {label: "Language:", value: "All"})
+
+encyclopaediaOptions = ["All", ...Array.from(new Set(allWorks.filter(w => w.containerAbbrev).map(w => w.containerAbbrev))).sort()]
+viewof encyclopaediaFilter = Inputs.select(encyclopaediaOptions, {label: "Encyclopaedia:", value: "All"})
+
+// related primary-corpus authors that actually have linked scholarship
+linkedAuthors = {
+  const m = new Map();
+  for (const w of allWorks) {
+    for (const p of (w.relatedPersons || [])) {
+      if (p.authorId) m.set(p.authorId, p.name);
+    }
+  }
+  return m;
+}
+authorOptions = ["All", ...Array.from(linkedAuthors.entries()).sort((a, b) => a[1].localeCompare(b[1])).map(e => e[0])]
+viewof authorFilter = Inputs.select(authorOptions, {
+  label: "On primary author:",
+  value: "All",
+  format: id => id === "All" ? "All Authors" : linkedAuthors.get(id)
+})
+
+filteredWorks = {
+  let works = allWorks;
+  if (typeFilter !== "All") works = works.filter(w => w.type === typeFilter);
+  if (langFilter !== "All") works = works.filter(w => w.language === langFilter);
+  if (encyclopaediaFilter !== "All") works = works.filter(w => w.containerAbbrev === encyclopaediaFilter);
+  if (authorFilter !== "All") works = works.filter(w => (w.relatedPersons || []).some(p => p.authorId === authorFilter));
+  if (searchTerm && searchTerm.trim() !== "") {
+    const q = searchTerm.toLowerCase().trim();
+    works = works.filter(w =>
+      (w.title || "").toLowerCase().includes(q) ||
+      (w.container || "").toLowerCase().includes(q) ||
+      (w.containerAbbrev || "").toLowerCase().includes(q) ||
+      (w.notes || "").toLowerCase().includes(q) ||
+      (w.authors || []).some(a => a.name.toLowerCase().includes(q)) ||
+      (w.translators || []).some(a => a.name.toLowerCase().includes(q)) ||
+      (w.relatedPersons || []).some(p => (p.name || "").toLowerCase().includes(q))
+    );
+  }
+  return works;
+}
+
+displayLimit = 150
+```
+
+```{ojs}
+//| echo: false
+
+typeMeta = ({
+  "journal-article": {color: "#cfe2ff", label: "Journal Article"},
+  "book": {color: "#d1e7dd", label: "Book"},
+  "book-chapter": {color: "#e2d9f3", label: "Book Chapter"},
+  "encyclopaedia-entry": {color: "#fff3cd", label: "Encyclopaedia"},
+  "translation": {color: "#f8d7da", label: "Translation"},
+  "thesis": {color: "#fde2e4", label: "Thesis"}
+})
+
+function formatCitation(w) {
+  const bits = [];
+  if (w.authors && w.authors.length) bits.push(w.authors.map(a => a.name).join(", "));
+  if (w.translators && w.translators.length) bits.push("trans. " + w.translators.map(a => a.name).join(", "));
+  return bits.join(" · ");
+}
+
+function venue(w) {
+  const bits = [];
+  if (w.container) bits.push(w.container);
+  if (w.containerAbbrev && !w.container) bits.push(w.containerAbbrev);
+  if (w.volume) bits.push("vol. " + w.volume + (w.issue ? "/" + w.issue : ""));
+  if (w.place || w.publisher) bits.push([w.place, w.publisher].filter(Boolean).join(": "));
+  if (w.year) bits.push(w.year);
+  if (w.pages) bits.push("pp. " + w.pages);
+  return bits.join(", ");
+}
+
+html`<div>
+  <p style="color: #6c757d; margin: 1rem 0;">
+    Showing <strong>${Math.min(filteredWorks.length, displayLimit)}</strong> of <strong>${filteredWorks.length}</strong> matching works${filteredWorks.length > displayLimit ? ` (refine your search or filters to narrow the list)` : ``}
+  </p>
+  ${filteredWorks.slice(0, displayLimit).map(w => {
+    const meta = typeMeta[w.type] || {color: "#e9ecef", label: w.type};
+    const pending = (w.notes || "").toLowerCase().includes("metadata pending") || (w.notes || "").toLowerCase().includes("pages missing");
+    return html`
+      <div class="bib-card" style="background-color: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 1.25rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08);">
+        <div style="display: flex; justify-content: space-between; align-items: start; gap: 1rem;">
+          <div style="flex: 1;">
+            <h4 style="margin: 0 0 0.35rem 0; color: #212529; font-size: 1.05rem;">
+              ${w.title}
+              ${w.url ? html` <a href="${w.url}" target="_blank" style="color: #0d6efd; text-decoration: none; font-size: 0.85rem; font-weight: normal;">[link]</a>` : ``}
+            </h4>
+            ${formatCitation(w) ? html`<p style="margin: 0 0 0.2rem 0; color: #495057; font-size: 0.9rem;"><strong>${formatCitation(w)}</strong></p>` : ``}
+            ${venue(w) ? html`<p style="margin: 0; color: #6c757d; font-size: 0.88rem;">${venue(w)}</p>` : ``}
+          </div>
+          <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.35rem; white-space: nowrap;">
+            <span style="background-color: ${meta.color}; color: #212529; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: 500; border: 1px solid rgba(0,0,0,0.08);">${meta.label}</span>
+            <span style="color: #6c757d; font-size: 0.78rem;">${w.language}</span>
+          </div>
+        </div>
+        ${(w.relatedPersons || []).filter(p => p.authorId).length ? html`
+          <div style="margin-top: 0.65rem; display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center;">
+            <span style="color: #6c757d; font-size: 0.8rem;">On:</span>
+            ${(w.relatedPersons || []).filter(p => p.authorId).map(p => html`
+              <a href="primary.qmd" style="text-decoration: none;"><span style="background-color: #e7f1ff; color: #084298; padding: 0.15rem 0.55rem; border-radius: 12px; font-size: 0.78rem; border: 1px solid #b6d4fe;">${p.name}</span></a>
+            `)}
+          </div>
+        ` : ``}
+        ${w.notes ? html`<p style="margin: 0.55rem 0 0 0; color: ${pending ? "#b02a37" : "#868e96"}; font-size: 0.8rem; font-style: italic;">${w.notes}</p>` : ``}
+      </div>
+    `;
+  })}
+</div>`
+```
+
+::: {.callout-tip}
+## Contribute
+
+This bibliography grows continuously as new scholarship is published and as legacy entries are reviewed. To suggest corrections or additions, please [contact us](mailto:digitalsufism@gmail.com).
 :::
