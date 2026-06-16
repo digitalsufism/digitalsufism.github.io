@@ -15,7 +15,7 @@ Please check back soon for updates.
 
 For now, you can explore:
 
-- [Primary Sources](primary.qmd) - Interactive bibliography of early Sufi texts
+- [Primary Sources](bibliography.qmd) - Interactive bibliography of early Sufi texts
 - [Secondary Scholarship](secondary.qmd) - Studies on early Sufism
 - [Future Directions](futuredirections.qmd) - Project roadmap
 

@@ -5,12 +5,12 @@ format:
     page-layout: full
 ---
 
-This companion bibliography gathers **secondary scholarship** on the early Sufis and "proto-Sufis" documented in our [Primary Sources](primary.qmd) corpus. It launches with a fully curated set of **encyclopaedia entries** drawn from nine reference works (EI², EI³, *Encyclopaedia Iranica*, *Encyclopaedia Islamica*, the *Türkiye Diyanet Vakfı İslâm Ansiklopedisi*, the *Dāʾirat al-Maʿārif-i Buzurg-i Islāmī*, and others), assembled with the [sufi-bios](https://github.com/ammusto/sufi-bios) project. Where an entry concerns one of the authors in the primary corpus, it is cross-linked to that author.
+This companion bibliography gathers **secondary scholarship** on the early Sufis and "proto-Sufis" documented in our [Primary Sources](bibliography.qmd) corpus. It launches with a fully curated set of **encyclopaedia entries** drawn from nine reference works (EI², EI³, *Encyclopaedia Iranica*, *Encyclopaedia Islamica*, the *Türkiye Diyanet Vakfı İslâm Ansiklopedisi*, the *Dāʾirat al-Maʿārif-i Buzurg-i Islāmī*, and others), assembled with the [sufi-bios](https://github.com/ammusto/sufi-bios) project. Where an entry concerns one of the authors in the primary corpus, it is cross-linked to that author.
 
 ::: {.callout-note collapse="true"}
 ## About this bibliography
 
-A larger multilingual corpus of **studies** — journal articles, monographs, book chapters, theses, and translations in Arabic, English, French, German, Italian, Persian, and Turkish — is being reviewed and will be added progressively. Corrections and additions are very welcome — please [contact us](mailto:digitalsufism@gmail.com).
+A larger multilingual corpus of **studies** — journal articles, monographs, book chapters, theses, and translations in Arabic, English, French, German, Italian, Persian, and Turkish — is being reviewed and will be added progressively. Corrections and additions are very welcome — please [contact us](mailto:farrell.jedw@gmail.com).
 :::
 
 ```{ojs}
@@ -183,7 +183,7 @@ html`<div>
           <div style="margin-top: 0.65rem; display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center;">
             <span style="color: #6c757d; font-size: 0.8rem;">On:</span>
             ${(w.relatedPersons || []).filter(p => p.authorId).map(p => html`
-              <a href="primary.qmd" style="text-decoration: none;"><span style="background-color: #e7f1ff; color: #084298; padding: 0.15rem 0.55rem; border-radius: 12px; font-size: 0.78rem; border: 1px solid #b6d4fe;">${p.name}</span></a>
+              <a href="bibliography.qmd" style="text-decoration: none;"><span style="background-color: #e7f1ff; color: #084298; padding: 0.15rem 0.55rem; border-radius: 12px; font-size: 0.78rem; border: 1px solid #b6d4fe;">${p.name}</span></a>
             `)}
           </div>
         ` : ``}
@@ -197,5 +197,5 @@ html`<div>
 ::: {.callout-tip}
 ## Contribute
 
-This bibliography grows continuously as new scholarship is published and as legacy entries are reviewed. To suggest corrections or additions, please [contact us](mailto:digitalsufism@gmail.com).
+This bibliography grows continuously as new scholarship is published and as legacy entries are reviewed. To suggest corrections or additions, please [contact us](mailto:farrell.jedw@gmail.com).
 :::

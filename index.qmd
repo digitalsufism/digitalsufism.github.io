@@ -27,7 +27,7 @@ The reasons for the lack of progress are many, but this website is designed so a
 ::: {.col-lg-10 .offset-lg-1}
 ## Outstanding Issues in the Study of Early Sufism
 
-**[Primary Sources](primary.qmd)** There exists a lack of knowledge of and engagement with the earliest documents relating to Sufism, many of which have been published in the past quarter century.
+**[Primary Sources](bibliography.qmd)** There exists a lack of knowledge of and engagement with the earliest documents relating to Sufism, many of which have been published in the past quarter century.
 
 **[Secondary Scholarship](secondary.qmd)** The significant bibliography of studies on early Sufism is difficult to comprehend; as a result, numerous academic traditions have been widely ignored in writing the history of early Sufism, and the methods of those studies that are readily cited remain opaque.
 
@@ -43,7 +43,7 @@ The reasons for the lack of progress are many, but this website is designed so a
 ::: {.col-lg-10 .offset-lg-1}
 ## Project Aims
 
-This website offers resources in digital form to address these issues, and to promote a rigorous computational methodology that delivers on the empirical premises of earlier studies. Under [Primary Sources](primary.qmd), you can find a list of literature produced by early Iraqi Sufis, their students, and close contemporaries. Under Secondary Scholarship, you can find a list of studies on early Iraqi Sufis, with relevant links for instances where this material is available online. Finally, on the Blog, you can read about my current and ongoing attempts to engage the arguments of Secondary Scholarship by applying computational methods to the data in the Primary Sources: primarily, and as a consequence of the relational nature of these data, this approach is informed by network analysis. Eventually, as part of the Future Directions of this project, the goal is to publish a database of the material in the Primary Sources section.
+This website offers resources in digital form to address these issues, and to promote a rigorous computational methodology that delivers on the empirical premises of earlier studies. Under [Primary Sources](bibliography.qmd), you can find a list of literature produced by early Iraqi Sufis, their students, and close contemporaries. Under Secondary Scholarship, you can find a list of studies on early Iraqi Sufis, with relevant links for instances where this material is available online. Finally, on the Blog, you can read about my current and ongoing attempts to engage the arguments of Secondary Scholarship by applying computational methods to the data in the Primary Sources: primarily, and as a consequence of the relational nature of these data, this approach is informed by network analysis. Eventually, as part of the Future Directions of this project, the goal is to publish a database of the material in the Primary Sources section.
 
 I am happy to receive correspondence for feedback, input, or updates to any of the data contained on this site. If you find any portion of the content hosted on this site useful for academic purposes, I would ask that you abide by the terms of the **Attribution-NonCommercial – CC BY-NC** license ([link](https://creativecommons.org/licenses/)).
 :::

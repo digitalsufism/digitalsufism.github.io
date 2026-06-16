@@ -1,0 +1,24 @@
+---
+title: "About"
+---
+
+## About the Digital Sufism Project
+
+This website offers digital resources for the study of early Islamic mysticism, with a focus on primary sources from the formative period (3rd/9th to 5th/11th centuries). The project aims to address gaps in the availability and accessibility of early Sufi literature and to promote computational methodologies for historical analysis.
+
+## Jeremy Farrell
+
+I am a scholar of early Islamic mysticism specializing in the formative period of Sufism. My research applies computational methods, particularly network analysis, to the study of early Sufi texts and their transmission.
+
+For my complete academic CV and publications, please visit my [Academia.edu profile](https://emory.academia.edu/JeremyFarrell/CurriculumVitae).
+
+## Contact
+
+For correspondence, feedback, or updates to the data on this site, please get in touch:
+
+- **Email:** [farrell.jedw@gmail.com](mailto:farrell.jedw@gmail.com)
+- **GitHub:** [github.com/digitalsufism](https://github.com/digitalsufism)
+
+## License
+
+All content on this site is licensed under **Attribution-NonCommercial – CC BY-NC**. See the [Creative Commons license page](https://creativecommons.org/licenses/by-nc/4.0/) for details.

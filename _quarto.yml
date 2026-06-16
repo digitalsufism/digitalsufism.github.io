@@ -14,31 +14,30 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Documents"
+      - text: "Bibliography"
         menu:
           - text: "Primary Sources"
-            href: primary.qmd
+            href: bibliography.qmd
           - text: "Secondary Scholarship"
             href: secondary.qmd
-          - text: "Future Directions"
-            href: futuredirections.qmd
-      - text: "Blog"
-        href: blog.qmd
-      - text: "Contact"
-        href: "#footer"
+      - text: "About"
+        href: about.qmd
     right:
-      - text: "Jeremy Farrell"
-        href: https://emory.academia.edu/JeremyFarrell/CurriculumVitae
+      - text: "Contact"
+        href: mailto:farrell.jedw@gmail.com
+      - icon: github
+        href: https://github.com/digitalsufism
+        aria-label: GitHub
 
   page-footer:
     background: dark
     left: |
-      © 2019–2025 [Jeremy Farrell](cv.qmd)
+      © 2019–2025 Jeremy Farrell
     center: |
       [Attribution-NonCommercial – CC BY-NC](https://creativecommons.org/licenses/)
     right:
       - icon: envelope
-        href: mailto:digitalsufism@gmail.com
+        href: mailto:farrell.jedw@gmail.com
         aria-label: Email
       - icon: github
         href: https://github.com/digitalsufism
